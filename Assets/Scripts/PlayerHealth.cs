@@ -44,7 +44,11 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         Tick(Time.deltaTime);
-        if (IsDead && Input.GetKeyDown(KeyCode.R)) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (IsDead && Input.GetKeyDown(KeyCode.R))
+        {
+            var run = GetComponent<RunProgress>();
+            if (run != null) run.Respawn(); else SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
     void Tick(float dt)
     {
@@ -55,6 +59,12 @@ public class PlayerHealth : MonoBehaviour
         var color = elapsed < .12f ? damageColor : originalColor;
         if (elapsed >= .12f && Mathf.FloorToInt(elapsed * Mathf.Max(1, numberOfFlashes) * 2 / Mathf.Max(.1f,iFramesDuration)) % 2 == 0) color.a *= .35f;
         spriteRenderer.color = color;
+    }
+    public void RestoreHealth()
+    {
+        currentHealth = maxHealth; invincibleRemaining = iFramesDuration;
+        if (spriteRenderer != null) spriteRenderer.color = originalColor;
+        UpdateHealthUI();
     }
     void UpdateHealthUI() { if (healthBarFill != null) healthBarFill.fillAmount = maxHealth > 0 ? currentHealth / maxHealth : 0f; }
     void OnDisable() { if(spriteRenderer != null)spriteRenderer.color = originalColor; }

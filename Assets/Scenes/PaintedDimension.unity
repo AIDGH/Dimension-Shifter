@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.8
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
   m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
@@ -452,7 +452,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.85
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.5
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 1
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
   m_Material: {fileID: 0}
   m_Color: {r: 0.9150943, g: 0.40034363, b: 0.18560876, a: 1}
@@ -4717,7 +4717,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.99
@@ -4824,7 +4824,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.5
@@ -4867,8 +4867,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
@@ -4977,14 +4977,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5796b18ec48ca47ceb218243bf25cf48, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   player: {fileID: 1161213797}
   playerMovement: {fileID: 0}
   smoothTimeX: 0.15
   smoothTimeY: 0.3
   minX: 1
-  maxX: 100
+  maxX: 170
   airborneVerticalDeadzone: 3
   yOffset: 1
 --- !u!114 &519420034
@@ -4997,7 +4997,7 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.PixelPerfectCamera
   m_ComponentVersion: 1
   m_AssetsPPU: 100
@@ -5058,7 +5058,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5113,8 +5113,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_ComponentVersion: 4
   m_LightType: 4
   m_BlendStyleIndex: 0
@@ -5219,7 +5219,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87863155f88e24600898950299eee17c, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::LevelGenerator
   player: {fileID: 1161213797}
   startSpawnPoint: {fileID: 1519674944}
@@ -5246,7 +5246,11 @@ MonoBehaviour:
     weight: 10
     length: 0
   endChunks:
-  - {fileID: 8033513389308798074, guid: f90e8b0264df643e09e3d1f06d1ec768, type: 3}
+  - {fileID: 4986331564990201509, guid: 2bd2563409c7a4e84b7bd9a7adf62279, type: 3}
+  encounterChunks:
+  - {fileID: 2923729907626600383, guid: 883d11905248747189741f03a62899cb, type: 3}
+  - {fileID: 1865397416083930852, guid: 759b45c8842d445a688e181168a591b2, type: 3}
+  - {fileID: 6766594667112919869, guid: f908a1734f3734529a0ebe0547b52e93, type: 3}
   spawnDistance: 20
 --- !u!4 &649879812
 Transform:
@@ -5273,7 +5277,7 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5796b18ec48ca47ceb218243bf25cf48, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   player: {fileID: 0}
   playerMovement: {fileID: 0}
@@ -5386,7 +5390,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.3
@@ -5493,7 +5497,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.8
@@ -5585,7 +5589,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.5
@@ -5752,7 +5756,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.3
@@ -5890,7 +5894,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.8
@@ -5912,6 +5916,8 @@ GameObject:
   - component: {fileID: 1161213802}
   - component: {fileID: 1161213804}
   - component: {fileID: 1161213803}
+  - component: {fileID: 1161213806}
+  - component: {fileID: 1161213805}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5929,7 +5935,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20484a2d7a5f44218b79219ddbb54825, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 4
   acceleration: 10
@@ -6077,7 +6083,7 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -6129,7 +6135,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84259d37d662f477bb9d7837c31d4cf8, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 100
   currentHealth: 0
@@ -6148,7 +6154,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec2b74a97847142a4a70562779f97266, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
   normalDamage: 1
   dashDamage: 2
@@ -6200,6 +6206,31 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024
+--- !u!114 &1161213805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161213793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c66cb19dfc9e4e3ea9fe9239eaca721, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::RunProgress
+--- !u!114 &1161213806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161213793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d859c49b3dba2408480639292326b209, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::DimensionController
+  cooldown: 0.6
 --- !u!1 &1169551231
 GameObject:
   m_ObjectHideFlags: 0
@@ -7564,7 +7595,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.7
@@ -7825,7 +7856,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.7
@@ -7877,7 +7908,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
@@ -8024,7 +8055,7 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -8126,7 +8157,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfdb55fa0228347efae9b20bb0e647cf, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPatrol
   speed: 2
   movingRight: 0
@@ -8302,7 +8333,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.2
@@ -8409,7 +8440,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.6
@@ -8516,7 +8547,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.1
@@ -8654,7 +8685,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 0.4
@@ -8761,7 +8792,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 519420032}
   parallaxEffect: 1
@@ -8928,7 +8959,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420ea416b44d640daa187a0248ec867b, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
   cam: {fileID: 0}
   parallaxEffect: 0.01

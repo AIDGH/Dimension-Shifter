@@ -160,7 +160,8 @@ public class PlayerAttack : MonoBehaviour
             if (enemy == null || enemy.IsDead || struck.Contains(enemy)) continue;
             // Terrain between the blade and target blocks the strike.
             Vector2 point = targets[i].ClosestPoint(origin);
-            if (Physics2D.Linecast(origin, point, attackBlockingLayers).collider != null) continue;
+            var wallFilter = new ContactFilter2D(); wallFilter.SetLayerMask(attackBlockingLayers); wallFilter.useTriggers = false;
+            if (Physics2D.Linecast(origin, point, wallFilter, dashHits) > 0) continue;
             if (enemy.TakeDamage(attackDamage, origin, attackDamage == dashDamage ? 4f : 2.8f)) struck.Add(enemy);
         }
     }

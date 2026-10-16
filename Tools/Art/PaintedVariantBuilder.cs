@@ -158,6 +158,11 @@ public static class PaintedVariantBuilder
         ReplaceAsset(tile,tilePath);
         tile=AssetDatabase.LoadAssetAtPath<Tile>(tilePath);physicsTiles[key]=tile;return tile;
     }
+    public static void PaintExpansion(GameObject root, string prefix)
+    {
+        material=AssetDatabase.LoadAssetAtPath<Material>(Art+"/ColdCavernStone.mat");
+        PaintRoot(root,prefix);
+    }
     static void PaintRoot(GameObject root,string prefix)
     {
         foreach(var map in root.GetComponentsInChildren<Tilemap>(true))

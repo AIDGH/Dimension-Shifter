@@ -23,6 +23,9 @@ public class LevelGenerator : MonoBehaviour
     public GameObject[] startChunks;
     public WeightedChunk[] midChunks;
     public GameObject[] endChunks;
+    [Tooltip("Authored encounters inserted between randomly chosen chunks.")]
+    public GameObject[] encounterChunks;
+    int encounterIndex, midSpawnCount;
 
     [Header("Level Settings")]
     public float spawnDistance = 20f;
@@ -76,10 +79,11 @@ public class LevelGenerator : MonoBehaviour
         {
             float remainingSpace = levelMaxX - lastEndPosition.position.x - endChunkLength;
 
-            GameObject next = ChooseNextChunk(remainingSpace);
+            GameObject next = ChooseRouteChunk(remainingSpace);
             if (next != null)
             {
                 SpawnSpecificChunk(next, lastEndPosition.position);
+                midSpawnCount++;
             }
             else
             {
@@ -91,6 +95,16 @@ public class LevelGenerator : MonoBehaviour
                 levelFinished = true;
             }
         }
+    }
+
+    public GameObject ChooseRouteChunk(float remainingSpace)
+    {
+        if (encounterChunks != null && encounterIndex < encounterChunks.Length && midSpawnCount % 2 == 0)
+        {
+            var encounter = encounterChunks[encounterIndex];
+            if (encounter != null && GetChunkLength(encounter) <= remainingSpace) { encounterIndex++; return encounter; }
+        }
+        return ChooseNextChunk(remainingSpace);
     }
 
     private readonly HashSet<GameObject> usedInCycle = new HashSet<GameObject>();

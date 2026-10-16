@@ -38,7 +38,7 @@ Shader "DimensionShifter/PaintedTerrain"
             {
                 half3 stone = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, input.uv).rgb * _Tint.rgb;
                 half edge = saturate(input.color.a);
-                return half4(lerp(stone, _EdgeColor.rgb, edge * 0.8), 1);
+                return half4(lerp(stone, _EdgeColor.rgb, edge * 0.8), _Tint.a);
             }
             ENDHLSL
         }

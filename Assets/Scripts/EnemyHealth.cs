@@ -29,7 +29,7 @@ public class EnemyHealth : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         patrol = GetComponent<EnemyPatrol>();
         animator = GetComponent<Animator>();
-        sprite = GetComponent<SpriteRenderer>();
+        sprite = GetComponentInChildren<SpriteRenderer>();
         colliders = GetComponentsInChildren<Collider2D>();
         CurrentHealth = Mathf.Max(1, maxHealth);
         if (sprite != null) { originalColor = sprite.color; flash = new MaterialPropertyBlock(); }
@@ -114,7 +114,7 @@ public class EnemyHealth : MonoBehaviour
     }
     void Play(string state)
     {
-        if (animator != null && animator.runtimeAnimatorController != null) animator.Play(state, 0, 0f);
+        if (animator != null && animator.runtimeAnimatorController != null && animator.HasState(0, Animator.StringToHash(state))) animator.Play(state, 0, 0f);
     }
     void SetFlash(float value)
     {

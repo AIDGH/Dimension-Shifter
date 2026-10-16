@@ -21,6 +21,13 @@ public class CameraFollow : MonoBehaviour
     [Min(0.5f)] public float airborneVerticalDeadzone = 3f;
     public float yOffset = 2f; // تا دوربین یکم بالاتر از پای کاراکتر رو ببینه
 
+    public void SnapToPlayer()
+    {
+        if (player == null) return;
+        velocityX = velocityY = 0f; targetY = player.position.y + yOffset;
+        transform.position = new Vector3(Mathf.Clamp(player.position.x, minX, maxX), targetY, transform.position.z);
+    }
+
     void Start()
     {
         if (player != null)
