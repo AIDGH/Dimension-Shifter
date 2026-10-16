@@ -104,3 +104,12 @@
 - محیط جدید نصب شده: Assets/Scenes/PaintedDimension.unity و هشت prefab در Assets/Prefabs/PaintedChunks. بافت سنگ نقاشی‌شده، لبهٔ سرد و گیاهان نورانی روی چانک‌های موجود اعمال شده‌اند. این مرحلهٔ اول محیط است؛ مدل شخصیت، اسلایم، تله‌ها و شکل نهایی موانع هنوز نیاز به طراحی دارند.
 - صحنهٔ SampleScene و prefabهای اصلی برای مقایسه باقی‌اند؛ کپی قبل از همهٔ تغییرات، پروژهٔ جداگانهٔ Dimension Shifter - Original است.
 - باقی‌مانده: آسیب و سلامت/مرگ اسلایم، واکنش ضربه، تغییر بُعد، یک مسیر کوتاه قابل‌تمام‌کردن، صدا و خروجی مسابقه.
+
+## Update: scenery restoration and slime combat (2026-10-16)
+
+- Painted conversion now explicitly selects terrain sprites; restores stones, snow crystals, wood, tree trunks/canopies, bridge and decorative tiles. Original prop collisions stay unchanged.
+- Replaces per-sprite beveled terrain outlines with joined visual contours. Painted-only tile copies disable their old terrain collisions; polygon paths match the new mesh. Exposed frost edges consider every tilemap so no interior layer seams appear.
+- V deals 1 damage; B deals 2; slime has 3 HP. Each target is hit once per swing, only during the active window, with terrain occlusion.
+- Added temporary fading enemy health bar, Hurt/Die animation, stun/knockback, bright flash, generated impact sound, short real-time hit pause and impact motes. Death immediately disables colliders/patrol/physics, then removes enemy and health bar after animation/fade.
+- Both playable scenes wired. Slime attacks are deliberately deferred per user request.
+- Validated in an isolated Unity copy: 25 movement checks, 13 combat checks, 5 actual Play Mode combat checks, all 8 chunk prop audits and continuous-slope checks. Window control unavailable (CUA connection error); no claim of a manual full-level playthrough.

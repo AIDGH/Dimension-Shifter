@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerAttack : MonoBehaviour
@@ -11,13 +12,26 @@ public class PlayerAttack : MonoBehaviour
     private PlayerMovement pm;
     private readonly RaycastHit2D[] dashHits = new RaycastHit2D[16];
     private bool isAttacking;
+    private float attackElapsed;
+    private int attackDamage;
+    private readonly HashSet<EnemyHealth> struck = new HashSet<EnemyHealth>();
+    private readonly Collider2D[] targets = new Collider2D[32];
+    [Header("Blade hit window")]
+    public int normalDamage = 1;
+    public int dashDamage = 2;
+    public LayerMask enemyLayers = 1 << 10;
+    public LayerMask attackBlockingLayers = (1 << 8) | (1 << 9);
+    public Vector2 hitboxSize = new Vector2(1.1f, 1f);
+    public Vector2 hitboxOffset = new Vector2(.65f, -.05f);
+    public float activeFrom = .0833f;
+    public float activeUntil = .5f;
     private bool dashOwnsMovement;
     private bool previousMovementEnabled;
     private float previousGravity;
 
     [Header("Normal Attack (V)")]
     [Min(0.1f)] public float normalAttackRate = 2f;
-    [Min(0.01f)] public float normalAttackDuration = 0.5f;
+    [Min(0.01f)] public float normalAttackDuration = 0.6667f;
     private float nextNormalAttackTime;
 
     [Header("Dash Attack (B)")]
@@ -75,6 +89,7 @@ public class PlayerAttack : MonoBehaviour
     private void BeginAttack()
     {
         isAttacking = true;
+        attackElapsed = 0f; attackDamage = normalDamage; struck.Clear();
         if (anim != null && anim.runtimeAnimatorController != null)
         {
             anim.SetBool("IsAttacking", true);
@@ -93,6 +108,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator DashAttackRoutine()
     {
         BeginAttack();
+        attackDamage = dashDamage;
         previousGravity = rb.gravityScale;
         previousMovementEnabled = pm != null && pm.enabled;
         dashOwnsMovement = true;
@@ -107,12 +123,49 @@ public class PlayerAttack : MonoBehaviour
         while (elapsed < duration)
         {
             float speed = Mathf.Lerp(dashForce, 0f, elapsed / duration);
-            if (DashBlocked(facing, speed * Time.fixedDeltaTime)) break;
+            if (DashBlocked(facing, speed * Time.fixedDeltaTime)) speed = 0f;
             rb.linearVelocity = new Vector2(facing * speed, 0f);
             yield return physicsTick;
             elapsed += Time.fixedDeltaTime;
         }
         FinishAttack();
+    }
+
+    void FixedUpdate()
+    {
+        if (!isAttacking) return;
+        attackElapsed += Time.fixedDeltaTime;
+        if (attackElapsed >= activeFrom && attackElapsed < activeUntil) ResolveHits();
+    }
+
+    private void ResolveHits()
+    {
+        float facing = transform.lossyScale.x < 0 ? -1f : 1f;
+        var sr = GetComponent<SpriteRenderer>();
+        if (sr != null && sr.flipX) facing *= -1f;
+        Vector2 origin = body != null ? (Vector2)body.bounds.center : rb.position;
+        Vector2 center = origin + new Vector2(hitboxOffset.x * facing, hitboxOffset.y);
+        var filter = new ContactFilter2D(); filter.SetLayerMask(enemyLayers); filter.useTriggers = true;
+        int count = Physics2D.OverlapBox(center, hitboxSize, 0, filter, targets);
+        for (int i = 0; i < count; i++)
+        {
+            var enemy = targets[i].GetComponentInParent<EnemyHealth>();
+            if (enemy == null || enemy.IsDead || struck.Contains(enemy)) continue;
+            // Terrain between the blade and target blocks the strike.
+            Vector2 point = targets[i].ClosestPoint(origin);
+            if (Physics2D.Linecast(origin, point, attackBlockingLayers).collider != null) continue;
+            if (enemy.TakeDamage(attackDamage, origin, attackDamage == dashDamage ? 4f : 2.8f)) struck.Add(enemy);
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        float facing = transform.lossyScale.x < 0 ? -1f : 1f;
+        var sr = GetComponent<SpriteRenderer>(); if (sr != null && sr.flipX) facing *= -1f;
+        var collider = GetComponent<Collider2D>();
+        Vector3 origin = collider != null ? collider.bounds.center : transform.position;
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireCube(origin + new Vector3(hitboxOffset.x * facing, hitboxOffset.y, 0), hitboxSize);
     }
 
     private bool DashBlocked(float facing, float distance)
@@ -141,6 +194,7 @@ public class PlayerAttack : MonoBehaviour
             dashOwnsMovement = false;
         }
         isAttacking = false;
+        struck.Clear();
         if (anim != null && anim.runtimeAnimatorController != null) anim.SetBool("IsAttacking", false);
     }
 

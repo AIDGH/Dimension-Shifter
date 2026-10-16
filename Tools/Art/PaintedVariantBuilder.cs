@@ -21,9 +21,10 @@ public static class PaintedVariantBuilder
     static Material floraMaterial;
     public static void Build()
     {
+        physicsTiles.Clear();meshCount=0;
         try
         {
-            Directory.CreateDirectory(Art+"/Meshes");Directory.CreateDirectory(ChunkRoot);
+            Directory.CreateDirectory(Art+"/PhysicsTiles");Directory.CreateDirectory(Art+"/Meshes");Directory.CreateDirectory(ChunkRoot);
             AssetDatabase.Refresh();
             var importer=(TextureImporter)AssetImporter.GetAtPath(Art+"/ColdCavernStone.png");
             importer.textureType=TextureImporterType.Default;
@@ -35,6 +36,7 @@ public static class PaintedVariantBuilder
             material.SetColor("_Tint",new Color(0.8f,0.9f,1f,1f));
             material.SetColor("_EdgeColor",new Color(0.48f,0.72f,0.76f,1f));
             ReplaceAsset(material,Art+"/ColdCavernStone.mat");
+            material=AssetDatabase.LoadAssetAtPath<Material>(Art+"/ColdCavernStone.mat");
             BuildFlora();
             var remap=new Dictionary<string,GameObject>();
             foreach(string path in Directory.GetFiles("Assets/Prefabs/Chunks","*.prefab",SearchOption.AllDirectories))
@@ -53,6 +55,7 @@ public static class PaintedVariantBuilder
             }
             var spriteMaterial=new Material(Shader.Find("Universal Render Pipeline/2D/Sprite-Unlit-Default"));
             ReplaceAsset(spriteMaterial,Art+"/PaintedSprites.mat");
+            spriteMaterial=AssetDatabase.LoadAssetAtPath<Material>(Art+"/PaintedSprites.mat");
             var scene=EditorSceneManager.OpenScene("Assets/Scenes/SampleScene.unity",OpenSceneMode.Single);
             foreach(var root in scene.GetRootGameObjects())
             {
@@ -63,7 +66,7 @@ public static class PaintedVariantBuilder
                     if(t.name=="Halloween_2") t.gameObject.SetActive(false);
                     // Existing hand-painted blue forest stays; lower contrast behind terrain.
                     var anySprite=t.GetComponent<SpriteRenderer>();
-                    if(anySprite != null) anySprite.sharedMaterial=spriteMaterial;
+                    if(anySprite != null && t.GetComponent<EnemyHealth>()==null) anySprite.sharedMaterial=spriteMaterial;
                     var sr=t.GetComponent<SpriteRenderer>();
                     if(t.GetComponent<Parallax>()!=null && sr!=null)
                     {
@@ -99,8 +102,61 @@ public static class PaintedVariantBuilder
     }
     static void ReplaceAsset(UnityEngine.Object obj,string path)
     {
-        if(AssetDatabase.LoadMainAssetAtPath(path)!=null)AssetDatabase.DeleteAsset(path);
-        AssetDatabase.CreateAsset(obj,path);
+        var existing=AssetDatabase.LoadMainAssetAtPath(path);
+        if(existing!=null){EditorUtility.CopySerialized(obj,existing);EditorUtility.SetDirty(existing);}
+        else AssetDatabase.CreateAsset(obj,path);
+    }
+    // Explicit visual terrain selection: props also occur in Gnd tilemaps.
+    // A collider or layer name is not evidence that a tile is terrain.
+    public static bool IsTerrain(Sprite sprite)
+    {
+        if(sprite==null)return false;
+        int split=sprite.name.LastIndexOf('_');
+        if(split<0 || !int.TryParse(sprite.name.Substring(split+1),out int id))return false;
+        if(sprite.name.StartsWith("Snowy Tundra"))
+            return new[]{34,35,43,44,45,47,48,49,50,51,53,54,59,61,62,64,66,68,70,71,72,73,74,78,81,82,83,84,89,90,91,93,100,101,102,104,105,106,107,108}.Contains(id);
+        return sprite.name.StartsWith("Grassy Hills") && new[]{60,63,77,79,84,94,98}.Contains(id);
+    }
+    public static List<Vector2> TerrainContour(Sprite sprite)
+    {
+        int id=int.Parse(sprite.name.Substring(sprite.name.LastIndexOf('_')+1));
+        bool snow=sprite.name.StartsWith("Snowy Tundra");
+        float left=.5f,right=.5f;bool underside=false;
+        if(snow) {
+            switch(id) {
+                case 43:left=-.5f;break;
+                case 45:right=-.5f;break;
+                case 47:left=-.5f;right=0;break;
+                case 48:left=0;break;
+                case 50:right=0;break;
+                case 51:left=0;right=-.5f;break;
+                case 100:underside=true;right=-.5f;break;
+                case 102:underside=true;left=-.5f;break;
+                case 104:underside=true;right=0;break;
+                case 105:underside=true;left=0;right=-.5f;break;
+                case 107:underside=true;left=-.5f;right=0;break;
+                case 108:underside=true;left=0;break;
+            }
+        } else if(id==94 || id==98) {
+            underside=true;left=id==94?.5f:0;right=id==94?0:.5f;
+        }
+        // Shared endpoints on the tile grid, on both the surface and underside.
+        // Auto-generated physics contours include pixel-sized bevels and must not be used as artwork.
+        return underside ? new List<Vector2>{new Vector2(-.5f,left),new Vector2(.5f,right),new Vector2(.5f,.5f),new Vector2(-.5f,.5f)}
+            : new List<Vector2>{new Vector2(-.5f,-.5f),new Vector2(.5f,-.5f),new Vector2(.5f,right),new Vector2(-.5f,left)};
+    }
+    static readonly Dictionary<string,Tile> physicsTiles=new Dictionary<string,Tile>();
+    static Tile MatchingTerrainTile(Tile source,Sprite sprite)
+    {
+        // Only the painted scene gets these copies. Original tile/sprite assets stay intact.
+        string key=AssetDatabase.GetAssetPath(source);
+        if(physicsTiles.TryGetValue(key,out var cached))return cached;
+        var tile=UnityEngine.Object.Instantiate(source);
+        tile.name=source.name+"_Painted";
+        tile.colliderType=Tile.ColliderType.None;
+        string tilePath=Art+"/PhysicsTiles/"+source.name.Replace(' ','_')+".asset";
+        ReplaceAsset(tile,tilePath);
+        tile=AssetDatabase.LoadAssetAtPath<Tile>(tilePath);physicsTiles[key]=tile;return tile;
     }
     static void PaintRoot(GameObject root,string prefix)
     {
@@ -108,80 +164,83 @@ public static class PaintedVariantBuilder
         {
             var renderer=map.GetComponent<TilemapRenderer>();
             if(renderer==null)continue;
-            if(map.GetComponent<TilemapCollider2D>()==null && map.GetComponent<CompositeCollider2D>()==null)
-            {
-                renderer.enabled=false; // Pixel decorations are kept but hidden in this version.
-                continue;
-            }
+            var propsObject=new GameObject("Original props");propsObject.transform.SetParent(map.transform,false);
+            var props=propsObject.AddComponent<Tilemap>();props.tileAnchor=map.tileAnchor;props.orientation=map.orientation;props.orientationMatrix=map.orientationMatrix;props.color=map.color;
+            var propsRenderer=propsObject.AddComponent<TilemapRenderer>();propsRenderer.sharedMaterial=renderer.sharedMaterial;propsRenderer.sortingLayerID=renderer.sortingLayerID;propsRenderer.sortingOrder=renderer.sortingOrder;
+            var collisionPaths=new List<Vector2[]>();
             var vertices=new List<Vector3>();var uv=new List<Vector2>();var colors=new List<Color>();var indices=new List<int>();
             foreach(Vector3Int cell in map.cellBounds.allPositionsWithin)
             {
-                if(!map.HasTile(cell))continue;
                 var sprite=map.GetSprite(cell);
-                if(sprite==null)continue;
-                var type=map.GetColliderType(cell);
-                if(type==Tile.ColliderType.None)continue;
-                var contours=new List<List<Vector2>>();
-                if(type==Tile.ColliderType.Grid)
-                    contours.Add(new List<Vector2>{new Vector2(-.5f,-.5f),new Vector2(.5f,-.5f),new Vector2(.5f,.5f),new Vector2(-.5f,.5f)});
-                else
-                {
-                    for(int p=0;p<sprite.GetPhysicsShapeCount();p++)
-                    {var shape=new List<Vector2>();sprite.GetPhysicsShape(p,shape);contours.Add(shape);}
+                if(!IsTerrain(sprite)){
+                    if(map.HasTile(cell)){props.SetTile(cell,map.GetTile(cell));props.SetTileFlags(cell,TileFlags.None);props.SetTransformMatrix(cell,map.GetTransformMatrix(cell));props.SetColor(cell,map.GetColor(cell));}
+                    continue;
                 }
-                Matrix4x4 transform=map.GetTransformMatrix(cell);
+                var transform=map.GetTransformMatrix(cell);
+                bool collidable=map.GetColliderType(cell)!=Tile.ColliderType.None;
+                var sourceTile=map.GetTile<Tile>(cell);
+                if(sourceTile!=null && map.GetColliderType(cell)!=Tile.ColliderType.None){map.SetTile(cell,MatchingTerrainTile(sourceTile,sprite));map.SetTileFlags(cell,TileFlags.None);map.SetTransformMatrix(cell,transform);}
                 Vector3 center=map.GetCellCenterLocal(cell);
-                foreach(var points in contours)
+                var contour=TerrainContour(sprite).Select(p=>(Vector2)(center+transform.MultiplyPoint3x4(p))).ToList();
+                CleanContour(contour);
+                if(contour.Count<3)continue;
+                if(Area(contour)<0)contour.Reverse();
+                if(collidable)collisionPaths.Add(contour.ToArray());
+                int start=vertices.Count;
+                foreach(var p in contour){vertices.Add(p);uv.Add(p/4f);colors.Add(new Color(1,1,1,0));}
+                foreach(int i in Triangulate(contour))indices.Add(start+i);
+                for(int i=0;i<contour.Count;i++)
                 {
-                    var contour=points.Select(p=>(Vector2)(center+transform.MultiplyPoint3x4(p))).ToList();
-                    CleanContour(contour);
-                    if(contour.Count<3)continue;
-                    if(Area(contour)<0)contour.Reverse();
-                    int start=vertices.Count;
-                    foreach(var p in contour){vertices.Add(p);uv.Add(p/4f);colors.Add(new Color(1,1,1,0));}
-                    foreach(int i in Triangulate(contour))indices.Add(start+i);
-                    // Only outline exposed upward-facing edges; geometry and collision stay identical.
-                    for(int i=0;i<contour.Count;i++)
-                    {
-                        Vector2 a=contour[i],b=contour[(i+1)%contour.Count];
-                        Vector2 d=(b-a).normalized;Vector2 normal=new Vector2(d.y,-d.x);
-                        if(normal.y<0.45f)continue;
-                        Vector3Int neighbor=map.LocalToCell((a+b)*0.5f+normal*0.03f);
-                        if(neighbor!=cell && map.HasTile(neighbor))continue;
-                        int edge=vertices.Count;
-                        foreach(var p in new[]{a,b,b-normal*0.07f,a-normal*0.07f}){vertices.Add(new Vector3(p.x,p.y,-0.003f));uv.Add(p/4f);}
-                        colors.Add(Color.white);colors.Add(Color.white);colors.Add(new Color(1,1,1,0));colors.Add(new Color(1,1,1,0));
-                        indices.AddRange(new[]{edge,edge+1,edge+2,edge,edge+2,edge+3});
-                    }
+                    Vector2 a=contour[i],b=contour[(i+1)%contour.Count];
+                    Vector2 d=(b-a).normalized,normal=new Vector2(d.y,-d.x);
+                    if(normal.y<.45f)continue;
+                    if(TerrainCovers(root,map.transform.TransformPoint((a+b)*.5f+normal*.015f)))continue;
+                    int edge=vertices.Count;
+                    foreach(var p in new[]{a,b,b-normal*.045f,a-normal*.045f}){vertices.Add(new Vector3(p.x,p.y,-.003f));uv.Add(p/4f);}
+                    colors.Add(Color.white);colors.Add(Color.white);colors.Add(new Color(1,1,1,0));colors.Add(new Color(1,1,1,0));
+                    indices.AddRange(new[]{edge,edge+1,edge+2,edge,edge+2,edge+3});
                 }
+                // Terrain collision uses the same joined outline as the new mesh.
+                // Props retain their original tiles, transforms and collision shapes.
+
             }
-            if(vertices.Count==0)continue;
+            if(vertices.Count==0){UnityEngine.Object.DestroyImmediate(propsObject);continue;}
             var mesh=new Mesh{name=prefix+"_"+map.name,indexFormat=IndexFormat.UInt32};
             mesh.SetVertices(vertices);mesh.SetUVs(0,uv);mesh.SetColors(colors);mesh.SetTriangles(indices,0);mesh.RecalculateBounds();
             string meshPath=Art+"/Meshes/"+prefix+"_"+map.name+".asset";
             ReplaceAsset(mesh,meshPath);meshCount++;
             var skin=new GameObject("Painted surface");skin.transform.SetParent(map.transform,false);
-            skin.AddComponent<MeshFilter>().sharedMesh=mesh;
+            if(collisionPaths.Count>0){
+                skin.layer=map.gameObject.layer;
+                var collider=skin.AddComponent<PolygonCollider2D>();collider.pathCount=collisionPaths.Count;
+                var sourceCollider=map.GetComponent<TilemapCollider2D>();
+                if(sourceCollider!=null)collider.sharedMaterial=sourceCollider.sharedMaterial;
+                for(int i=0;i<collisionPaths.Count;i++)collider.SetPath(i,collisionPaths[i]);
+            }
+            skin.AddComponent<MeshFilter>().sharedMesh=AssetDatabase.LoadAssetAtPath<Mesh>(meshPath);
             var meshRenderer=skin.AddComponent<MeshRenderer>();meshRenderer.sharedMaterial=material;
             meshRenderer.sortingLayerID=renderer.sortingLayerID;meshRenderer.sortingOrder=renderer.sortingOrder;
             meshRenderer.shadowCastingMode=ShadowCastingMode.Off;meshRenderer.receiveShadows=false;
             renderer.enabled=false;
-            if(map.name.StartsWith("Gnd")) {
-                int planted=0;
-                foreach(Vector3Int cell in map.cellBounds.allPositionsWithin) {
-                    if(!map.HasTile(cell) || map.HasTile(cell+Vector3Int.up) || Mathf.Abs(cell.x)%4!=1)continue;
-                    if(map.GetColliderType(cell)==Tile.ColliderType.None)continue;
-                    var plant=new GameObject("Luminous fern");plant.transform.SetParent(map.transform,false);
-                    plant.transform.localPosition=map.GetCellCenterLocal(cell)+new Vector3(0,SurfaceHeight(map,cell),-.015f);
-                    float size=.65f+(Mathf.Abs(cell.x*13)%5)*.07f;
-                    plant.transform.localScale=new Vector3((planted++%2==0?1:-1)*size,size,1);
-                    plant.AddComponent<MeshFilter>().sharedMesh=floraMesh;
-                    var fern=plant.AddComponent<MeshRenderer>();fern.sharedMaterial=floraMaterial;
-                    fern.sortingLayerID=renderer.sortingLayerID;fern.sortingOrder=renderer.sortingOrder+1;
-                    fern.shadowCastingMode=ShadowCastingMode.Off;
-                }
-            }
         }
+    }
+    static bool TerrainCovers(GameObject root,Vector3 worldPoint)
+    {
+        foreach(var map in root.GetComponentsInChildren<Tilemap>(true))
+        {
+            if(map.name=="Original props")continue;
+            Vector2 local=map.transform.InverseTransformPoint(worldPoint);
+            var cell=map.LocalToCell(local);var sprite=map.GetSprite(cell);
+            if(!IsTerrain(sprite))continue;
+            Vector2 point=map.GetTransformMatrix(cell).inverse.MultiplyPoint3x4((Vector3)local-map.GetCellCenterLocal(cell));
+            var polygon=TerrainContour(sprite);bool inside=false;
+            for(int i=0,j=polygon.Count-1;i<polygon.Count;j=i++){
+                var a=polygon[i];var b=polygon[j];
+                if((a.y>point.y)!=(b.y>point.y) && point.x<(b.x-a.x)*(point.y-a.y)/(b.y-a.y)+a.x)inside=!inside;
+            }
+            if(inside)return true;
+        }
+        return false;
     }
     static float SurfaceHeight(Tilemap map,Vector3Int cell)
     {

@@ -4962,6 +4962,7 @@ MonoBehaviour:
   smoothTimeY: 0.3
   minX: 1
   maxX: 100
+  airborneVerticalDeadzone: 3
   yOffset: 1
 --- !u!114 &519420034
 MonoBehaviour:
@@ -5257,6 +5258,7 @@ MonoBehaviour:
   smoothTimeY: 0.25
   minX: 0
   maxX: 0
+  airborneVerticalDeadzone: 3
   yOffset: 2
 --- !u!1 &651294124
 GameObject:
@@ -5911,12 +5913,21 @@ MonoBehaviour:
   landingMomentumCut: 0.66
   jumpForce: 16
   jumpCutMultiplier: 0.5
+  coyoteTime: 0.1
+  jumpBufferTime: 0.12
+  extraAirJumps: 1
+  fallGravityMultiplier: 1.2
+  maxFallSpeed: 30
   groundCheck: {fileID: 1744158114}
   groundCheckRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 1792
   isGrounded: 1
+  groundProbeDistance: 0.08
+  maxSlopeAngle: 50
+  alignToSlope: 1
+  slopeRotationSpeed: 240
   useAcceleration: 0
   maxSpeed: 5
   accelerationRate: 20
@@ -6114,8 +6125,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2b74a97847142a4a70562779f97266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  normalDamage: 1
+  dashDamage: 2
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 1024
+  attackBlockingLayers:
+    serializedVersion: 2
+    m_Bits: 768
+  hitboxSize: {x: 1.1, y: 1}
+  hitboxOffset: {x: 0.65, y: -0.05}
+  activeFrom: 0.0833
+  activeUntil: 0.5
   normalAttackRate: 2
-  normalAttackDuration: 0.5
+  normalAttackDuration: 0.6667
   dashForce: 10
   dashAttackDuration: 0.5
   dashCooldown: 3
@@ -6584,6 +6607,7 @@ GameObject:
   - component: {fileID: 1652150253}
   - component: {fileID: 1652150254}
   - component: {fileID: 1652150255}
+  - component: {fileID: 1652150256}
   m_Layer: 10
   m_Name: Slime
   m_TagString: Enemy
@@ -6655,7 +6679,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: c15c50fd42e4f4c3781225e07249d5d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6730,6 +6754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPatrol
   speed: 2
   movingRight: 0
+  spriteFacesRight: 0
+  turnCooldown: 0.15
   ledgeDetector: {fileID: 1106554597}
   groundRayDistance: 1
   wallRayDistance: 0.4
@@ -6841,6 +6867,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.875, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1652150256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652150247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 3
+  hurtDuration: 0.3334
+  deathDuration: 0.3334
+  healthBarDuration: 1.8
 --- !u!1 &1696263070
 GameObject:
   m_ObjectHideFlags: 0

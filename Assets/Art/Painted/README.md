@@ -8,3 +8,6 @@ The terrain shader maps the texture over meshes derived from the existing tile c
 The forest, player and slime remain the project's pre-existing assets; their original attribution and licenses remain with their source folders. No official Hollow Knight art was imported.
 
 The reproducible editor builder is Tools/Art/PaintedVariantBuilder.cs. It runs in an isolated project and generates separate art, prefabs and scene.
+
+
+Scenery restoration: only explicitly identified terrain tiles are resurfaced. Original prop artwork is rendered in a separate child Tilemap where needed, with no duplicate colliders. Painted-only terrain tile copies retain sprite references and disable old terrain collision; serialized polygon paths match the repaired mesh outlines. Frost outlines are emitted only at exposed boundaries across all map layers. Luminous fern assets remain available but are no longer automatically substituted for authored decorations.
