@@ -1,0 +1,1512 @@
+fileFormatVersion: 2
+guid: b06d729441abb48759370a72b88a0d7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7502186934481652463
+    second: Ice_Shards_0
+  - first:
+      213: 1416379853212258754
+    second: Ice_Shards_1
+  - first:
+      213: 4797788459723314425
+    second: Ice_Shards_2
+  - first:
+      213: 759606864925364086
+    second: Ice_Shards_3
+  - first:
+      213: 4439791703942298319
+    second: Ice_Shards_4
+  - first:
+      213: -8330591249476844456
+    second: Ice_Shards_5
+  - first:
+      213: 8552311747451897403
+    second: Ice_Shards_6
+  - first:
+      213: 8188128217632337128
+    second: Ice_Shards_7
+  - first:
+      213: 1668241379244650071
+    second: Ice_Shards_8
+  - first:
+      213: -5462044217027155277
+    second: Ice_Shards_9
+  - first:
+      213: 103184608644313740
+    second: Ice_Shards_10
+  - first:
+      213: -2448729935442458381
+    second: Ice_Shards_11
+  - first:
+      213: 4302864884353393404
+    second: Ice_Shards_12
+  - first:
+      213: -3846825855155494455
+    second: Ice_Shards_13
+  - first:
+      213: 6525284281607075594
+    second: Ice_Shards_14
+  - first:
+      213: 1962373948160172535
+    second: Ice_Shards_15
+  - first:
+      213: -1204281690748423333
+    second: Ice_Shards_16
+  - first:
+      213: 8499758267502959651
+    second: Ice_Shards_17
+  - first:
+      213: -1507263206715901675
+    second: Ice_Shards_18
+  - first:
+      213: -8049772144249574405
+    second: Ice_Shards_19
+  - first:
+      213: -1222017045257025548
+    second: Ice_Shards_20
+  - first:
+      213: 6317896488129277360
+    second: Ice_Shards_21
+  - first:
+      213: 6359965040043301096
+    second: Ice_Shards_22
+  - first:
+      213: -2175263795795771333
+    second: Ice_Shards_23
+  - first:
+      213: -2965011212070434716
+    second: Ice_Shards_24
+  - first:
+      213: -3198403567385741625
+    second: Ice_Shards_25
+  - first:
+      213: -541626808228329351
+    second: Ice_Shards_26
+  - first:
+      213: -7394648563161786424
+    second: Ice_Shards_27
+  - first:
+      213: -7106631840760363563
+    second: Ice_Shards_28
+  - first:
+      213: -7654647943036132669
+    second: Ice_Shards_29
+  - first:
+      213: 7348007480296416715
+    second: Ice_Shards_30
+  - first:
+      213: 549737181362278877
+    second: Ice_Shards_31
+  - first:
+      213: 1516196609900882197
+    second: Ice_Shards_32
+  - first:
+      213: 2058357653319228987
+    second: Ice_Shards_33
+  - first:
+      213: -639167376759141316
+    second: Ice_Shards_34
+  - first:
+      213: -1528669739909045153
+    second: Ice_Shards_35
+  - first:
+      213: 348344980814462837
+    second: Ice_Shards_36
+  - first:
+      213: 7441082360894606124
+    second: Ice_Shards_37
+  - first:
+      213: 1093587028680653087
+    second: Ice_Shards_38
+  - first:
+      213: -2850229118453690672
+    second: Ice_Shards_39
+  - first:
+      213: -7888395405174466077
+    second: Ice_Shards_40
+  - first:
+      213: 6933096335659673238
+    second: Ice_Shards_41
+  - first:
+      213: 8823736153873816792
+    second: Ice_Shards_42
+  - first:
+      213: 2829219505149907927
+    second: Ice_Shards_43
+  - first:
+      213: -8729942971260114248
+    second: Ice_Shards_44
+  - first:
+      213: 2951403293986157209
+    second: Ice_Shards_45
+  - first:
+      213: -952390478491813382
+    second: Ice_Shards_46
+  - first:
+      213: -979810658189961439
+    second: Ice_Shards_47
+  - first:
+      213: -2871609023846395481
+    second: Ice_Shards_48
+  - first:
+      213: 8379210027481479562
+    second: Ice_Shards_49
+  - first:
+      213: -3698636022488356384
+    second: Ice_Shards_50
+  - first:
+      213: 200719296822721615
+    second: Ice_Shards_51
+  - first:
+      213: 2036986748800188852
+    second: Ice_Shards_52
+  - first:
+      213: 6229763212501618936
+    second: Ice_Shards_53
+  - first:
+      213: -7782586345704067814
+    second: Ice_Shards_54
+  - first:
+      213: 4967533228213088064
+    second: Ice_Shards_55
+  - first:
+      213: 7618723819519114863
+    second: Ice_Shards_56
+  - first:
+      213: -1130962228814419607
+    second: Ice_Shards_57
+  - first:
+      213: -5284107390382776396
+    second: Ice_Shards_58
+  - first:
+      213: 3194431051068992026
+    second: Ice_Shards_59
+  - first:
+      213: 4553515961459806514
+    second: Ice_Shards_60
+  - first:
+      213: 2896585649865030758
+    second: Ice_Shards_61
+  - first:
+      213: -6803685281964393018
+    second: Ice_Shards_62
+  - first:
+      213: -8835581928950901842
+    second: Ice_Shards_63
+  - first:
+      213: -6291682729741948124
+    second: Ice_Shards_64
+  - first:
+      213: -6570397465840958996
+    second: Ice_Shards_65
+  - first:
+      213: -460226905222064173
+    second: Ice_Shards_66
+  - first:
+      213: -1036185755126586585
+    second: Ice_Shards_67
+  - first:
+      213: 715820802672149894
+    second: Ice_Shards_68
+  - first:
+      213: -3756776308264152540
+    second: Ice_Shards_69
+  - first:
+      213: 2589959794720147
+    second: Ice_Shards_70
+  - first:
+      213: 371783321109163903
+    second: Ice_Shards_71
+  - first:
+      213: -1746244900989206916
+    second: Ice_Shards_72
+  - first:
+      213: -7259788123608988609
+    second: Ice_Shards_73
+  - first:
+      213: -5627540708116665662
+    second: Ice_Shards_74
+  - first:
+      213: 4567739818295130461
+    second: Ice_Shards_75
+  - first:
+      213: 7202297826203932977
+    second: Ice_Shards_76
+  - first:
+      213: 4821785525474275756
+    second: Ice_Shards_77
+  - first:
+      213: -57809794965670101
+    second: Ice_Shards_78
+  - first:
+      213: -3147149246288388801
+    second: Ice_Shards_79
+  - first:
+      213: 8037006954788801037
+    second: Ice_Shards_80
+  - first:
+      213: 5456810305703867009
+    second: Ice_Shards_81
+  - first:
+      213: -2856564966243961318
+    second: Ice_Shards_82
+  - first:
+      213: -456566927722639303
+    second: Ice_Shards_83
+  - first:
+      213: 7941375421709082255
+    second: Ice_Shards_84
+  - first:
+      213: -3642196568176579942
+    second: Ice_Shards_85
+  - first:
+      213: -2434030535966489103
+    second: Ice_Shards_86
+  - first:
+      213: -6687112070851399917
+    second: Ice_Shards_87
+  - first:
+      213: 9061232855134813232
+    second: Ice_Shards_88
+  - first:
+      213: -8062427976233535839
+    second: Ice_Shards_89
+  - first:
+      213: 7816318318480385110
+    second: Ice_Shards_90
+  - first:
+      213: -6780842066304942366
+    second: Ice_Shards_91
+  - first:
+      213: 4953105037579012296
+    second: Ice_Shards_92
+  - first:
+      213: 8121512438304484210
+    second: Ice_Shards_93
+  - first:
+      213: 8540248187846508040
+    second: Ice_Shards_94
+  - first:
+      213: -3788917758547497315
+    second: Ice_Shards_95
+  - first:
+      213: 1510075742718804799
+    second: Ice_Shards_96
+  - first:
+      213: 8879923004749275779
+    second: Ice_Shards_97
+  - first:
+      213: 1318190284422906047
+    second: Ice_Shards_98
+  - first:
+      213: 2127395477396574294
+    second: Ice_Shards_99
+  - first:
+      213: -2465737743157471178
+    second: Ice_Shards_100
+  - first:
+      213: -6103135015332872317
+    second: Ice_Shards_101
+  - first:
+      213: -7993589302325721182
+    second: Ice_Shards_102
+  - first:
+      213: -5779877784678464116
+    second: Ice_Shards_103
+  - first:
+      213: 4215287622572644500
+    second: Ice_Shards_104
+  - first:
+      213: -7076081121145741573
+    second: Ice_Shards_105
+  - first:
+      213: 7502525411274680455
+    second: Ice_Shards_106
+  - first:
+      213: 5039327493883419735
+    second: Ice_Shards_107
+  - first:
+      213: -7819986414619463523
+    second: Ice_Shards_108
+  - first:
+      213: -7473460800230500272
+    second: Ice_Shards_109
+  - first:
+      213: 3840576187535599003
+    second: Ice_Shards_110
+  - first:
+      213: 7031300150164386010
+    second: Ice_Shards_111
+  - first:
+      213: 3690803621316125309
+    second: Ice_Shards_112
+  - first:
+      213: -6851492223679887570
+    second: Ice_Shards_113
+  - first:
+      213: 4857205889548493621
+    second: Ice_Shards_114
+  - first:
+      213: 1971001824439130421
+    second: Ice_Shards_115
+  - first:
+      213: 4293497150946624625
+    second: Ice_Shards_116
+  - first:
+      213: 3436485015376680211
+    second: Ice_Shards_117
+  - first:
+      213: 3504184783267819155
+    second: Ice_Shards_118
+  - first:
+      213: 4351810931526621468
+    second: Ice_Shards_119
+  - first:
+      213: -6707404558855120563
+    second: Ice_Shards_120
+  - first:
+      213: 9122765278892161327
+    second: Ice_Shards_121
+  - first:
+      213: -8715257667797671964
+    second: Ice_Shards_122
+  - first:
+      213: -5202757519352616852
+    second: Ice_Shards_123
+  - first:
+      213: 333776315627450166
+    second: Ice_Shards_124
+  - first:
+      213: -3924024703517519120
+    second: Ice_Shards_125
+  - first:
+      213: 3192533130461427060
+    second: Ice_Shards_126
+  - first:
+      213: -8388757409869573697
+    second: Ice_Shards_127
+  - first:
+      213: 6567578467713774866
+    second: Ice_Shards_128
+  - first:
+      213: 4236027664443360640
+    second: Ice_Shards_129
+  - first:
+      213: 7282307187958657111
+    second: Ice_Shards_130
+  - first:
+      213: -2509919628539220396
+    second: Ice_Shards_131
+  - first:
+      213: 7138729000752452850
+    second: Ice_Shards_132
+  - first:
+      213: -4372943724266368021
+    second: Ice_Shards_133
+  - first:
+      213: 854966158119944134
+    second: Ice_Shards_134
+  - first:
+      213: -8695703310340221830
+    second: Ice_Shards_135
+  - first:
+      213: -3301313257897749063
+    second: Ice_Shards_136
+  - first:
+      213: 3517303660826369739
+    second: Ice_Shards_137
+  - first:
+      213: -9032290438844678952
+    second: Ice_Shards_138
+  - first:
+      213: -5014580017478855582
+    second: Ice_Shards_139
+  - first:
+      213: -4178923105686290828
+    second: Ice_Shards_140
+  - first:
+      213: -6216219318497166868
+    second: Ice_Shards_141
+  - first:
+      213: -2848746372792664330
+    second: Ice_Shards_142
+  - first:
+      213: -2473267324130245442
+    second: Ice_Shards_143
+  - first:
+      213: -1220885076807849297
+    second: Ice_Shards_144
+  - first:
+      213: -1523471027250841942
+    second: Ice_Shards_145
+  - first:
+      213: -7785210886349992220
+    second: Ice_Shards_146
+  - first:
+      213: -5711214861555873931
+    second: Ice_Shards_147
+  - first:
+      213: -7798364107818351290
+    second: Ice_Shards_148
+  - first:
+      213: -7866124680986331671
+    second: Ice_Shards_149
+  - first:
+      213: 9011303103997382554
+    second: Ice_Shards_150
+  - first:
+      213: -6744956378023800977
+    second: Ice_Shards_151
+  - first:
+      213: -3189603230561862733
+    second: Ice_Shards_152
+  - first:
+      213: 1435137847828742384
+    second: Ice_Shards_153
+  - first:
+      213: -474618761912766696
+    second: Ice_Shards_154
+  - first:
+      213: -535266094331747791
+    second: Ice_Shards_155
+  - first:
+      213: 8124190310924774525
+    second: Ice_Shards_156
+  - first:
+      213: -427519032008445809
+    second: Ice_Shards_157
+  - first:
+      213: -1568777815854003098
+    second: Ice_Shards_158
+  - first:
+      213: 6066181706949044356
+    second: Ice_Shards_159
+  - first:
+      213: -596066109663174365
+    second: Ice_Shards_160
+  - first:
+      213: 8701398414799107620
+    second: Ice_Shards_161
+  - first:
+      213: -3159224246175665676
+    second: Ice_Shards_162
+  - first:
+      213: 3608461355227124292
+    second: Ice_Shards_163
+  - first:
+      213: 5257652024440693438
+    second: Ice_Shards_164
+  - first:
+      213: -6970526807645493599
+    second: Ice_Shards_165
+  - first:
+      213: -2389173012407925522
+    second: Ice_Shards_166
+  - first:
+      213: -4295305818064301701
+    second: Ice_Shards_167
+  - first:
+      213: 6483206399047896558
+    second: Ice_Shards_168
+  - first:
+      213: 8320931741377156115
+    second: Ice_Shards_169
+  - first:
+      213: 4588752965352832697
+    second: Ice_Shards_170
+  - first:
+      213: 8856850310192651422
+    second: Ice_Shards_171
+  - first:
+      213: -8343102848799333217
+    second: Ice_Shards_172
+  - first:
+      213: 4975009611904649385
+    second: Ice_Shards_173
+  - first:
+      213: 5496878561582564078
+    second: Ice_Shards_174
+  - first:
+      213: -4820063562215057246
+    second: Ice_Shards_175
+  - first:
+      213: 4808276017486864913
+    second: Ice_Shards_176
+  - first:
+      213: 6969928645048242338
+    second: Ice_Shards_177
+  - first:
+      213: 6766503748902049691
+    second: Ice_Shards_178
+  - first:
+      213: 4714883456121380733
+    second: Ice_Shards_179
+  - first:
+      213: 5461993734183963247
+    second: Ice_Shards_180
+  - first:
+      213: -7523310499734404680
+    second: Ice_Shards_181
+  - first:
+      213: -8905861351786952787
+    second: Ice_Shards_182
+  - first:
+      213: -1748334867593409279
+    second: Ice_Shards_183
+  - first:
+      213: 9161849044971860524
+    second: Ice_Shards_184
+  - first:
+      213: 3754807140470423551
+    second: Ice_Shards_185
+  - first:
+      213: -6707832873286476087
+    second: Ice_Shards_186
+  - first:
+      213: -3713549975897161263
+    second: Ice_Shards_187
+  - first:
+      213: 4193415171476794398
+    second: Ice_Shards_188
+  - first:
+      213: 8439582056950860730
+    second: Ice_Shards_189
+  - first:
+      213: 3706922016540366290
+    second: Ice_Shards_190
+  - first:
+      213: -8830611418385691275
+    second: Ice_Shards_191
+  - first:
+      213: -6716533199503692728
+    second: Ice_Shards_192
+  - first:
+      213: -840359716684724859
+    second: Ice_Shards_193
+  - first:
+      213: 8372478127859282821
+    second: Ice_Shards_194
+  - first:
+      213: 6561766105700803495
+    second: Ice_Shards_195
+  - first:
+      213: -8613373681168350840
+    second: Ice_Shards_196
+  - first:
+      213: 2327265004836877373
+    second: Ice_Shards_197
+  - first:
+      213: -62547363325978686
+    second: Ice_Shards_198
+  - first:
+      213: 1508828598621343346
+    second: Ice_Shards_199
+  - first:
+      213: -907592769258175327
+    second: Ice_Shards_200
+  - first:
+      213: 1482687655684718109
+    second: Ice_Shards_201
+  - first:
+      213: -3511752926440176506
+    second: Ice_Shards_202
+  - first:
+      213: -5262413376232597075
+    second: Ice_Shards_203
+  - first:
+      213: -5034980715174642698
+    second: Ice_Shards_204
+  - first:
+      213: -3119208868328501251
+    second: Ice_Shards_205
+  - first:
+      213: -191098172183092748
+    second: Ice_Shards_206
+  - first:
+      213: -5849242127515498869
+    second: Ice_Shards_207
+  - first:
+      213: -7857334638633741264
+    second: Ice_Shards_208
+  - first:
+      213: -1023871334870316013
+    second: Ice_Shards_209
+  - first:
+      213: 7078481317921926352
+    second: Ice_Shards_210
+  - first:
+      213: 7586781791818314771
+    second: Ice_Shards_211
+  - first:
+      213: 7739878764207562269
+    second: Ice_Shards_212
+  - first:
+      213: 8314695984644915119
+    second: Ice_Shards_213
+  - first:
+      213: 5002578501518396560
+    second: Ice_Shards_214
+  - first:
+      213: 4202524213456408281
+    second: Ice_Shards_215
+  - first:
+      213: 5128737789704834066
+    second: Ice_Shards_216
+  - first:
+      213: -2706061658314080847
+    second: Ice_Shards_217
+  - first:
+      213: 3453491764613949688
+    second: Ice_Shards_218
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ice_Shards_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea0b54c44f1d1860800000000000000
+      internalID: 7502186934481652463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c19cb1e8fdf7a310800000000000000
+      internalID: 1416379853212258754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4d6413f2b259240800000000000000
+      internalID: 4797788459723314425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f03d84b6aaa8a00800000000000000
+      internalID: 759606864925364086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf43e180f4d9d30800000000000000
+      internalID: 4439791703942298319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85484fd556bc36c80800000000000000
+      internalID: -8330591249476844456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b364543e83aefa670800000000000000
+      internalID: 8552311747451897403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ece35b3b3312a170800000000000000
+      internalID: 8188128217632337128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e2c7912b8c62710800000000000000
+      internalID: 1668241379244650071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baae9849bbe234b0800000000000000
+      internalID: -5462044217027155277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c823888dad59e6100800000000000000
+      internalID: 103184608644313740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8461ff81d540ed0800000000000000
+      internalID: -2448729935442458381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2e26490d8d6bb30800000000000000
+      internalID: 4302864884353393404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_13
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c12bae14445d9ac0800000000000000
+      internalID: -3846825855155494455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0731af4b777e8a50800000000000000
+      internalID: 6525284281607075594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_15
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1619075b0cb3b10800000000000000
+      internalID: 1962373948160172535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_16
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53fe6dce28894fe0800000000000000
+      internalID: -1204281690748423333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_17
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c14335c1535f570800000000000000
+      internalID: 8499758267502959651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_18
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519beac6910251be0800000000000000
+      internalID: -1507263206715901675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_19
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb6b2362e6794090800000000000000
+      internalID: -8049772144249574405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_20
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f78bfbc8f58a0fe0800000000000000
+      internalID: -1222017045257025548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_21
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd22aed16dada750800000000000000
+      internalID: 6317896488129277360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_22
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e81fa3e182234850800000000000000
+      internalID: 6359965040043301096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_23
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3043de4a19efc1e0800000000000000
+      internalID: -2175263795795771333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468cd7d030a2ad6d0800000000000000
+      internalID: -2965011212070434716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c671adb6ecfc93d0800000000000000
+      internalID: -3198403567385741625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978c8be9941cb78f0800000000000000
+      internalID: -541626808228329351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c793e17f4ee06990800000000000000
+      internalID: -7394648563161786424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d58ffd4efb206d90800000000000000
+      internalID: -7106631840760363563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c228aa704a35c590800000000000000
+      internalID: -7654647943036132669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_30
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc52bf53fdd59f560800000000000000
+      internalID: 7348007480296416715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_Shards_31
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd15ce6cd0f01a700800000000000000
+      internalID: 549737181362278877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 060b9e8b58f7a43b5846a952e5a05432
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ice_Shards_0: 7502186934481652463
+      Ice_Shards_1: 1416379853212258754
+      Ice_Shards_10: 103184608644313740
+      Ice_Shards_11: -2448729935442458381
+      Ice_Shards_12: 4302864884353393404
+      Ice_Shards_13: -3846825855155494455
+      Ice_Shards_14: 6525284281607075594
+      Ice_Shards_15: 1962373948160172535
+      Ice_Shards_16: -1204281690748423333
+      Ice_Shards_17: 8499758267502959651
+      Ice_Shards_18: -1507263206715901675
+      Ice_Shards_19: -8049772144249574405
+      Ice_Shards_2: 4797788459723314425
+      Ice_Shards_20: -1222017045257025548
+      Ice_Shards_21: 6317896488129277360
+      Ice_Shards_22: 6359965040043301096
+      Ice_Shards_23: -2175263795795771333
+      Ice_Shards_24: -2965011212070434716
+      Ice_Shards_25: -3198403567385741625
+      Ice_Shards_26: -541626808228329351
+      Ice_Shards_27: -7394648563161786424
+      Ice_Shards_28: -7106631840760363563
+      Ice_Shards_29: -7654647943036132669
+      Ice_Shards_3: 759606864925364086
+      Ice_Shards_30: 7348007480296416715
+      Ice_Shards_31: 549737181362278877
+      Ice_Shards_4: 4439791703942298319
+      Ice_Shards_5: -8330591249476844456
+      Ice_Shards_6: 8552311747451897403
+      Ice_Shards_7: 8188128217632337128
+      Ice_Shards_8: 1668241379244650071
+      Ice_Shards_9: -5462044217027155277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5811 @@
+fileFormatVersion: 2
+guid: b60e4e4fe8fb3478890677ac5ab6385a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2549430479243192011
+    second: Red_Shards_0
+  - first:
+      213: 7369989054795632089
+    second: Red_Shards_1
+  - first:
+      213: 6641193310151706718
+    second: Red_Shards_2
+  - first:
+      213: -1033955127447831407
+    second: Red_Shards_3
+  - first:
+      213: -3628291482360116556
+    second: Red_Shards_4
+  - first:
+      213: 4208532165749811495
+    second: Red_Shards_5
+  - first:
+      213: 6868918984019869516
+    second: Red_Shards_6
+  - first:
+      213: -7673583272649256067
+    second: Red_Shards_7
+  - first:
+      213: -3636546503744185057
+    second: Red_Shards_8
+  - first:
+      213: 4791521834257483726
+    second: Red_Shards_9
+  - first:
+      213: -5306414944516654052
+    second: Red_Shards_10
+  - first:
+      213: 2863337952131134322
+    second: Red_Shards_11
+  - first:
+      213: -8843229933833720668
+    second: Red_Shards_12
+  - first:
+      213: 6121151477438838057
+    second: Red_Shards_13
+  - first:
+      213: -6240988567556267520
+    second: Red_Shards_14
+  - first:
+      213: -1651761326560356851
+    second: Red_Shards_15
+  - first:
+      213: 7577287812869172467
+    second: Red_Shards_16
+  - first:
+      213: -3933360371183318315
+    second: Red_Shards_17
+  - first:
+      213: 6593288574588941796
+    second: Red_Shards_18
+  - first:
+      213: -8589408900212698817
+    second: Red_Shards_19
+  - first:
+      213: 1926206556195956890
+    second: Red_Shards_20
+  - first:
+      213: -4719396500728820860
+    second: Red_Shards_21
+  - first:
+      213: -7251605903943894804
+    second: Red_Shards_22
+  - first:
+      213: -403806859148832747
+    second: Red_Shards_23
+  - first:
+      213: -1716023916993276689
+    second: Red_Shards_24
+  - first:
+      213: -2205869618365807507
+    second: Red_Shards_25
+  - first:
+      213: 5243228662693833773
+    second: Red_Shards_26
+  - first:
+      213: -1429924167180992610
+    second: Red_Shards_27
+  - first:
+      213: -6031370218641672029
+    second: Red_Shards_28
+  - first:
+      213: -8238189718033948483
+    second: Red_Shards_29
+  - first:
+      213: -2804825132554134948
+    second: Red_Shards_30
+  - first:
+      213: -4026227408207153725
+    second: Red_Shards_31
+  - first:
+      213: -3219720720734395462
+    second: Red_Shards_32
+  - first:
+      213: 252939529251942992
+    second: Red_Shards_33
+  - first:
+      213: 1940002026172612778
+    second: Red_Shards_34
+  - first:
+      213: -5052903714616376022
+    second: Red_Shards_35
+  - first:
+      213: -7372741616601451740
+    second: Red_Shards_36
+  - first:
+      213: 7218199965889576785
+    second: Red_Shards_37
+  - first:
+      213: 2853533949392798159
+    second: Red_Shards_38
+  - first:
+      213: 4113968809608280085
+    second: Red_Shards_39
+  - first:
+      213: 8592500354766332116
+    second: Red_Shards_40
+  - first:
+      213: 100204391704067048
+    second: Red_Shards_41
+  - first:
+      213: 143241033003344622
+    second: Red_Shards_42
+  - first:
+      213: 6559463176188219966
+    second: Red_Shards_43
+  - first:
+      213: -1072298619579391279
+    second: Red_Shards_44
+  - first:
+      213: 8760829690776848963
+    second: Red_Shards_45
+  - first:
+      213: -5469848918901938956
+    second: Red_Shards_46
+  - first:
+      213: -4620269884542869937
+    second: Red_Shards_47
+  - first:
+      213: 8836847142212906987
+    second: Red_Shards_48
+  - first:
+      213: 3549816549614772678
+    second: Red_Shards_49
+  - first:
+      213: -4300075058276309729
+    second: Red_Shards_50
+  - first:
+      213: 5049255409291155925
+    second: Red_Shards_51
+  - first:
+      213: 5351396132491193655
+    second: Red_Shards_52
+  - first:
+      213: -487357177707524935
+    second: Red_Shards_53
+  - first:
+      213: -5898905293403779847
+    second: Red_Shards_54
+  - first:
+      213: 930238119174592156
+    second: Red_Shards_55
+  - first:
+      213: -181085974892638211
+    second: Red_Shards_56
+  - first:
+      213: 572285918397827196
+    second: Red_Shards_57
+  - first:
+      213: 1447343882423540049
+    second: Red_Shards_58
+  - first:
+      213: -770728701143298408
+    second: Red_Shards_59
+  - first:
+      213: 5909760542435226808
+    second: Red_Shards_60
+  - first:
+      213: -3655496002400312726
+    second: Red_Shards_61
+  - first:
+      213: -2840844789905893298
+    second: Red_Shards_62
+  - first:
+      213: -5083949759702730030
+    second: Red_Shards_63
+  - first:
+      213: -6988879222050858320
+    second: Red_Shards_64
+  - first:
+      213: -871785204357330213
+    second: Red_Shards_65
+  - first:
+      213: -1142778432060506687
+    second: Red_Shards_66
+  - first:
+      213: -5921079382186341347
+    second: Red_Shards_67
+  - first:
+      213: 7038907686367058735
+    second: Red_Shards_68
+  - first:
+      213: -8959925708761724481
+    second: Red_Shards_69
+  - first:
+      213: -1574894336947284841
+    second: Red_Shards_70
+  - first:
+      213: 2776592655955039909
+    second: Red_Shards_71
+  - first:
+      213: -7278502562368303901
+    second: Red_Shards_72
+  - first:
+      213: 2178862856480668319
+    second: Red_Shards_73
+  - first:
+      213: -373971238109276288
+    second: Red_Shards_74
+  - first:
+      213: -4233808542446961259
+    second: Red_Shards_75
+  - first:
+      213: 3312961454937681403
+    second: Red_Shards_76
+  - first:
+      213: 2549563727929470957
+    second: Red_Shards_77
+  - first:
+      213: 4798169742904379332
+    second: Red_Shards_78
+  - first:
+      213: -4463607629707455064
+    second: Red_Shards_79
+  - first:
+      213: 5701954568358135624
+    second: Red_Shards_80
+  - first:
+      213: 4842635850560492027
+    second: Red_Shards_81
+  - first:
+      213: 8524495746134642685
+    second: Red_Shards_82
+  - first:
+      213: -2094684250528392984
+    second: Red_Shards_83
+  - first:
+      213: -6962360819488970369
+    second: Red_Shards_84
+  - first:
+      213: 674456149500755820
+    second: Red_Shards_85
+  - first:
+      213: -5270927640387145118
+    second: Red_Shards_86
+  - first:
+      213: 1315044317969120783
+    second: Red_Shards_87
+  - first:
+      213: -6145962473346826049
+    second: Red_Shards_88
+  - first:
+      213: 6148189210297980456
+    second: Red_Shards_89
+  - first:
+      213: -2354995928026587493
+    second: Red_Shards_90
+  - first:
+      213: 154506361985875450
+    second: Red_Shards_91
+  - first:
+      213: -7952639151083190336
+    second: Red_Shards_92
+  - first:
+      213: 4532377098760624592
+    second: Red_Shards_93
+  - first:
+      213: 957542151698384810
+    second: Red_Shards_94
+  - first:
+      213: -8281688354486150958
+    second: Red_Shards_95
+  - first:
+      213: 8609798578539122443
+    second: Red_Shards_96
+  - first:
+      213: 6484380250739360118
+    second: Red_Shards_97
+  - first:
+      213: 2255045119380692301
+    second: Red_Shards_98
+  - first:
+      213: -6513020298578965139
+    second: Red_Shards_99
+  - first:
+      213: -365191038353549007
+    second: Red_Shards_100
+  - first:
+      213: -1373407355238569713
+    second: Red_Shards_101
+  - first:
+      213: -8492877444311421721
+    second: Red_Shards_102
+  - first:
+      213: -7618761423027042701
+    second: Red_Shards_103
+  - first:
+      213: -4153586503888443732
+    second: Red_Shards_104
+  - first:
+      213: 4298575026997835508
+    second: Red_Shards_105
+  - first:
+      213: -4685728314865170331
+    second: Red_Shards_106
+  - first:
+      213: -1780065867819200578
+    second: Red_Shards_107
+  - first:
+      213: -5061282929915725584
+    second: Red_Shards_108
+  - first:
+      213: -3743615311147083700
+    second: Red_Shards_109
+  - first:
+      213: -1964980567354573265
+    second: Red_Shards_110
+  - first:
+      213: 6050029909122194324
+    second: Red_Shards_111
+  - first:
+      213: -6822360193280959314
+    second: Red_Shards_112
+  - first:
+      213: 6637994546945385015
+    second: Red_Shards_113
+  - first:
+      213: 7754984296050391747
+    second: Red_Shards_114
+  - first:
+      213: -8906598609266453567
+    second: Red_Shards_115
+  - first:
+      213: -2367605486979410803
+    second: Red_Shards_116
+  - first:
+      213: -4369656735961688028
+    second: Red_Shards_117
+  - first:
+      213: -2786191528395826400
+    second: Red_Shards_118
+  - first:
+      213: -5408189546990929383
+    second: Red_Shards_119
+  - first:
+      213: 5120336282487036968
+    second: Red_Shards_120
+  - first:
+      213: 707690332039767953
+    second: Red_Shards_121
+  - first:
+      213: -9210145760602715809
+    second: Red_Shards_122
+  - first:
+      213: 1676574393063538379
+    second: Red_Shards_123
+  - first:
+      213: 6920783286125940164
+    second: Red_Shards_124
+  - first:
+      213: -912933346057340449
+    second: Red_Shards_125
+  - first:
+      213: 7515199885148554897
+    second: Red_Shards_126
+  - first:
+      213: -7747324136947396633
+    second: Red_Shards_127
+  - first:
+      213: -7534313163607011057
+    second: Red_Shards_128
+  - first:
+      213: -2856305942742888057
+    second: Red_Shards_129
+  - first:
+      213: 5188489972049750749
+    second: Red_Shards_130
+  - first:
+      213: 3668436948123109018
+    second: Red_Shards_131
+  - first:
+      213: -7402029881491198663
+    second: Red_Shards_132
+  - first:
+      213: 7726077638205742929
+    second: Red_Shards_133
+  - first:
+      213: 8795053149211271009
+    second: Red_Shards_134
+  - first:
+      213: -4404379432193062907
+    second: Red_Shards_135
+  - first:
+      213: -7879560970523080559
+    second: Red_Shards_136
+  - first:
+      213: 5422939784973807290
+    second: Red_Shards_137
+  - first:
+      213: -4413983112659979404
+    second: Red_Shards_138
+  - first:
+      213: 9077975485409854507
+    second: Red_Shards_139
+  - first:
+      213: -7685563556342557364
+    second: Red_Shards_140
+  - first:
+      213: -7617323046530501665
+    second: Red_Shards_141
+  - first:
+      213: -8995818824156197911
+    second: Red_Shards_142
+  - first:
+      213: 4888592956554558143
+    second: Red_Shards_143
+  - first:
+      213: 3635365451119476947
+    second: Red_Shards_144
+  - first:
+      213: -1333976524899280892
+    second: Red_Shards_145
+  - first:
+      213: -3976884623096871672
+    second: Red_Shards_146
+  - first:
+      213: 3906572568301993136
+    second: Red_Shards_147
+  - first:
+      213: -1080575594634374750
+    second: Red_Shards_148
+  - first:
+      213: 8545480430801044438
+    second: Red_Shards_149
+  - first:
+      213: 4918746277876850863
+    second: Red_Shards_150
+  - first:
+      213: 7285116821985960026
+    second: Red_Shards_151
+  - first:
+      213: 5037689915886985179
+    second: Red_Shards_152
+  - first:
+      213: 3949837439102631873
+    second: Red_Shards_153
+  - first:
+      213: 488903028890572969
+    second: Red_Shards_154
+  - first:
+      213: -5516696849285471894
+    second: Red_Shards_155
+  - first:
+      213: -6014245034527196420
+    second: Red_Shards_156
+  - first:
+      213: -1959406022677496427
+    second: Red_Shards_157
+  - first:
+      213: -1144012087919195272
+    second: Red_Shards_158
+  - first:
+      213: 5206716667652839079
+    second: Red_Shards_159
+  - first:
+      213: 7403895802936664764
+    second: Red_Shards_160
+  - first:
+      213: -8468741001214047371
+    second: Red_Shards_161
+  - first:
+      213: -2391575236764053148
+    second: Red_Shards_162
+  - first:
+      213: -5552909260168952413
+    second: Red_Shards_163
+  - first:
+      213: 6914427477483882580
+    second: Red_Shards_164
+  - first:
+      213: 3748461838614249129
+    second: Red_Shards_165
+  - first:
+      213: -1067917827318079989
+    second: Red_Shards_166
+  - first:
+      213: 5192083015305504186
+    second: Red_Shards_167
+  - first:
+      213: -7868042323223076663
+    second: Red_Shards_168
+  - first:
+      213: -8320036624311288719
+    second: Red_Shards_169
+  - first:
+      213: 7741983457380017242
+    second: Red_Shards_170
+  - first:
+      213: -7675934515479278920
+    second: Red_Shards_171
+  - first:
+      213: 1839436280805728748
+    second: Red_Shards_172
+  - first:
+      213: 487909132545408257
+    second: Red_Shards_173
+  - first:
+      213: 5707806294955910931
+    second: Red_Shards_174
+  - first:
+      213: -6952700084920643440
+    second: Red_Shards_175
+  - first:
+      213: -7538077877975083683
+    second: Red_Shards_176
+  - first:
+      213: 3007680790672495609
+    second: Red_Shards_177
+  - first:
+      213: -3642556627379850661
+    second: Red_Shards_178
+  - first:
+      213: 6101575362646800731
+    second: Red_Shards_179
+  - first:
+      213: 7562494654082162494
+    second: Red_Shards_180
+  - first:
+      213: -6215046415548767608
+    second: Red_Shards_181
+  - first:
+      213: -6383661546026861198
+    second: Red_Shards_182
+  - first:
+      213: 2706218910071498837
+    second: Red_Shards_183
+  - first:
+      213: 8058952468781958818
+    second: Red_Shards_184
+  - first:
+      213: 4697927112672637662
+    second: Red_Shards_185
+  - first:
+      213: -6426099662039301436
+    second: Red_Shards_186
+  - first:
+      213: -2460927052443997716
+    second: Red_Shards_187
+  - first:
+      213: 5393879767954910523
+    second: Red_Shards_188
+  - first:
+      213: 1970229217798084144
+    second: Red_Shards_189
+  - first:
+      213: -1333094362107149290
+    second: Red_Shards_190
+  - first:
+      213: 4469677597674608955
+    second: Red_Shards_191
+  - first:
+      213: -2789239226508172206
+    second: Red_Shards_192
+  - first:
+      213: -7727724644221232202
+    second: Red_Shards_193
+  - first:
+      213: 9062189839411781674
+    second: Red_Shards_194
+  - first:
+      213: 1930345181964246669
+    second: Red_Shards_195
+  - first:
+      213: 6773809487088708345
+    second: Red_Shards_196
+  - first:
+      213: 4615319717272469841
+    second: Red_Shards_197
+  - first:
+      213: -5950492340433686899
+    second: Red_Shards_198
+  - first:
+      213: -5313608776824079260
+    second: Red_Shards_199
+  - first:
+      213: -3808956471909556444
+    second: Red_Shards_200
+  - first:
+      213: -3807991759674053368
+    second: Red_Shards_201
+  - first:
+      213: -2960292678211208828
+    second: Red_Shards_202
+  - first:
+      213: 5820884559042008133
+    second: Red_Shards_203
+  - first:
+      213: 7957417526203033515
+    second: Red_Shards_204
+  - first:
+      213: -8664477184007388384
+    second: Red_Shards_205
+  - first:
+      213: -3657343845243865348
+    second: Red_Shards_206
+  - first:
+      213: 4098144617791900785
+    second: Red_Shards_207
+  - first:
+      213: 8303311094701671835
+    second: Red_Shards_208
+  - first:
+      213: -6288263435839331052
+    second: Red_Shards_209
+  - first:
+      213: 4382934033650199373
+    second: Red_Shards_210
+  - first:
+      213: 1460951218208208718
+    second: Red_Shards_211
+  - first:
+      213: -8432170807993546696
+    second: Red_Shards_212
+  - first:
+      213: 2114466845327781878
+    second: Red_Shards_213
+  - first:
+      213: -7878528349432555705
+    second: Red_Shards_214
+  - first:
+      213: -5992077327374205764
+    second: Red_Shards_215
+  - first:
+      213: -7491815049874065080
+    second: Red_Shards_216
+  - first:
+      213: 7497741083297719850
+    second: Red_Shards_217
+  - first:
+      213: -7725064401812961460
+    second: Red_Shards_218
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Shards_0
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 579
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539d7219c7a9e9cd0800000000000000
+      internalID: -2549430479243192011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_1
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 606
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd4c995ff5774660800000000000000
+      internalID: 7369989054795632089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_2
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 580
+        width: 77
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e580b4801224a2c50800000000000000
+      internalID: 6641193310151706718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_3
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 612
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c37ca2a47a6a1f0800000000000000
+      internalID: -1033955127447831407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_4
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 580
+        width: 90
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba895cce18b5adc0800000000000000
+      internalID: -3628291482360116556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_5
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 580
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729a25df4b5b76a30800000000000000
+      internalID: 4208532165749811495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_6
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 595
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ff0714c6d435f50800000000000000
+      internalID: 6868918984019869516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 580
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d739c5f7ba4f18590800000000000000
+      internalID: -7673583272649256067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 580
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d932bd834688dc0800000000000000
+      internalID: -3636546503744185057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 580
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec70270c8b7ee7240800000000000000
+      internalID: 4791521834257483726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_10
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 580
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cb249f8b3db56b0800000000000000
+      internalID: -5306414944516654052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 580
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273bba462be9cb720800000000000000
+      internalID: 2863337952131134322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 418
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac6db68a39864580800000000000000
+      internalID: -8843229933833720668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 426
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925791566d2b2f450800000000000000
+      internalID: 6121151477438838057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_14
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 427
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002e887c6fd8369a0800000000000000
+      internalID: -6240988567556267520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_15
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 421
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0654ac23d3c319e0800000000000000
+      internalID: -1651761326560356851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_16
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 419
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fca6fe9e1fe72960800000000000000
+      internalID: 7577287812869172467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_17
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 425
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da050e0595e969c0800000000000000
+      internalID: -3933360371183318315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_18
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 413
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5f30e9601108b50800000000000000
+      internalID: 6593288574588941796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_19
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 412
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f315e382d1a4cc880800000000000000
+      internalID: -8589408900212698817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_20
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 418
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98a61a48a24bba10800000000000000
+      internalID: 1926206556195956890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_21
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 425
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b46d313e5518eb0800000000000000
+      internalID: -4719396500728820860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_22
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 409
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce87c4cd9de1d5b90800000000000000
+      internalID: -7251605903943894804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_23
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 402
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51051921dc3656af0800000000000000
+      internalID: -403806859148832747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_24
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 418
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe49a81e6557f28e0800000000000000
+      internalID: -1716023916993276689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_25
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 419
+        width: 14
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64ca70f44d2361e0800000000000000
+      internalID: -2205869618365807507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_26
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 406
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c230c50b0b3c840800000000000000
+      internalID: 5243228662693833773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_27
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 400
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f3e67cb83e72ce0800000000000000
+      internalID: -1429924167180992610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_28
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 418
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a83ef0edb44c4ca0800000000000000
+      internalID: -6031370218641672029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_29
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 419
+        width: 15
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0af4869121cad80800000000000000
+      internalID: -8238189718033948483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_30
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 400
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ad50d07624319d0800000000000000
+      internalID: -2804825132554134948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_31
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 401
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5fedc0187ff18c0800000000000000
+      internalID: -4026227408207153725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_32
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 418
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab369a430114153d0800000000000000
+      internalID: -3219720720734395462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_33
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 419
+        width: 15
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05277b6692f928300800000000000000
+      internalID: 252939529251942992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_34
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 400
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa08e8170954cea10800000000000000
+      internalID: 1940002026172612778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_35
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 404
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a250a0ec7da70e9b0800000000000000
+      internalID: -5052903714616376022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_36
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 417
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4233bb9ef82cea990800000000000000
+      internalID: -7372741616601451740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_37
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 420
+        width: 15
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fb59410a23c2460800000000000000
+      internalID: 7218199965889576785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_38
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 400
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc14310220ac99720800000000000000
+      internalID: 2853533949392798159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_39
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 324
+        width: 112
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518fcb9e5d0c71930800000000000000
+      internalID: 4113968809608280085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_40
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 418
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0e3423c81be3770800000000000000
+      internalID: 8592500354766332116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_41
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 419
+        width: 15
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb74740d5ff36100800000000000000
+      internalID: 100204391704067048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_42
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 400
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2ac69e5f4ecf100800000000000000
+      internalID: 143241033003344622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_43
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 418
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3254f55105e70b50800000000000000
+      internalID: 6559463176188219966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_44
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 418
+        width: 15
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d224d6361e6e11f0800000000000000
+      internalID: -1072298619579391279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_45
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 400
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a0378df28b49970800000000000000
+      internalID: 8760829690776848963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_46
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 316
+        width: 88
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4abc583613714b0800000000000000
+      internalID: -5469848918901938956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_47
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 419
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e136de40181efb0800000000000000
+      internalID: -4620269884542869937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_48
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 400
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befa60ef7a9c2aa70800000000000000
+      internalID: 8836847142212906987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_49
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 418
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c16799185b734130800000000000000
+      internalID: 3549816549614772678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_50
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 402
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f156ceb64801354c0800000000000000
+      internalID: -4300075058276309729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_51
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 324
+        width: 85
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9d40bea0f821640800000000000000
+      internalID: 5049255409291155925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_52
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 400
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d6989fd6af34a40800000000000000
+      internalID: 5351396132491193655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_53
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 401
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc8100aa3f8c39f0800000000000000
+      internalID: -487357177707524935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_54
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 324
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc0ffea3e0e22ea0800000000000000
+      internalID: -5898905293403779847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_55
+      rect:
+        serializedVersion: 2
+        x: 3758
+        y: 410
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96dde904aed8ec00800000000000000
+      internalID: 930238119174592156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_56
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 324
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff08b8e347ac7df0800000000000000
+      internalID: -181085974892638211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_57
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 324
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c788f0cb20b21f700800000000000000
+      internalID: 572285918397827196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_58
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 324
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15990bbb79ff51410800000000000000
+      internalID: 1447343882423540049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_59
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 324
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ec72e6452dd45f0800000000000000
+      internalID: -770728701143298408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_60
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 324
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4b87fe6efa30250800000000000000
+      internalID: 5909760542435226808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_61
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 324
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62a113e0c1154dc0800000000000000
+      internalID: -3655496002400312726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_62
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 43
+        width: 216
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48d3ab07ba4398d0800000000000000
+      internalID: -2840844789905893298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_63
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 41
+        width: 223
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da7cf421ae2279b0800000000000000
+      internalID: -5083949759702730030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_64
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 324
+        width: 85
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0badc8f4063820f90800000000000000
+      internalID: -6988879222050858320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_65
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 324
+        width: 85
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda07ddb9fbc6e3f0800000000000000
+      internalID: -871785204357330213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_66
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 324
+        width: 85
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd3e0c12190420f0800000000000000
+      internalID: -1142778432060506687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_67
+      rect:
+        serializedVersion: 2
+        x: 3928
+        y: 324
+        width: 88
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cc4e15ca914dda0800000000000000
+      internalID: -5921079382186341347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_68
+      rect:
+        serializedVersion: 2
+        x: 4187
+        y: 324
+        width: 92
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bdcac3f393fa160800000000000000
+      internalID: 7038907686367058735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_69
+      rect:
+        serializedVersion: 2
+        x: 4443
+        y: 324
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb90e532a03f7a380800000000000000
+      internalID: -8959925708761724481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_70
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 129
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7949b77d1f9d42ae0800000000000000
+      internalID: -1574894336947284841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_71
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 120
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a698204f40788620800000000000000
+      internalID: 2776592655955039909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_72
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 144
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec44419b709dfa90800000000000000
+      internalID: -7278502562368303901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_73
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 124
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ab2de4930ec3e10800000000000000
+      internalID: 2178862856480668319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_74
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 130
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087984ce3236fcaf0800000000000000
+      internalID: -373971238109276288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_75
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 132
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3f64ff8d7e35c0800000000000000
+      internalID: -4233808542446961259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_76
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 129
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2f14f3e00afd20800000000000000
+      internalID: 3312961454937681403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_77
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 141
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defe47fc3bed16320800000000000000
+      internalID: 2549563727929470957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_78
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 138
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7c7d995f5869240800000000000000
+      internalID: 4798169742904379332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_79
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 140
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5509e82841e02c0800000000000000
+      internalID: -4463607629707455064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_80
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 141
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847076c3879612f40800000000000000
+      internalID: 5701954568358135624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_81
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 156
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1da3116af743340800000000000000
+      internalID: 4842635850560492027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_82
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 133
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff0fa567b71d4670800000000000000
+      internalID: 8524495746134642685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_83
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 145
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e856a2b5cf2ee2e0800000000000000
+      internalID: -2094684250528392984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_84
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 147
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79234c09b9b06f90800000000000000
+      internalID: -6962360819488970369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_85
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 139
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ff1976b462c5900800000000000000
+      internalID: 674456149500755820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_86
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 149
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262bfe5dc37e9d6b0800000000000000
+      internalID: -5270927640387145118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_87
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 146
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ef17cf6d9ff3210800000000000000
+      internalID: 1315044317969120783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_88
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0084571b725baa0800000000000000
+      internalID: -6145962473346826049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_89
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 153
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82653b32381c25550800000000000000
+      internalID: 6148189210297980456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_90
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 142
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9edb764eaf515fd0800000000000000
+      internalID: -2354995928026587493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_91
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 125
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdb4b5b7bae42200800000000000000
+      internalID: 154506361985875450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_92
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 130
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c782d4b3dc82a190800000000000000
+      internalID: -7952639151083190336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_93
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 69
+        width: 105
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d91ebf25fc36ee30800000000000000
+      internalID: 4532377098760624592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_94
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 135
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa70271838fd94d00800000000000000
+      internalID: 957542151698384810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_95
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 167
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d81d52e158811d80800000000000000
+      internalID: -8281688354486150958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_96
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 152
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fcc75c0362c7770800000000000000
+      internalID: 8609798578539122443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_97
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 73
+        width: 70
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671c0e97b752df950800000000000000
+      internalID: 6484380250739360118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_98
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 91
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d1a2d96978b4f10800000000000000
+      internalID: 2255045119380692301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_99
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 142
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dca40cb8a1d95a0800000000000000
+      internalID: -6513020298578965139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_100
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 135
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139d7cb7fa49eeaf0800000000000000
+      internalID: -365191038353549007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_101
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 68
+        width: 85
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09a81b794da0fce0800000000000000
+      internalID: -1373407355238569713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_102
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 67
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ece3ea26fc332a80800000000000000
+      internalID: -8492877444311421721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_103
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 134
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37606080ad8b44690800000000000000
+      internalID: -7618761423027042701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_104
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 125
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca66fd3d41f7b56c0800000000000000
+      internalID: -4153586503888443732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_105
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 119
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f63294563b97ab30800000000000000
+      internalID: 4298575026997835508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_106
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 130
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568c8767ce2f8feb0800000000000000
+      internalID: -4685728314865170331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_107
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 120
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfc6df368feb47e0800000000000000
+      internalID: -1780065867819200578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_108
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 123
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8ff96bdf5b2c9b0800000000000000
+      internalID: -5061282929915725584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_109
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 133
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c485d5385b10c0cc0800000000000000
+      internalID: -3743615311147083700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_110
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 121
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ef84cb59cfab4e0800000000000000
+      internalID: -1964980567354573265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_111
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 130
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b97bdd52606f350800000000000000
+      internalID: 6050029909122194324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_112
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac19b5fc8b1251a0800000000000000
+      internalID: -6822360193280959314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_113
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 118
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732e8afeed4ee1c50800000000000000
+      internalID: 6637994546945385015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_114
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 130
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caf0dc212d3f9b60800000000000000
+      internalID: 7754984296050391747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_115
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c35fa901c7656480800000000000000
+      internalID: -8906598609266453567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_116
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 104
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84935c8a53942fd0800000000000000
+      internalID: -2367605486979410803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_117
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 110
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4285c9e995cdb53c0800000000000000
+      internalID: -4369656735961688028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_118
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b93c911957559d0800000000000000
+      internalID: -2786191528395826400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_119
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 124
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91aff95c24042f4b0800000000000000
+      internalID: -5408189546990929383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_120
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 122
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c1f2068b61f0740800000000000000
+      internalID: 5120336282487036968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_121
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 112
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19765348b9832d900800000000000000
+      internalID: 707690332039767953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_122
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 120
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5984b96a3dfe2080800000000000000
+      internalID: -9210145760602715809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_123
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 114
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce71121783644710800000000000000
+      internalID: 1676574393063538379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_124
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 117
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd4ff81bbf8b0060800000000000000
+      internalID: 6920783286125940164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_125
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 114
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9b4ac65fb9453f0800000000000000
+      internalID: -912933346057340449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_126
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 113
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19606527a7a5b4860800000000000000
+      internalID: 7515199885148554897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_127
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 115
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efc0799eb9fb7490800000000000000
+      internalID: -7747324136947396633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_128
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 104
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0197a0a81eb07790800000000000000
+      internalID: -7534313163607011057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_129
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 109
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78119f0e0ec5c58d0800000000000000
+      internalID: -2856305942742888057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_130
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 102
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaa3b8c328310840800000000000000
+      internalID: 5188489972049750749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_131
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 112
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96cbc5d7f7e8e230800000000000000
+      internalID: 3668436948123109018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_132
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 106
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93de3e85a05b64990800000000000000
+      internalID: -7402029881491198663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_133
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 97
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f975c6daa883b60800000000000000
+      internalID: 7726077638205742929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_134
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f1b63bd3e4e0a70800000000000000
+      internalID: 8795053149211271009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_135
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 106
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5088818ed3080e2c0800000000000000
+      internalID: -4404379432193062907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_136
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 99
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19880f58b0d26a290800000000000000
+      internalID: -7879560970523080559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_137
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 105
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe62b1a007224b40800000000000000
+      internalID: 5422939784973807290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_138
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 102
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473345dceb16eb2c0800000000000000
+      internalID: -4413983112659979404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_139
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 87
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b240f875b927bfd70800000000000000
+      internalID: 9077975485409854507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_140
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 104
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4593855aa4675590800000000000000
+      internalID: -7685563556342557364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_141
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd337282c05d94690800000000000000
+      internalID: -7617323046530501665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_142
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 106
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebc56af07e682380800000000000000
+      internalID: -8995818824156197911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_143
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 95
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba39e2a465c7d340800000000000000
+      internalID: 4888592956554558143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_144
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 105
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d044b6ed99637230800000000000000
+      internalID: 3635365451119476947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_145
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 111
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4081ba61b63cc7de0800000000000000
+      internalID: -1333976524899280892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_146
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 111
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805099771844fc8c0800000000000000
+      internalID: -3976884623096871672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_147
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 81
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcfcee8d0fe63630800000000000000
+      internalID: 3906572568301993136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_148
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 83
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a19cd8c8360101f0800000000000000
+      internalID: -1080575594634374750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_149
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3c2f80d25a79670800000000000000
+      internalID: 8545480430801044438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_150
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 88
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0ef19dda5e24440800000000000000
+      internalID: 4918746277876850863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_151
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 83
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5022b1c62fe91560800000000000000
+      internalID: 7285116821985960026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_152
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfd205a94879e540800000000000000
+      internalID: 5037689915886985179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_153
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 98
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf30464934a0d630800000000000000
+      internalID: 3949837439102631873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_154
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 93
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a892a6e6bee8c600800000000000000
+      internalID: 488903028890572969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_155
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 89
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61a2dcb171c073b0800000000000000
+      internalID: -5516696849285471894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_156
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 96
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa79d4810c198ca0800000000000000
+      internalID: -6014245034527196420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_157
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 89
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dfb8f8a9acec4e0800000000000000
+      internalID: -1959406022677496427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_158
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 82
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bc2d83117af10f0800000000000000
+      internalID: -1144012087919195272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_159
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a69d8d0939f14840800000000000000
+      internalID: 5206716667652839079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_160
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2ab08510cefb660800000000000000
+      internalID: 7403895802936664764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_161
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 92
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bc9dfbdecf87a80800000000000000
+      internalID: -8468741001214047371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_162
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 95
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461de074efa6fced0800000000000000
+      internalID: -2391575236764053148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_163
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 93
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a507adc27a10f2b0800000000000000
+      internalID: -5552909260168952413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_164
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 100
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45880a4182bf4ff50800000000000000
+      internalID: 6914427477483882580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_165
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 88
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aeb5b89e26350430800000000000000
+      internalID: 3748461838614249129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_166
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 101
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e1665e46efd21f0800000000000000
+      internalID: -1067917827318079989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_167
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 100
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5af9b5efbfd0840800000000000000
+      internalID: 5192083015305504186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_168
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 97
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0ac8691391fc290800000000000000
+      internalID: -7868042323223076663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_169
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 95
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c7fa985ca498c80800000000000000
+      internalID: -8320036624311288719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_170
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 88
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54261a8fec017b60800000000000000
+      internalID: 7741983457380017242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_171
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 88
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba82bd1a3a997590800000000000000
+      internalID: -7675934515479278920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_172
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce124683d8df68910800000000000000
+      internalID: 1839436280805728748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_173
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 91
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10db90065c665c600800000000000000
+      internalID: 487909132545408257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_174
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 94
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317e5918593363f40800000000000000
+      internalID: 5707806294955910931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_175
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 91
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0901a781c1c038f90800000000000000
+      internalID: -6952700084920643440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_176
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 93
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d559012cb1e536790800000000000000
+      internalID: -7538077877975083683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_177
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 100
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3dcc56ebd6db920800000000000000
+      internalID: 3007680790672495609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_178
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 93
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5277c6eb0a037dc0800000000000000
+      internalID: -3642556627379850661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_179
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 82
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5976dcf6762da450800000000000000
+      internalID: 6101575362646800731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_180
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 87
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f9b50f1d063f860800000000000000
+      internalID: 7562494654082162494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_181
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 90
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882a6aab638bfb9a0800000000000000
+      internalID: -6215046415548767608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_182
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 79
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d7fbe55ada867a0800000000000000
+      internalID: -6383661546026861198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_183
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 79
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558a143b2cb6e8520800000000000000
+      internalID: 2706218910071498837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_184
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 80
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6818b729627df60800000000000000
+      internalID: 8058952468781958818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_185
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 81
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2778b71d3623140800000000000000
+      internalID: 4697927112672637662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_186
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 83
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2c3e08768e1d6a0800000000000000
+      internalID: -6426099662039301436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_187
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 81
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce92de462e709ddd0800000000000000
+      internalID: -2460927052443997716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_188
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 90
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d6e1a2219eada40800000000000000
+      internalID: 5393879767954910523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_189
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 83
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03653fce809a75b10800000000000000
+      internalID: 1970229217798084144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_190
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 83
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614078e9db5ef7de0800000000000000
+      internalID: -1333094362107149290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_191
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 79
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b399aedf71c770e30800000000000000
+      internalID: 4469677597674608955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_192
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 82
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254256693b1aa49d0800000000000000
+      internalID: -2789239226508172206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_193
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 82
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb592b116b91c490800000000000000
+      internalID: -7727724644221232202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_194
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 85
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a202b4935ad53cd70800000000000000
+      internalID: 9062189839411781674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_195
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e9dd037b6f9ca10800000000000000
+      internalID: 1930345181964246669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_196
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 75
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fae71ed6d7610e50800000000000000
+      internalID: 6773809487088708345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_197
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 71
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151c1e074d8ec0040800000000000000
+      internalID: 4615319717272469841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_198
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 81
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e64c15eba9b6da0800000000000000
+      internalID: -5950492340433686899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_199
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 75
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cb00e58f44246b0800000000000000
+      internalID: -5313608776824079260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_200
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 68
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fd7eef44ed32bc0800000000000000
+      internalID: -3808956471909556444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_201
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 62
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d63019bab472bc0800000000000000
+      internalID: -3807991759674053368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_202
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 75
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489f7045e7deae6d0800000000000000
+      internalID: -2960292678211208828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_203
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 75
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54451448aafe7c050800000000000000
+      internalID: 5820884559042008133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_204
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 72
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7acc2741d6e6e60800000000000000
+      internalID: 7957417526203033515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_205
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 78
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02343c258e791c780800000000000000
+      internalID: -8664477184007388384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_206
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 67
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf637c276218e3dc0800000000000000
+      internalID: -3657343845243865348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_207
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 68
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c4aa521d88fd830800000000000000
+      internalID: 4098144617791900785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_208
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95c043a2794b3370800000000000000
+      internalID: 8303311094701671835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_209
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 72
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41528b4c8b99bb8a0800000000000000
+      internalID: -6288263435839331052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_210
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 71
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ba0b5284f43dc30800000000000000
+      internalID: 4382934033650199373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_211
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 62
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47797b7467564410800000000000000
+      internalID: 1460951218208208718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_212
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83840206359eafa80800000000000000
+      internalID: -8432170807993546696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_213
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 63
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff6a159468185d10800000000000000
+      internalID: 2114466845327781878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_214
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 66
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7475a3b5538d9a290800000000000000
+      internalID: -7878528349432555705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_215
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 70
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc303b0b6dd7dca0800000000000000
+      internalID: -5992077327374205764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_216
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 53
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849b45dc7e9b70890800000000000000
+      internalID: -7491815049874065080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_217
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 47
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2620df5ac35d0860800000000000000
+      internalID: 7497741083297719850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Shards_218
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 41
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c474cee0bde0bc490800000000000000
+      internalID: -7725064401812961460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Red_Shards_0: -2549430479243192011
+      Red_Shards_1: 7369989054795632089
+      Red_Shards_10: -5306414944516654052
+      Red_Shards_100: -365191038353549007
+      Red_Shards_101: -1373407355238569713
+      Red_Shards_102: -8492877444311421721
+      Red_Shards_103: -7618761423027042701
+      Red_Shards_104: -4153586503888443732
+      Red_Shards_105: 4298575026997835508
+      Red_Shards_106: -4685728314865170331
+      Red_Shards_107: -1780065867819200578
+      Red_Shards_108: -5061282929915725584
+      Red_Shards_109: -3743615311147083700
+      Red_Shards_11: 2863337952131134322
+      Red_Shards_110: -1964980567354573265
+      Red_Shards_111: 6050029909122194324
+      Red_Shards_112: -6822360193280959314
+      Red_Shards_113: 6637994546945385015
+      Red_Shards_114: 7754984296050391747
+      Red_Shards_115: -8906598609266453567
+      Red_Shards_116: -2367605486979410803
+      Red_Shards_117: -4369656735961688028
+      Red_Shards_118: -2786191528395826400
+      Red_Shards_119: -5408189546990929383
+      Red_Shards_12: -8843229933833720668
+      Red_Shards_120: 5120336282487036968
+      Red_Shards_121: 707690332039767953
+      Red_Shards_122: -9210145760602715809
+      Red_Shards_123: 1676574393063538379
+      Red_Shards_124: 6920783286125940164
+      Red_Shards_125: -912933346057340449
+      Red_Shards_126: 7515199885148554897
+      Red_Shards_127: -7747324136947396633
+      Red_Shards_128: -7534313163607011057
+      Red_Shards_129: -2856305942742888057
+      Red_Shards_13: 6121151477438838057
+      Red_Shards_130: 5188489972049750749
+      Red_Shards_131: 3668436948123109018
+      Red_Shards_132: -7402029881491198663
+      Red_Shards_133: 7726077638205742929
+      Red_Shards_134: 8795053149211271009
+      Red_Shards_135: -4404379432193062907
+      Red_Shards_136: -7879560970523080559
+      Red_Shards_137: 5422939784973807290
+      Red_Shards_138: -4413983112659979404
+      Red_Shards_139: 9077975485409854507
+      Red_Shards_14: -6240988567556267520
+      Red_Shards_140: -7685563556342557364
+      Red_Shards_141: -7617323046530501665
+      Red_Shards_142: -8995818824156197911
+      Red_Shards_143: 4888592956554558143
+      Red_Shards_144: 3635365451119476947
+      Red_Shards_145: -1333976524899280892
+      Red_Shards_146: -3976884623096871672
+      Red_Shards_147: 3906572568301993136
+      Red_Shards_148: -1080575594634374750
+      Red_Shards_149: 8545480430801044438
+      Red_Shards_15: -1651761326560356851
+      Red_Shards_150: 4918746277876850863
+      Red_Shards_151: 7285116821985960026
+      Red_Shards_152: 5037689915886985179
+      Red_Shards_153: 3949837439102631873
+      Red_Shards_154: 488903028890572969
+      Red_Shards_155: -5516696849285471894
+      Red_Shards_156: -6014245034527196420
+      Red_Shards_157: -1959406022677496427
+      Red_Shards_158: -1144012087919195272
+      Red_Shards_159: 5206716667652839079
+      Red_Shards_16: 7577287812869172467
+      Red_Shards_160: 7403895802936664764
+      Red_Shards_161: -8468741001214047371
+      Red_Shards_162: -2391575236764053148
+      Red_Shards_163: -5552909260168952413
+      Red_Shards_164: 6914427477483882580
+      Red_Shards_165: 3748461838614249129
+      Red_Shards_166: -1067917827318079989
+      Red_Shards_167: 5192083015305504186
+      Red_Shards_168: -7868042323223076663
+      Red_Shards_169: -8320036624311288719
+      Red_Shards_17: -3933360371183318315
+      Red_Shards_170: 7741983457380017242
+      Red_Shards_171: -7675934515479278920
+      Red_Shards_172: 1839436280805728748
+      Red_Shards_173: 487909132545408257
+      Red_Shards_174: 5707806294955910931
+      Red_Shards_175: -6952700084920643440
+      Red_Shards_176: -7538077877975083683
+      Red_Shards_177: 3007680790672495609
+      Red_Shards_178: -3642556627379850661
+      Red_Shards_179: 6101575362646800731
+      Red_Shards_18: 6593288574588941796
+      Red_Shards_180: 7562494654082162494
+      Red_Shards_181: -6215046415548767608
+      Red_Shards_182: -6383661546026861198
+      Red_Shards_183: 2706218910071498837
+      Red_Shards_184: 8058952468781958818
+      Red_Shards_185: 4697927112672637662
+      Red_Shards_186: -6426099662039301436
+      Red_Shards_187: -2460927052443997716
+      Red_Shards_188: 5393879767954910523
+      Red_Shards_189: 1970229217798084144
+      Red_Shards_19: -8589408900212698817
+      Red_Shards_190: -1333094362107149290
+      Red_Shards_191: 4469677597674608955
+      Red_Shards_192: -2789239226508172206
+      Red_Shards_193: -7727724644221232202
+      Red_Shards_194: 9062189839411781674
+      Red_Shards_195: 1930345181964246669
+      Red_Shards_196: 6773809487088708345
+      Red_Shards_197: 4615319717272469841
+      Red_Shards_198: -5950492340433686899
+      Red_Shards_199: -5313608776824079260
+      Red_Shards_2: 6641193310151706718
+      Red_Shards_20: 1926206556195956890
+      Red_Shards_200: -3808956471909556444
+      Red_Shards_201: -3807991759674053368
+      Red_Shards_202: -2960292678211208828
+      Red_Shards_203: 5820884559042008133
+      Red_Shards_204: 7957417526203033515
+      Red_Shards_205: -8664477184007388384
+      Red_Shards_206: -3657343845243865348
+      Red_Shards_207: 4098144617791900785
+      Red_Shards_208: 8303311094701671835
+      Red_Shards_209: -6288263435839331052
+      Red_Shards_21: -4719396500728820860
+      Red_Shards_210: 4382934033650199373
+      Red_Shards_211: 1460951218208208718
+      Red_Shards_212: -8432170807993546696
+      Red_Shards_213: 2114466845327781878
+      Red_Shards_214: -7878528349432555705
+      Red_Shards_215: -5992077327374205764
+      Red_Shards_216: -7491815049874065080
+      Red_Shards_217: 7497741083297719850
+      Red_Shards_218: -7725064401812961460
+      Red_Shards_22: -7251605903943894804
+      Red_Shards_23: -403806859148832747
+      Red_Shards_24: -1716023916993276689
+      Red_Shards_25: -2205869618365807507
+      Red_Shards_26: 5243228662693833773
+      Red_Shards_27: -1429924167180992610
+      Red_Shards_28: -6031370218641672029
+      Red_Shards_29: -8238189718033948483
+      Red_Shards_3: -1033955127447831407
+      Red_Shards_30: -2804825132554134948
+      Red_Shards_31: -4026227408207153725
+      Red_Shards_32: -3219720720734395462
+      Red_Shards_33: 252939529251942992
+      Red_Shards_34: 1940002026172612778
+      Red_Shards_35: -5052903714616376022
+      Red_Shards_36: -7372741616601451740
+      Red_Shards_37: 7218199965889576785
+      Red_Shards_38: 2853533949392798159
+      Red_Shards_39: 4113968809608280085
+      Red_Shards_4: -3628291482360116556
+      Red_Shards_40: 8592500354766332116
+      Red_Shards_41: 100204391704067048
+      Red_Shards_42: 143241033003344622
+      Red_Shards_43: 6559463176188219966
+      Red_Shards_44: -1072298619579391279
+      Red_Shards_45: 8760829690776848963
+      Red_Shards_46: -5469848918901938956
+      Red_Shards_47: -4620269884542869937
+      Red_Shards_48: 8836847142212906987
+      Red_Shards_49: 3549816549614772678
+      Red_Shards_5: 4208532165749811495
+      Red_Shards_50: -4300075058276309729
+      Red_Shards_51: 5049255409291155925
+      Red_Shards_52: 5351396132491193655
+      Red_Shards_53: -487357177707524935
+      Red_Shards_54: -5898905293403779847
+      Red_Shards_55: 930238119174592156
+      Red_Shards_56: -181085974892638211
+      Red_Shards_57: 572285918397827196
+      Red_Shards_58: 1447343882423540049
+      Red_Shards_59: -770728701143298408
+      Red_Shards_6: 6868918984019869516
+      Red_Shards_60: 5909760542435226808
+      Red_Shards_61: -3655496002400312726
+      Red_Shards_62: -2840844789905893298
+      Red_Shards_63: -5083949759702730030
+      Red_Shards_64: -6988879222050858320
+      Red_Shards_65: -871785204357330213
+      Red_Shards_66: -1142778432060506687
+      Red_Shards_67: -5921079382186341347
+      Red_Shards_68: 7038907686367058735
+      Red_Shards_69: -8959925708761724481
+      Red_Shards_7: -7673583272649256067
+      Red_Shards_70: -1574894336947284841
+      Red_Shards_71: 2776592655955039909
+      Red_Shards_72: -7278502562368303901
+      Red_Shards_73: 2178862856480668319
+      Red_Shards_74: -373971238109276288
+      Red_Shards_75: -4233808542446961259
+      Red_Shards_76: 3312961454937681403
+      Red_Shards_77: 2549563727929470957
+      Red_Shards_78: 4798169742904379332
+      Red_Shards_79: -4463607629707455064
+      Red_Shards_8: -3636546503744185057
+      Red_Shards_80: 5701954568358135624
+      Red_Shards_81: 4842635850560492027
+      Red_Shards_82: 8524495746134642685
+      Red_Shards_83: -2094684250528392984
+      Red_Shards_84: -6962360819488970369
+      Red_Shards_85: 674456149500755820
+      Red_Shards_86: -5270927640387145118
+      Red_Shards_87: 1315044317969120783
+      Red_Shards_88: -6145962473346826049
+      Red_Shards_89: 6148189210297980456
+      Red_Shards_9: 4791521834257483726
+      Red_Shards_90: -2354995928026587493
+      Red_Shards_91: 154506361985875450
+      Red_Shards_92: -7952639151083190336
+      Red_Shards_93: 4532377098760624592
+      Red_Shards_94: 957542151698384810
+      Red_Shards_95: -8281688354486150958
+      Red_Shards_96: 8609798578539122443
+      Red_Shards_97: 6484380250739360118
+      Red_Shards_98: 2255045119380692301
+      Red_Shards_99: -6513020298578965139
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

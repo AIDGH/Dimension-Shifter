@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 839b41b32e840486bb2b8a874716c89e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5076444770310194548
+    second: Mushroom Idle No Shadow Spritesheet_0
+  - first:
+      213: -668422773989289744
+    second: Mushroom Idle No Shadow Spritesheet_1
+  - first:
+      213: -732922362797105826
+    second: Mushroom Idle No Shadow Spritesheet_2
+  - first:
+      213: -4389215236143469420
+    second: Mushroom Idle No Shadow Spritesheet_3
+  - first:
+      213: -2930778169170800827
+    second: Mushroom Idle No Shadow Spritesheet_4
+  - first:
+      213: -413484228974045318
+    second: Mushroom Idle No Shadow Spritesheet_5
+  - first:
+      213: -7264537037620620315
+    second: Mushroom Idle No Shadow Spritesheet_6
+  - first:
+      213: -4429794349715474849
+    second: Mushroom Idle No Shadow Spritesheet_7
+  - first:
+      213: -8816073842605722837
+    second: Mushroom Idle No Shadow Spritesheet_8
+  - first:
+      213: -221997052123342883
+    second: Mushroom Idle No Shadow Spritesheet_9
+  - first:
+      213: -5421865363214705080
+    second: Mushroom Idle No Shadow Spritesheet_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1119
+        width: 359
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a75c7a068dc89b0800000000000000
+      internalID: -5076444770310194548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1119
+        width: 359
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0569c470949b6f0800000000000000
+      internalID: -668422773989289744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1119
+        width: 359
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd9858ef224d5f0800000000000000
+      internalID: -732922362797105826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1119
+        width: 364
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cafee6fff5613c0800000000000000
+      internalID: -4389215236143469420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 607
+        width: 361
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fca1778c8c357d0800000000000000
+      internalID: -2930778169170800827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 607
+        width: 359
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7796c3d842034af0800000000000000
+      internalID: -413484228974045318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 607
+        width: 360
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e354fead0e2f2b90800000000000000
+      internalID: -7264537037620620315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 607
+        width: 365
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f563d2d42853682c0800000000000000
+      internalID: -4429794349715474849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 95
+        width: 370
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b237fd9bc8307a580800000000000000
+      internalID: -8816073842605722837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 95
+        width: 365
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd711077bde4becf0800000000000000
+      internalID: -221997052123342883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Idle No Shadow Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 95
+        width: 363
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ed79dad2aa1c4b0800000000000000
+      internalID: -5421865363214705080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom Idle No Shadow Spritesheet_0: -5076444770310194548
+      Mushroom Idle No Shadow Spritesheet_1: -668422773989289744
+      Mushroom Idle No Shadow Spritesheet_10: -5421865363214705080
+      Mushroom Idle No Shadow Spritesheet_2: -732922362797105826
+      Mushroom Idle No Shadow Spritesheet_3: -4389215236143469420
+      Mushroom Idle No Shadow Spritesheet_4: -2930778169170800827
+      Mushroom Idle No Shadow Spritesheet_5: -413484228974045318
+      Mushroom Idle No Shadow Spritesheet_6: -7264537037620620315
+      Mushroom Idle No Shadow Spritesheet_7: -4429794349715474849
+      Mushroom Idle No Shadow Spritesheet_8: -8816073842605722837
+      Mushroom Idle No Shadow Spritesheet_9: -221997052123342883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: b5b65c1e9cf454002a0fa0e43ae6820d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8656098944075442044
+    second: Mushroom Attack Shadow Spritesheet_0
+  - first:
+      213: 6550750720588394774
+    second: Mushroom Attack Shadow Spritesheet_1
+  - first:
+      213: -4952191018829003457
+    second: Mushroom Attack Shadow Spritesheet_2
+  - first:
+      213: -6342916483398743487
+    second: Mushroom Attack Shadow Spritesheet_3
+  - first:
+      213: 5981921310211043132
+    second: Mushroom Attack Shadow Spritesheet_4
+  - first:
+      213: -4217110917728482632
+    second: Mushroom Attack Shadow Spritesheet_5
+  - first:
+      213: -1651197093017938249
+    second: Mushroom Attack Shadow Spritesheet_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom Attack Shadow Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1072
+        width: 374
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77204ea024a02870800000000000000
+      internalID: 8656098944075442044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Attack Shadow Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1072
+        width: 357
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6113ec0b211f8ea50800000000000000
+      internalID: 6550750720588394774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Attack Shadow Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1076
+        width: 361
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3541d69188464bb0800000000000000
+      internalID: -4952191018829003457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Attack Shadow Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 367
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a4c07801f69f7a0800000000000000
+      internalID: -6342916483398743487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Attack Shadow Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 568
+        width: 360
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fe771fcbd040350800000000000000
+      internalID: 5981921310211043132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Attack Shadow Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 569
+        width: 346
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba4f5aa6ffc975c0800000000000000
+      internalID: -4217110917728482632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Attack Shadow Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 49
+        width: 356
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b612880ef4c519e0800000000000000
+      internalID: -1651197093017938249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom Attack Shadow Spritesheet_0: 8656098944075442044
+      Mushroom Attack Shadow Spritesheet_1: 6550750720588394774
+      Mushroom Attack Shadow Spritesheet_2: -4952191018829003457
+      Mushroom Attack Shadow Spritesheet_3: -6342916483398743487
+      Mushroom Attack Shadow Spritesheet_4: 5981921310211043132
+      Mushroom Attack Shadow Spritesheet_5: -4217110917728482632
+      Mushroom Attack Shadow Spritesheet_6: -1651197093017938249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

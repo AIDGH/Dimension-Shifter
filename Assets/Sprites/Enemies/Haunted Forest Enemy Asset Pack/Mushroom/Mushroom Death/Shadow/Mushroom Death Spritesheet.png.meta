@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 1dc93958b04da4bc2bdc3e67adb7720a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7750737526888268035
+    second: Mushroom Death Spritesheet_0
+  - first:
+      213: 5324862182458373681
+    second: Mushroom Death Spritesheet_1
+  - first:
+      213: -1377730817398308314
+    second: Mushroom Death Spritesheet_2
+  - first:
+      213: -9057466785578805692
+    second: Mushroom Death Spritesheet_3
+  - first:
+      213: 4420725557501654730
+    second: Mushroom Death Spritesheet_4
+  - first:
+      213: -6606896804080531778
+    second: Mushroom Death Spritesheet_5
+  - first:
+      213: 4014891742808805956
+    second: Mushroom Death Spritesheet_6
+  - first:
+      213: -3177758515304972059
+    second: Mushroom Death Spritesheet_7
+  - first:
+      213: 8246895416275143188
+    second: Mushroom Death Spritesheet_8
+  - first:
+      213: 3469502935928110194
+    second: Mushroom Death Spritesheet_9
+  - first:
+      213: -4361994734954200120
+    second: Mushroom Death Spritesheet_10
+  - first:
+      213: 3285260913125620139
+    second: Mushroom Death Spritesheet_11
+  - first:
+      213: 3262031848762202277
+    second: Mushroom Death Spritesheet_12
+  - first:
+      213: 2944904209886950181
+    second: Mushroom Death Spritesheet_13
+  - first:
+      213: -3856108670107091788
+    second: Mushroom Death Spritesheet_14
+  - first:
+      213: -4431306364133368685
+    second: Mushroom Death Spritesheet_15
+  - first:
+      213: -4909086780131777287
+    second: Mushroom Death Spritesheet_16
+  - first:
+      213: 4546118378875519947
+    second: Mushroom Death Spritesheet_17
+  - first:
+      213: -1917773226158376838
+    second: Mushroom Death Spritesheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1584
+        width: 374
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301077d27b6209b60800000000000000
+      internalID: 7750737526888268035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1685
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136b75f41f5b5e940800000000000000
+      internalID: 5324862182458373681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1581
+        width: 337
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6228dd00f1151ece0800000000000000
+      internalID: -1377730817398308314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1578
+        width: 312
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4461da072f96d4280800000000000000
+      internalID: -9057466785578805692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1575
+        width: 317
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac67068f872995d30800000000000000
+      internalID: 4420725557501654730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1057
+        width: 335
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6cd1d8c569f44a0800000000000000
+      internalID: -6606896804080531778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1067
+        width: 315
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44294cda4c2c7b730800000000000000
+      internalID: 4014891742808805956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1060
+        width: 321
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e04641877556e3d0800000000000000
+      internalID: -3177758515304972059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1044
+        width: 343
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a80eaefabd27270800000000000000
+      internalID: 8246895416275143188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 642
+        width: 360
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c7b2bb986262030800000000000000
+      internalID: 3469502935928110194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 542
+        width: 323
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c34eee36e41773c0800000000000000
+      internalID: -4361994734954200120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 647
+        width: 356
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9f359f467979d20800000000000000
+      internalID: 3285260913125620139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 535
+        width: 251
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a85b77fea0154d20800000000000000
+      internalID: 3262031848762202277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 545
+        width: 313
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5233ddfa6c66ed820800000000000000
+      internalID: 2944904209886950181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 532
+        width: 250
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc76f658995c7ac0800000000000000
+      internalID: -3856108670107091788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 159
+        width: 355
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c17e20756d082c0800000000000000
+      internalID: -4431306364133368685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 35
+        width: 178
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4edaa359b6fdbb0800000000000000
+      internalID: -4909086780131777287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 35
+        width: 336
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc300c7449e071f30800000000000000
+      internalID: 4546118378875519947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 37
+        width: 229
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78331f5963b265e0800000000000000
+      internalID: -1917773226158376838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom Death Spritesheet_0: 7750737526888268035
+      Mushroom Death Spritesheet_1: 5324862182458373681
+      Mushroom Death Spritesheet_10: -4361994734954200120
+      Mushroom Death Spritesheet_11: 3285260913125620139
+      Mushroom Death Spritesheet_12: 3262031848762202277
+      Mushroom Death Spritesheet_13: 2944904209886950181
+      Mushroom Death Spritesheet_14: -3856108670107091788
+      Mushroom Death Spritesheet_15: -4431306364133368685
+      Mushroom Death Spritesheet_16: -4909086780131777287
+      Mushroom Death Spritesheet_17: 4546118378875519947
+      Mushroom Death Spritesheet_18: -1917773226158376838
+      Mushroom Death Spritesheet_2: -1377730817398308314
+      Mushroom Death Spritesheet_3: -9057466785578805692
+      Mushroom Death Spritesheet_4: 4420725557501654730
+      Mushroom Death Spritesheet_5: -6606896804080531778
+      Mushroom Death Spritesheet_6: 4014891742808805956
+      Mushroom Death Spritesheet_7: -3177758515304972059
+      Mushroom Death Spritesheet_8: 8246895416275143188
+      Mushroom Death Spritesheet_9: 3469502935928110194
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -105,3 +105,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Local macOS metadata and private development conversation
+.DS_Store
+/شروع بازی و کمک در کنار هم.pdf

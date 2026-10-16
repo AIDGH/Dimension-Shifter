@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 3a9cb9066127a4c4988316cf14f76e1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7442987362626973079
+    second: IceCocoon_0
+  - first:
+      213: 116758618268405949
+    second: IceCocoon_1
+  - first:
+      213: -1620614797882994719
+    second: IceCocoon_2
+  - first:
+      213: -8708066360692237062
+    second: IceCocoon_3
+  - first:
+      213: -3732342995162382920
+    second: IceCocoon_4
+  - first:
+      213: 385253370917990419
+    second: IceCocoon_5
+  - first:
+      213: 6134861895851162888
+    second: IceCocoon_6
+  - first:
+      213: -7961373174391815645
+    second: IceCocoon_7
+  - first:
+      213: 7721676865201789972
+    second: IceCocoon_8
+  - first:
+      213: -9209854809095180431
+    second: IceCocoon_9
+  - first:
+      213: 6162191311111731271
+    second: IceCocoon_10
+  - first:
+      213: -6635222810534224469
+    second: IceCocoon_11
+  - first:
+      213: 7387067062732563192
+    second: IceCocoon_12
+  - first:
+      213: 943727400453512150
+    second: IceCocoon_13
+  - first:
+      213: 1311360032015297356
+    second: IceCocoon_14
+  - first:
+      213: 870207672153598377
+    second: IceCocoon_15
+  - first:
+      213: -5348355725321499154
+    second: IceCocoon_16
+  - first:
+      213: 4780496596964219638
+    second: IceCocoon_17
+  - first:
+      213: 3988556477312687713
+    second: IceCocoon_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IceCocoon_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 95
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d2a19529dca4760800000000000000
+      internalID: 7442987362626973079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db09a5e385fce9100800000000000000
+      internalID: 116758618268405949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 127
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef417e7d6b6289e0800000000000000
+      internalID: -1620614797882994719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 127
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc196248cbb62780800000000000000
+      internalID: -8708066360692237062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 127
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdbd6912dd043cc0800000000000000
+      internalID: -3732342995162382920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 95
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310b61256e1b85500800000000000000
+      internalID: 385253370917990419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 95
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80db940f368632550800000000000000
+      internalID: 6134861895851162888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 63
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3224d007745838190800000000000000
+      internalID: -7961373174391815645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 95
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c54bc9238e82b60800000000000000
+      internalID: 7721676865201789972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 63
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f65f6d8d5003080800000000000000
+      internalID: -9209854809095180431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 95
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74830d84950848550800000000000000
+      internalID: 6162191311111731271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 63
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badd98c3204fae3a0800000000000000
+      internalID: -6635222810534224469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2a92eea52248660800000000000000
+      internalID: 7387067062732563192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 63
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db95d4121bc81d00800000000000000
+      internalID: 943727400453512150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4baae05003e23210800000000000000
+      internalID: 1311360032015297356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 55
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9e88b6449931c00800000000000000
+      internalID: 870207672153598377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed09cbfdc2d6c5b0800000000000000
+      internalID: -5348355725321499154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 82
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa1408a35cb75240800000000000000
+      internalID: 4780496596964219638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceCocoon_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e5eccdbf23a5730800000000000000
+      internalID: 3988556477312687713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IceCocoon_0: 7442987362626973079
+      IceCocoon_1: 116758618268405949
+      IceCocoon_10: 6162191311111731271
+      IceCocoon_11: -6635222810534224469
+      IceCocoon_12: 7387067062732563192
+      IceCocoon_13: 943727400453512150
+      IceCocoon_14: 1311360032015297356
+      IceCocoon_15: 870207672153598377
+      IceCocoon_16: -5348355725321499154
+      IceCocoon_17: 4780496596964219638
+      IceCocoon_18: 3988556477312687713
+      IceCocoon_2: -1620614797882994719
+      IceCocoon_3: -8708066360692237062
+      IceCocoon_4: -3732342995162382920
+      IceCocoon_5: 385253370917990419
+      IceCocoon_6: 6134861895851162888
+      IceCocoon_7: -7961373174391815645
+      IceCocoon_8: 7721676865201789972
+      IceCocoon_9: -9209854809095180431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

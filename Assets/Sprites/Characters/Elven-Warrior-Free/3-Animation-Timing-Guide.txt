@@ -1,0 +1,25 @@
+
+===== Animation Timing Guide =====
+
+1. Slice the sprite sheet (See Slicing-Guide.txt for slicing settings)
+
+2. In the Project window, open the sliced sprite sheet
+
+3. Select all frames for one animation (for example, all the idle frames)
+
+4. Drag them directly into the Animation timeline (Unity will automatically place them in order)
+
+5. Select all the frames in the timeline and you will see a blue bar/handle right after the last keyframe
+
+6. Drag the blue bar/handle to the right until the animation length matches the time shown in the table below
+
+
+Sprite Sheet File Name      | Frames |	Length
+==================================================
+idle                        | 8      | 1.00 sec
+walk                        | 8      | 1.00 sec
+
+
+⚠️ Do not drag individual keyframes, only adjust the blue bar/handle
+
+Copyright (c) 2026 tale in tiles

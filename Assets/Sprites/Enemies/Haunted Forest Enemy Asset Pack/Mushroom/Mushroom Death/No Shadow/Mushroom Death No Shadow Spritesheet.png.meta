@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 5a98bae45e6374b459e473a8115d1674
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6869784621462727776
+    second: Mushroom Death No Shadow Spritesheet_0
+  - first:
+      213: 744423488194804636
+    second: Mushroom Death No Shadow Spritesheet_1
+  - first:
+      213: -6495685588205954234
+    second: Mushroom Death No Shadow Spritesheet_2
+  - first:
+      213: -1379326062889645024
+    second: Mushroom Death No Shadow Spritesheet_3
+  - first:
+      213: -428006044230322860
+    second: Mushroom Death No Shadow Spritesheet_4
+  - first:
+      213: -4641797212479368805
+    second: Mushroom Death No Shadow Spritesheet_5
+  - first:
+      213: -3825738923007568765
+    second: Mushroom Death No Shadow Spritesheet_6
+  - first:
+      213: 8753431163073687103
+    second: Mushroom Death No Shadow Spritesheet_7
+  - first:
+      213: -1718614605473557910
+    second: Mushroom Death No Shadow Spritesheet_8
+  - first:
+      213: 2373724614264527641
+    second: Mushroom Death No Shadow Spritesheet_9
+  - first:
+      213: 1316155217888847296
+    second: Mushroom Death No Shadow Spritesheet_10
+  - first:
+      213: -8517450883226796661
+    second: Mushroom Death No Shadow Spritesheet_11
+  - first:
+      213: -2288964127106815172
+    second: Mushroom Death No Shadow Spritesheet_12
+  - first:
+      213: -5600191073666626612
+    second: Mushroom Death No Shadow Spritesheet_13
+  - first:
+      213: -3142245267989083024
+    second: Mushroom Death No Shadow Spritesheet_14
+  - first:
+      213: -8272681020781136207
+    second: Mushroom Death No Shadow Spritesheet_15
+  - first:
+      213: -7171163764560256791
+    second: Mushroom Death No Shadow Spritesheet_16
+  - first:
+      213: -1223363802031903471
+    second: Mushroom Death No Shadow Spritesheet_17
+  - first:
+      213: -1494045187841126517
+    second: Mushroom Death No Shadow Spritesheet_18
+  - first:
+      213: 4396986258288462123
+    second: Mushroom Death No Shadow Spritesheet_19
+  - first:
+      213: -9125578985855251450
+    second: Mushroom Death No Shadow Spritesheet_20
+  - first:
+      213: -8379153710874308185
+    second: Mushroom Death No Shadow Spritesheet_21
+  - first:
+      213: 8687735083619764833
+    second: Mushroom Death No Shadow Spritesheet_22
+  - first:
+      213: -3032690964731888806
+    second: Mushroom Death No Shadow Spritesheet_23
+  - first:
+      213: 7728422404301120770
+    second: Mushroom Death No Shadow Spritesheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1631
+        width: 359
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c2abd27b0665f50800000000000000
+      internalID: 6869784621462727776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1685
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bfe48e739b45a00800000000000000
+      internalID: 744423488194804636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1623
+        width: 336
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b1c568f50bad5a0800000000000000
+      internalID: -6495685588205954234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1626
+        width: 312
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c4608f046abdce0800000000000000
+      internalID: -1379326062889645024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1612
+        width: 317
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4557eeb35ca6f0af0800000000000000
+      internalID: -428006044230322860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 1602
+        width: 306
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91d4ce4706059fb0800000000000000
+      internalID: -4641797212479368805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1098
+        width: 315
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3849fba18be38eac0800000000000000
+      internalID: -3825738923007568765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1087
+        width: 300
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e67d0e34f6a7970800000000000000
+      internalID: 8753431163073687103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1076
+        width: 343
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6253f63f114628e0800000000000000
+      internalID: -1718614605473557910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1154
+        width: 360
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b96dbc5f921f020800000000000000
+      internalID: 2373724614264527641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1149
+        width: 323
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5aa87823ce34210800000000000000
+      internalID: 1316155217888847296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 647
+        width: 356
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dfd619c8febc980800000000000000
+      internalID: -8517450883226796661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 637
+        width: 313
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3baf2cf047fb30e0800000000000000
+      internalID: -2288964127106815172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 671
+        width: 355
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb89cbb3ef1842b0800000000000000
+      internalID: -5600191073666626612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 649
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ccb5cb3908464d0800000000000000
+      internalID: -3142245267989083024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 669
+        width: 32
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b679303178813d80800000000000000
+      internalID: -8272681020781136207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 649
+        width: 113
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0ab33fc88ea7c90800000000000000
+      internalID: -7171163764560256791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 661
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d21dc8a1db50fe0800000000000000
+      internalID: -1223363802031903471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 659
+        width: 22
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f095441d5144be0800000000000000
+      internalID: -1494045187841126517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 547
+        width: 315
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29ce87a4bb350d30800000000000000
+      internalID: 4396986258288462123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 624
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c0452034e6b5180800000000000000
+      internalID: -9125578985855251450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 596
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1d0f8381447bb80800000000000000
+      internalID: -8379153710874308185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 35
+        width: 315
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16acad96709019870800000000000000
+      internalID: 8687735083619764833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 35
+        width: 315
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b7e9da2a7b9e5d0800000000000000
+      internalID: -3032690964731888806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Death No Shadow Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 35
+        width: 315
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205e982da3fd04b60800000000000000
+      internalID: 7728422404301120770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom Death No Shadow Spritesheet_0: 6869784621462727776
+      Mushroom Death No Shadow Spritesheet_1: 744423488194804636
+      Mushroom Death No Shadow Spritesheet_10: 1316155217888847296
+      Mushroom Death No Shadow Spritesheet_11: -8517450883226796661
+      Mushroom Death No Shadow Spritesheet_12: -2288964127106815172
+      Mushroom Death No Shadow Spritesheet_13: -5600191073666626612
+      Mushroom Death No Shadow Spritesheet_14: -3142245267989083024
+      Mushroom Death No Shadow Spritesheet_15: -8272681020781136207
+      Mushroom Death No Shadow Spritesheet_16: -7171163764560256791
+      Mushroom Death No Shadow Spritesheet_17: -1223363802031903471
+      Mushroom Death No Shadow Spritesheet_18: -1494045187841126517
+      Mushroom Death No Shadow Spritesheet_19: 4396986258288462123
+      Mushroom Death No Shadow Spritesheet_2: -6495685588205954234
+      Mushroom Death No Shadow Spritesheet_20: -9125578985855251450
+      Mushroom Death No Shadow Spritesheet_21: -8379153710874308185
+      Mushroom Death No Shadow Spritesheet_22: 8687735083619764833
+      Mushroom Death No Shadow Spritesheet_23: -3032690964731888806
+      Mushroom Death No Shadow Spritesheet_24: 7728422404301120770
+      Mushroom Death No Shadow Spritesheet_3: -1379326062889645024
+      Mushroom Death No Shadow Spritesheet_4: -428006044230322860
+      Mushroom Death No Shadow Spritesheet_5: -4641797212479368805
+      Mushroom Death No Shadow Spritesheet_6: -3825738923007568765
+      Mushroom Death No Shadow Spritesheet_7: 8753431163073687103
+      Mushroom Death No Shadow Spritesheet_8: -1718614605473557910
+      Mushroom Death No Shadow Spritesheet_9: 2373724614264527641
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

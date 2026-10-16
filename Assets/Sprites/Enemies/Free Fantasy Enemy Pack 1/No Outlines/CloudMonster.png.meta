@@ -1,0 +1,2717 @@
+fileFormatVersion: 2
+guid: 967b03707664548d3915a3ff03d752df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9106951870166755127
+    second: CloudMonster_0
+  - first:
+      213: 5816197035690754119
+    second: CloudMonster_1
+  - first:
+      213: 3165055883277995390
+    second: CloudMonster_2
+  - first:
+      213: -236847909173131516
+    second: CloudMonster_3
+  - first:
+      213: -3134053922112127212
+    second: CloudMonster_4
+  - first:
+      213: -4786264814021227182
+    second: CloudMonster_5
+  - first:
+      213: -7457437765023369985
+    second: CloudMonster_6
+  - first:
+      213: -5059167554147627858
+    second: CloudMonster_7
+  - first:
+      213: -8326717222021000448
+    second: CloudMonster_8
+  - first:
+      213: -7278496601101247980
+    second: CloudMonster_9
+  - first:
+      213: 5465577996834084935
+    second: CloudMonster_10
+  - first:
+      213: 389563775790903342
+    second: CloudMonster_11
+  - first:
+      213: 6887722719741622456
+    second: CloudMonster_12
+  - first:
+      213: -8596346919119064516
+    second: CloudMonster_13
+  - first:
+      213: -5757768127228572862
+    second: CloudMonster_14
+  - first:
+      213: -5699174448872179817
+    second: CloudMonster_15
+  - first:
+      213: -750083355696576660
+    second: CloudMonster_16
+  - first:
+      213: 8903811300417389254
+    second: CloudMonster_17
+  - first:
+      213: -6475054980294905616
+    second: CloudMonster_18
+  - first:
+      213: -2206262727365658512
+    second: CloudMonster_19
+  - first:
+      213: 4877606886264613870
+    second: CloudMonster_20
+  - first:
+      213: -3164736875372353843
+    second: CloudMonster_21
+  - first:
+      213: 8576220393047869472
+    second: CloudMonster_22
+  - first:
+      213: 8587098916124941083
+    second: CloudMonster_23
+  - first:
+      213: -2559622429879140964
+    second: CloudMonster_24
+  - first:
+      213: 8115414507655532521
+    second: CloudMonster_25
+  - first:
+      213: 3787136654371956350
+    second: CloudMonster_26
+  - first:
+      213: 4002998151869730713
+    second: CloudMonster_27
+  - first:
+      213: 5527044113584506035
+    second: CloudMonster_28
+  - first:
+      213: 8123044122525218945
+    second: CloudMonster_29
+  - first:
+      213: 3824276230491330994
+    second: CloudMonster_30
+  - first:
+      213: -6582539182204433392
+    second: CloudMonster_31
+  - first:
+      213: -8676790799121155911
+    second: CloudMonster_32
+  - first:
+      213: -5526165374429574018
+    second: CloudMonster_33
+  - first:
+      213: -3104559889735044307
+    second: CloudMonster_34
+  - first:
+      213: 397573480882118587
+    second: CloudMonster_35
+  - first:
+      213: -7948013074586415991
+    second: CloudMonster_36
+  - first:
+      213: 1899398348119560548
+    second: CloudMonster_37
+  - first:
+      213: 6664532111963188483
+    second: CloudMonster_38
+  - first:
+      213: -8885071937923049026
+    second: CloudMonster_39
+  - first:
+      213: 2196377900803752290
+    second: CloudMonster_40
+  - first:
+      213: -1753774934818516030
+    second: CloudMonster_41
+  - first:
+      213: -1984281505788725243
+    second: CloudMonster_42
+  - first:
+      213: 4876680355305570828
+    second: CloudMonster_43
+  - first:
+      213: -7763181451461624521
+    second: CloudMonster_44
+  - first:
+      213: -1098352268141914383
+    second: CloudMonster_45
+  - first:
+      213: -4094971450529427386
+    second: CloudMonster_46
+  - first:
+      213: -440078682164913159
+    second: CloudMonster_47
+  - first:
+      213: -7097853166835802170
+    second: CloudMonster_48
+  - first:
+      213: 5902484858453476292
+    second: CloudMonster_49
+  - first:
+      213: 1052308718214264198
+    second: CloudMonster_50
+  - first:
+      213: 8853545610920097545
+    second: CloudMonster_51
+  - first:
+      213: -7871623746818335862
+    second: CloudMonster_52
+  - first:
+      213: 8676875155858492287
+    second: CloudMonster_53
+  - first:
+      213: -5579568112121063048
+    second: CloudMonster_54
+  - first:
+      213: -9058370614660091719
+    second: CloudMonster_55
+  - first:
+      213: -5719631867001965709
+    second: CloudMonster_56
+  - first:
+      213: -6476948390962318162
+    second: CloudMonster_57
+  - first:
+      213: 7772615855665049179
+    second: CloudMonster_58
+  - first:
+      213: 1078844130888161212
+    second: CloudMonster_59
+  - first:
+      213: 687275884554311789
+    second: CloudMonster_60
+  - first:
+      213: -6615610809478153238
+    second: CloudMonster_61
+  - first:
+      213: 1336894541145972526
+    second: CloudMonster_62
+  - first:
+      213: 4119808147737382873
+    second: CloudMonster_63
+  - first:
+      213: 600014423196027598
+    second: CloudMonster_64
+  - first:
+      213: -505498304359795847
+    second: CloudMonster_65
+  - first:
+      213: 2635844818115691203
+    second: CloudMonster_66
+  - first:
+      213: 7379393556474136909
+    second: CloudMonster_67
+  - first:
+      213: 8408450695893639388
+    second: CloudMonster_68
+  - first:
+      213: -2161992257774309333
+    second: CloudMonster_69
+  - first:
+      213: 2886827243768806330
+    second: CloudMonster_70
+  - first:
+      213: 5002875697674691515
+    second: CloudMonster_71
+  - first:
+      213: 8068566616347228902
+    second: CloudMonster_72
+  - first:
+      213: 7244584287825125769
+    second: CloudMonster_73
+  - first:
+      213: -5251891211560630846
+    second: CloudMonster_74
+  - first:
+      213: 4162538596170125612
+    second: CloudMonster_75
+  - first:
+      213: -5929977285953525121
+    second: CloudMonster_76
+  - first:
+      213: -8559670354195959057
+    second: CloudMonster_77
+  - first:
+      213: -8982859259869948265
+    second: CloudMonster_78
+  - first:
+      213: 2217790835367317865
+    second: CloudMonster_79
+  - first:
+      213: 788878626932011549
+    second: CloudMonster_80
+  - first:
+      213: 398742816448606766
+    second: CloudMonster_81
+  - first:
+      213: -2165831435404053342
+    second: CloudMonster_82
+  - first:
+      213: 450703141593551328
+    second: CloudMonster_83
+  - first:
+      213: -3305606219550161402
+    second: CloudMonster_84
+  - first:
+      213: 6936684139610041976
+    second: CloudMonster_85
+  - first:
+      213: -2417763477666373697
+    second: CloudMonster_86
+  - first:
+      213: 6922903849332614223
+    second: CloudMonster_87
+  - first:
+      213: 1643405418153166583
+    second: CloudMonster_88
+  - first:
+      213: -270951297119126837
+    second: CloudMonster_89
+  - first:
+      213: 7843405322049673902
+    second: CloudMonster_90
+  - first:
+      213: -7026927834300266328
+    second: CloudMonster_91
+  - first:
+      213: -7814604162795540661
+    second: CloudMonster_92
+  - first:
+      213: -9133838500018016259
+    second: CloudMonster_93
+  - first:
+      213: -3073539311471874197
+    second: CloudMonster_94
+  - first:
+      213: 5059791038775038843
+    second: CloudMonster_95
+  - first:
+      213: 7792595930271943386
+    second: CloudMonster_96
+  - first:
+      213: -4041570960415824700
+    second: CloudMonster_97
+  - first:
+      213: 208258849569265217
+    second: CloudMonster_98
+  - first:
+      213: 2955676126616803055
+    second: CloudMonster_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CloudMonster_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 719
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c89128568b9d9180800000000000000
+      internalID: -9106951870166755127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 720
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7400700736847b050800000000000000
+      internalID: 5816197035690754119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 717
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d8b018e898ceb20800000000000000
+      internalID: 3165055883277995390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 716
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40701fbd41c86bcf0800000000000000
+      internalID: -236847909173131516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 607
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f3691109a9184d0800000000000000
+      internalID: -3134053922112127212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_5
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 592
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d4057a285c39db0800000000000000
+      internalID: -4786264814021227182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 586
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4f2392ddbd18890800000000000000
+      internalID: -7457437765023369985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_7
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 632
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac49d30ae93ac9b0800000000000000
+      internalID: -5059167554147627858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_8
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 636
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0039f4cadce817c80800000000000000
+      internalID: -8326717222021000448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_9
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 643
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ad87887e59dfa90800000000000000
+      internalID: -7278496601101247980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_10
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 630
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7489c71fa32a9db40800000000000000
+      internalID: 5465577996834084935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_11
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 636
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e207069a032086500800000000000000
+      internalID: 389563775790903342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_12
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 642
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b83695225b169f50800000000000000
+      internalID: 6887722719741622456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_13
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 591
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3272efb504a3b880800000000000000
+      internalID: -8596346919119064516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_14
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 579
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b897de46c4810b0800000000000000
+      internalID: -5757768127228572862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_15
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 647
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797bdf5c80778e0b0800000000000000
+      internalID: -5699174448872179817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 607
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67c5cf792b2795f0800000000000000
+      internalID: -750083355696576660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 605
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2cc7c0431b09b70800000000000000
+      internalID: 8903811300417389254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 608
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0f56e3dcbf326a0800000000000000
+      internalID: -6475054980294905616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_19
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 609
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0787f2e1db7c161e0800000000000000
+      internalID: -2206262727365658512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_20
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 608
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb2dc1de9db0b340800000000000000
+      internalID: 4877606886264613870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_21
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 620
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6e9df44989414d0800000000000000
+      internalID: -3164736875372353843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_22
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 621
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028441b320bd40770800000000000000
+      internalID: 8576220393047869472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_23
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 602
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bd4c2c7f08b2770800000000000000
+      internalID: 8587098916124941083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_24
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 619
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d7ee326f46a7cd0800000000000000
+      internalID: -2559622429879140964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_25
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 608
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef0cd55f7ebf9070800000000000000
+      internalID: 8115414507655532521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_26
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 623
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76a3b7d8bc9e8430800000000000000
+      internalID: 3787136654371956350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_27
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 626
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f8dbe3c918d8730800000000000000
+      internalID: 4002998151869730713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_28
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 604
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b44e18765104bc40800000000000000
+      internalID: 5527044113584506035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_29
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 612
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188b0f97799dab070800000000000000
+      internalID: 8123044122525218945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_30
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 612
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9d76148fe821530800000000000000
+      internalID: 3824276230491330994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_31
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 588
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c4d945d7f16a4a0800000000000000
+      internalID: -6582539182204433392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_32
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 599
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b871046db8d59780800000000000000
+      internalID: -8676790799121155911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_33
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 599
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ccf0feedd1f43b0800000000000000
+      internalID: -5526165374429574018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_34
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 599
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23ba6c9a336ae4d0800000000000000
+      internalID: -3104559889735044307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_35
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 594
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf181479f6748500800000000000000
+      internalID: 397573480882118587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_36
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 592
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ccd13183cf2b190800000000000000
+      internalID: -7948013074586415991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_37
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 580
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46151a2fbb40c5a10800000000000000
+      internalID: 1899398348119560548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_38
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 587
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30defb745ac2d7c50800000000000000
+      internalID: 6664532111963188483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 495
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb91e48c522e1b480800000000000000
+      internalID: -8885071937923049026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_40
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 498
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2610de9501a1b7e10800000000000000
+      internalID: 2196377900803752290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_41
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 499
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3982a1df659a7e0800000000000000
+      internalID: -1753774934818516030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_42
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 504
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508f511db7a6674e0800000000000000
+      internalID: -1984281505788725243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_43
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 488
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c024d1502f27da340800000000000000
+      internalID: 4876680355305570828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 358
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d7abad993a34490800000000000000
+      internalID: -7763181451461624521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 352
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f618237e6ed1c0f0800000000000000
+      internalID: -1098352268141914383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_46
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 352
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640d3dd692dbb27c0800000000000000
+      internalID: -4094971450529427386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_47
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 351
+        width: 28
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb965c25c684e9f0800000000000000
+      internalID: -440078682164913159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 242
+        width: 28
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfdeda962c5f7d90800000000000000
+      internalID: -7097853166835802170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_49
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 241
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3cd30c4b6d9e150800000000000000
+      internalID: 5902484858453476292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_50
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 275
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685353f243d8a9e00800000000000000
+      internalID: 1052308718214264198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_51
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 274
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9077c9533dc1eda70800000000000000
+      internalID: 8853545610920097545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_52
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 271
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b1d5d68ef52c290800000000000000
+      internalID: -7871623746818335862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 159
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8b517bf37a6870800000000000000
+      internalID: 8676875155858492287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_54
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 157
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8795de42d546192b0800000000000000
+      internalID: -5579568112121063048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_55
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 154
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b039555be33a4280800000000000000
+      internalID: -9058370614660091719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_56
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 154
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373f751fe19cf90b0800000000000000
+      internalID: -5719631867001965709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_57
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 157
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4372831c14d16a0800000000000000
+      internalID: -6476948390962318162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 47
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eeb7c80f0eddb60800000000000000
+      internalID: 7772615855665049179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_59
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 45
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb79a956503d8fe00800000000000000
+      internalID: 1078844130888161212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_60
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 64
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d685d8196c1b98900800000000000000
+      internalID: 687275884554311789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_61
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 67
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebf1d01501a034a0800000000000000
+      internalID: -6615610809478153238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_62
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 57
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f1a23808a9d8210800000000000000
+      internalID: 1336894541145972526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_63
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 66
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df85a4ceaf7c2930800000000000000
+      internalID: 4119808147737382873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_64
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 70
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecac5ba50fda35800800000000000000
+      internalID: 600014423196027598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_65
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 64
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973721e68fb1cf8f0800000000000000
+      internalID: -505498304359795847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_66
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 71
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c207d295e6649420800000000000000
+      internalID: 2635844818115691203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_67
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 48
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d498277875fd86660800000000000000
+      internalID: 7379393556474136909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_68
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 67
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06028ab51d0b470800000000000000
+      internalID: 8408450695893639388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_69
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 68
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20b73c0f7f0ff1e0800000000000000
+      internalID: -2161992257774309333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_70
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 66
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb72c84512101820800000000000000
+      internalID: 2886827243768806330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_71
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 42
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3a55fc0f8cd6540800000000000000
+      internalID: 5002875697674691515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_72
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 48
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eab3f5a69e49ff60800000000000000
+      internalID: 8068566616347228902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_73
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 49
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981613db60fe98460800000000000000
+      internalID: 7244584287825125769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_74
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 58
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5ceefc4c88d17b0800000000000000
+      internalID: -5251891211560630846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_75
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 49
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21d2949cce44c930800000000000000
+      internalID: 4162538596170125612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7aea98a31d74bda0800000000000000
+      internalID: -5929977285953525121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_77
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 47
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe235b7f921f53980800000000000000
+      internalID: -8559670354195959057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_78
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 58
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7969f1ca819765380800000000000000
+      internalID: -8982859259869948265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_79
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 57
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9619f20b30d27ce10800000000000000
+      internalID: 2217790835367317865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_80
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 30
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d123e297ee8a2fa00800000000000000
+      internalID: 788878626932011549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_81
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 63
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22782b9a7e988500800000000000000
+      internalID: 398742816448606766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_82
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 60
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4fd59d8cb61f1e0800000000000000
+      internalID: -2165831435404053342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_83
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 49
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e116dd8e18314600800000000000000
+      internalID: 450703141593551328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_84
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 31
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606046c38a02022d0800000000000000
+      internalID: -3305606219550161402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_85
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 58
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87eea8c097d044060800000000000000
+      internalID: 6936684139610041976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_86
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 47
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf58ca4de0627ed0800000000000000
+      internalID: -2417763477666373697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_87
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 46
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44a7a13f58131060800000000000000
+      internalID: 6922903849332614223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_88
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c8fa458c8ec610800000000000000
+      internalID: 1643405418153166583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_89
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 45
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca78c71b336d3cf0800000000000000
+      internalID: -270951297119126837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_90
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaadd22959f59dc60800000000000000
+      internalID: 7843405322049673902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_91
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a84a3e6d565b7e90800000000000000
+      internalID: -7026927834300266328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_92
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 44
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f6840eae2fc8390800000000000000
+      internalID: -7814604162795540661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_93
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 39
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffa3a207461e3180800000000000000
+      internalID: -9133838500018016259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_94
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f2580d7489855d0800000000000000
+      internalID: -3073539311471874197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_95
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 38
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7314ef442df73640800000000000000
+      internalID: 5059791038775038843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_96
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 34
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada830e26bcd42c60800000000000000
+      internalID: 7792595930271943386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_97
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 35
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c461e9ef9479e7c0800000000000000
+      internalID: -4041570960415824700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_98
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 35
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14658edf152e3e200800000000000000
+      internalID: 208258849569265217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CloudMonster_99
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 34
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6d81ef6cba40920800000000000000
+      internalID: 2955676126616803055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CloudMonster_0: -9106951870166755127
+      CloudMonster_1: 5816197035690754119
+      CloudMonster_10: 5465577996834084935
+      CloudMonster_11: 389563775790903342
+      CloudMonster_12: 6887722719741622456
+      CloudMonster_13: -8596346919119064516
+      CloudMonster_14: -5757768127228572862
+      CloudMonster_15: -5699174448872179817
+      CloudMonster_16: -750083355696576660
+      CloudMonster_17: 8903811300417389254
+      CloudMonster_18: -6475054980294905616
+      CloudMonster_19: -2206262727365658512
+      CloudMonster_2: 3165055883277995390
+      CloudMonster_20: 4877606886264613870
+      CloudMonster_21: -3164736875372353843
+      CloudMonster_22: 8576220393047869472
+      CloudMonster_23: 8587098916124941083
+      CloudMonster_24: -2559622429879140964
+      CloudMonster_25: 8115414507655532521
+      CloudMonster_26: 3787136654371956350
+      CloudMonster_27: 4002998151869730713
+      CloudMonster_28: 5527044113584506035
+      CloudMonster_29: 8123044122525218945
+      CloudMonster_3: -236847909173131516
+      CloudMonster_30: 3824276230491330994
+      CloudMonster_31: -6582539182204433392
+      CloudMonster_32: -8676790799121155911
+      CloudMonster_33: -5526165374429574018
+      CloudMonster_34: -3104559889735044307
+      CloudMonster_35: 397573480882118587
+      CloudMonster_36: -7948013074586415991
+      CloudMonster_37: 1899398348119560548
+      CloudMonster_38: 6664532111963188483
+      CloudMonster_39: -8885071937923049026
+      CloudMonster_4: -3134053922112127212
+      CloudMonster_40: 2196377900803752290
+      CloudMonster_41: -1753774934818516030
+      CloudMonster_42: -1984281505788725243
+      CloudMonster_43: 4876680355305570828
+      CloudMonster_44: -7763181451461624521
+      CloudMonster_45: -1098352268141914383
+      CloudMonster_46: -4094971450529427386
+      CloudMonster_47: -440078682164913159
+      CloudMonster_48: -7097853166835802170
+      CloudMonster_49: 5902484858453476292
+      CloudMonster_5: -4786264814021227182
+      CloudMonster_50: 1052308718214264198
+      CloudMonster_51: 8853545610920097545
+      CloudMonster_52: -7871623746818335862
+      CloudMonster_53: 8676875155858492287
+      CloudMonster_54: -5579568112121063048
+      CloudMonster_55: -9058370614660091719
+      CloudMonster_56: -5719631867001965709
+      CloudMonster_57: -6476948390962318162
+      CloudMonster_58: 7772615855665049179
+      CloudMonster_59: 1078844130888161212
+      CloudMonster_6: -7457437765023369985
+      CloudMonster_60: 687275884554311789
+      CloudMonster_61: -6615610809478153238
+      CloudMonster_62: 1336894541145972526
+      CloudMonster_63: 4119808147737382873
+      CloudMonster_64: 600014423196027598
+      CloudMonster_65: -505498304359795847
+      CloudMonster_66: 2635844818115691203
+      CloudMonster_67: 7379393556474136909
+      CloudMonster_68: 8408450695893639388
+      CloudMonster_69: -2161992257774309333
+      CloudMonster_7: -5059167554147627858
+      CloudMonster_70: 2886827243768806330
+      CloudMonster_71: 5002875697674691515
+      CloudMonster_72: 8068566616347228902
+      CloudMonster_73: 7244584287825125769
+      CloudMonster_74: -5251891211560630846
+      CloudMonster_75: 4162538596170125612
+      CloudMonster_76: -5929977285953525121
+      CloudMonster_77: -8559670354195959057
+      CloudMonster_78: -8982859259869948265
+      CloudMonster_79: 2217790835367317865
+      CloudMonster_8: -8326717222021000448
+      CloudMonster_80: 788878626932011549
+      CloudMonster_81: 398742816448606766
+      CloudMonster_82: -2165831435404053342
+      CloudMonster_83: 450703141593551328
+      CloudMonster_84: -3305606219550161402
+      CloudMonster_85: 6936684139610041976
+      CloudMonster_86: -2417763477666373697
+      CloudMonster_87: 6922903849332614223
+      CloudMonster_88: 1643405418153166583
+      CloudMonster_89: -270951297119126837
+      CloudMonster_9: -7278496601101247980
+      CloudMonster_90: 7843405322049673902
+      CloudMonster_91: -7026927834300266328
+      CloudMonster_92: -7814604162795540661
+      CloudMonster_93: -9133838500018016259
+      CloudMonster_94: -3073539311471874197
+      CloudMonster_95: 5059791038775038843
+      CloudMonster_96: 7792595930271943386
+      CloudMonster_97: -4041570960415824700
+      CloudMonster_98: 208258849569265217
+      CloudMonster_99: 2955676126616803055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

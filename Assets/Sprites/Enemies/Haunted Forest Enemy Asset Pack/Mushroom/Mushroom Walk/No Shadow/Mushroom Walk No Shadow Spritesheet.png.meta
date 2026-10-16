@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: a49306557b9a54ce5a6ae180d0c37a81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1438317730293107385
+    second: Mushroom Walk No Shadow Spritesheet_0
+  - first:
+      213: -6801681522582021957
+    second: Mushroom Walk No Shadow Spritesheet_1
+  - first:
+      213: -3996291232865549554
+    second: Mushroom Walk No Shadow Spritesheet_2
+  - first:
+      213: -6855221325862396652
+    second: Mushroom Walk No Shadow Spritesheet_3
+  - first:
+      213: -4147286565102031908
+    second: Mushroom Walk No Shadow Spritesheet_4
+  - first:
+      213: 160160954796730664
+    second: Mushroom Walk No Shadow Spritesheet_5
+  - first:
+      213: -6291987993458539796
+    second: Mushroom Walk No Shadow Spritesheet_6
+  - first:
+      213: 5167022102297007592
+    second: Mushroom Walk No Shadow Spritesheet_7
+  - first:
+      213: -5800068297377276667
+    second: Mushroom Walk No Shadow Spritesheet_8
+  - first:
+      213: 7307232425736477932
+    second: Mushroom Walk No Shadow Spritesheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1095
+        width: 338
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba444cea5ee5f310800000000000000
+      internalID: 1438317730293107385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1100
+        width: 345
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8192b21b29b91a0800000000000000
+      internalID: -6801681522582021957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1109
+        width: 339
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e038a060c425a88c0800000000000000
+      internalID: -3996291232865549554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1245
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d1a4f468c5dd0a0800000000000000
+      internalID: -6855221325862396652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 593
+        width: 347
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbe751a7d0e176c0800000000000000
+      internalID: -4147286565102031908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 570
+        width: 339
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829eb813a81093200800000000000000
+      internalID: 160160954796730664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 593
+        width: 347
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce281ee914e5ea8a0800000000000000
+      internalID: -6291987993458539796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 85
+        width: 339
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5510ad933f4b740800000000000000
+      internalID: 5167022102297007592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 221
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d92d51d94028fa0800000000000000
+      internalID: -5800068297377276667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mushroom Walk No Shadow Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 76
+        width: 345
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec1d330d21886560800000000000000
+      internalID: 7307232425736477932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mushroom Walk No Shadow Spritesheet_0: 1438317730293107385
+      Mushroom Walk No Shadow Spritesheet_1: -6801681522582021957
+      Mushroom Walk No Shadow Spritesheet_2: -3996291232865549554
+      Mushroom Walk No Shadow Spritesheet_3: -6855221325862396652
+      Mushroom Walk No Shadow Spritesheet_4: -4147286565102031908
+      Mushroom Walk No Shadow Spritesheet_5: 160160954796730664
+      Mushroom Walk No Shadow Spritesheet_6: -6291987993458539796
+      Mushroom Walk No Shadow Spritesheet_7: 5167022102297007592
+      Mushroom Walk No Shadow Spritesheet_8: -5800068297377276667
+      Mushroom Walk No Shadow Spritesheet_9: 7307232425736477932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

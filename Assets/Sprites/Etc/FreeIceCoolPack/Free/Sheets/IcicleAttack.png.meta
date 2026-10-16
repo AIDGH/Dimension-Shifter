@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: ac7f18bfe3b524b9dbca72224a68f4e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6899587729504400069
+    second: IcicleAttack_0
+  - first:
+      213: 8471218518796242835
+    second: IcicleAttack_1
+  - first:
+      213: 4943715942199812340
+    second: IcicleAttack_2
+  - first:
+      213: -1208309658935805486
+    second: IcicleAttack_3
+  - first:
+      213: 6543153304351627709
+    second: IcicleAttack_4
+  - first:
+      213: -5149319441279770520
+    second: IcicleAttack_5
+  - first:
+      213: -3538804376214903954
+    second: IcicleAttack_6
+  - first:
+      213: 2028169606475380209
+    second: IcicleAttack_7
+  - first:
+      213: -8159072534879951472
+    second: IcicleAttack_8
+  - first:
+      213: 7811919322492285199
+    second: IcicleAttack_9
+  - first:
+      213: 3044955188043093482
+    second: IcicleAttack_10
+  - first:
+      213: -1671818392443151430
+    second: IcicleAttack_11
+  - first:
+      213: 5542405002976692888
+    second: IcicleAttack_12
+  - first:
+      213: -2543116430951890933
+    second: IcicleAttack_13
+  - first:
+      213: -2236844160856491203
+    second: IcicleAttack_14
+  - first:
+      213: -9038229507920505732
+    second: IcicleAttack_15
+  - first:
+      213: -7964575463837427934
+    second: IcicleAttack_16
+  - first:
+      213: 4503610790476642713
+    second: IcicleAttack_17
+  - first:
+      213: 1613073988530937622
+    second: IcicleAttack_18
+  - first:
+      213: -2323535477321473317
+    second: IcicleAttack_19
+  - first:
+      213: 8860679525747530190
+    second: IcicleAttack_20
+  - first:
+      213: 3148183338043473064
+    second: IcicleAttack_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IcicleAttack_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 102
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d0f3ef38dbf30a0800000000000000
+      internalID: -6899587729504400069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 114
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f8f834c50df8570800000000000000
+      internalID: 8471218518796242835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 114
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0614dd47b9b9440800000000000000
+      internalID: 4943715942199812340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 114
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9357064c83b3fe0800000000000000
+      internalID: -1208309658935805486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 102
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db95dc06343fdca50800000000000000
+      internalID: 6543153304351627709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 102
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860a18b1041f988b0800000000000000
+      internalID: -5149319441279770520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 102
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63ec125b24a3eec0800000000000000
+      internalID: -3538804376214903954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 82
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5753ae281852c10800000000000000
+      internalID: 2028169606475380209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 82
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095a5d512c625ce80800000000000000
+      internalID: -8159072534879951472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 82
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01b9270c33896c60800000000000000
+      internalID: 7811919322492285199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 82
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae59a445c9ad14a20800000000000000
+      internalID: 3044955188043093482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 70
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb167d97028cc8e0800000000000000
+      internalID: -1671818392443151430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a06cb3cf39aec40800000000000000
+      internalID: 5542405002976692888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0047ae741905bcd0800000000000000
+      internalID: -2543116430951890933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 70
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bfd36461225f0e0800000000000000
+      internalID: -2236844160856491203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 50
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74d1fd2622c19280800000000000000
+      internalID: -9038229507920505732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 38
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2279d2350d4287190800000000000000
+      internalID: -7964575463837427934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 70
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999f9fc172a008e30800000000000000
+      internalID: 4503610790476642713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 50
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f1fc20f3ac26610800000000000000
+      internalID: 1613073988530937622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 43
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd26c334bc421cfd0800000000000000
+      internalID: -2323535477321473317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 35
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec912c0351577fa70800000000000000
+      internalID: 8860679525747530190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcicleAttack_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 31
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac72efe01890bb20800000000000000
+      internalID: 3148183338043473064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IcicleAttack_0: -6899587729504400069
+      IcicleAttack_1: 8471218518796242835
+      IcicleAttack_10: 3044955188043093482
+      IcicleAttack_11: -1671818392443151430
+      IcicleAttack_12: 5542405002976692888
+      IcicleAttack_13: -2543116430951890933
+      IcicleAttack_14: -2236844160856491203
+      IcicleAttack_15: -9038229507920505732
+      IcicleAttack_16: -7964575463837427934
+      IcicleAttack_17: 4503610790476642713
+      IcicleAttack_18: 1613073988530937622
+      IcicleAttack_19: -2323535477321473317
+      IcicleAttack_2: 4943715942199812340
+      IcicleAttack_20: 8860679525747530190
+      IcicleAttack_21: 3148183338043473064
+      IcicleAttack_3: -1208309658935805486
+      IcicleAttack_4: 6543153304351627709
+      IcicleAttack_5: -5149319441279770520
+      IcicleAttack_6: -3538804376214903954
+      IcicleAttack_7: 2028169606475380209
+      IcicleAttack_8: -8159072534879951472
+      IcicleAttack_9: 7811919322492285199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,42 @@
+
+Hi! I made this guide to help you slice each sprite sheet nicely and quickly.
+
+===== Import Settings =====
+
+1. Select all sprite sheets in the Project window
+
+2. In the Inspector, set:
+   Pixels Per Unit → 100
+   Under Advanced, 
+     Filter Mode → Point (No Filter)
+     Compression → None
+
+3. Click Apply
+
+
+===== Slicing Method =====
+
+For the best and most precise results:
+
+1. Select one of the sprite sheets
+
+2. In the Inspector, click Open Sprite Editor
+
+3. In the Sprite Editor, choose Slice → Grid by Cell Count
+
+4. Use the column counts below for each file:
+
+| Sprite Sheet File Name | Column Count |
+  ======================================
+| idle 			 |  8 columns   |
+| walk 			 |  8 columns   |
+
+3. Click Apply
+
+
+Notes:
+- All sprite sheets in this pack use only 1 row
+- The frames are already arranged in order from left to right
+
+Copyright (c) 2026 tale in tiles
+
