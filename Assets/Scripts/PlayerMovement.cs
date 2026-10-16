@@ -150,6 +150,7 @@ public class PlayerMovement : MonoBehaviour
             float launchSpeed = Mathf.Max(0f, jumpForce) / rb.mass;
             if (bufferedJumpReleased) launchSpeed *= jumpCutMultiplier;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, launchSpeed);
+            GameAudio.Play(canGroundJump ? "jump" : "air_jump", .4f);
             // A released buffered jump has already been shortened above.
             jumpReleased = false;
         }

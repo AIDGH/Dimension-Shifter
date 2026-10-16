@@ -5,15 +5,13 @@ public class CombatFeedback : MonoBehaviour
 {
     static CombatFeedback instance;
     static Sprite pixel;
-    static AudioClip impact;
     float resumeAt, previousScale;
     bool ownsPause;
-    AudioSource audioSource;
     struct Mote { public SpriteRenderer sprite; public Vector2 velocity; public float life; }
     readonly System.Collections.Generic.List<Mote> motes = new System.Collections.Generic.List<Mote>();
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
-    static void ResetStatics() { instance = null; pixel = null; impact = null; }
+    static void ResetStatics() { instance = null; pixel = null; }
     public static SpriteRenderer MakeSprite(string name, Transform parent)
     {
         if (pixel == null) pixel = Sprite.Create(Texture2D.whiteTexture, new Rect(0, 0, 1, 1), new Vector2(.5f, .5f), 1f);
@@ -42,14 +40,7 @@ public class CombatFeedback : MonoBehaviour
             float angle = (i + .3f) * Mathf.PI * 2 / count;
             motes.Add(new Mote { sprite = sr, velocity = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * (lethal ? 1.8f : 1.2f), life = lethal ? .5f : .24f });
         }
-        if (audioSource == null) { audioSource = gameObject.AddComponent<AudioSource>(); audioSource.playOnAwake = false; audioSource.spatialBlend = 0; }
-        if (impact == null)
-        {
-            const int rate = 22050; var samples = new float[2205]; var noise = new System.Random(947);
-            for (int i = 0; i < samples.Length; i++) { float t = (float)i / rate; samples[i] = ((float)noise.NextDouble() * 2 - 1) * .25f * Mathf.Exp(-t * 65) + Mathf.Sin(t * 2 * Mathf.PI * (160 - t * 900)) * .4f * Mathf.Exp(-t * 48); }
-            impact = AudioClip.Create("Slime impact", samples.Length, 1, rate, false); impact.SetData(samples, 0);
-        }
-        audioSource.pitch = lethal ? .8f : 1.1f; audioSource.PlayOneShot(impact, .35f);
+        GameAudio.Play(lethal ? "slime_death" : "slime_hit", .55f);
     }
     void Update()
     {

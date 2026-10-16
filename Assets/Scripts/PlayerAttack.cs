@@ -25,6 +25,8 @@ public class PlayerAttack : MonoBehaviour
     public Vector2 hitboxOffset = new Vector2(.65f, -.05f);
     public float activeFrom = .0833f;
     public float activeUntil = .5f;
+    public bool IsDashing => dashOwnsMovement;
+    private PlayerEnemyContact contact;
     private bool dashOwnsMovement;
     private bool previousMovementEnabled;
     private float previousGravity;
@@ -35,8 +37,8 @@ public class PlayerAttack : MonoBehaviour
     private float nextNormalAttackTime;
 
     [Header("Dash Attack (B)")]
-    [Min(0f)] public float dashForce = 10f;
-    [Min(0.01f)] public float dashAttackDuration = 0.5f;
+    [Min(0f)] public float dashForce = 16f;
+    [Min(0.01f)] public float dashAttackDuration = 0.45f;
     [Min(0f)] public float dashCooldown = 3f;
     private float nextDashTime;
 
@@ -54,6 +56,7 @@ public class PlayerAttack : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         body = GetComponent<Collider2D>();
         pm = GetComponent<PlayerMovement>();
+        contact = GetComponent<PlayerEnemyContact>();
         if (cooldownText != null) cooldownText.gameObject.SetActive(false);
     }
 
@@ -100,6 +103,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator NormalAttackRoutine()
     {
         BeginAttack();
+        GameAudio.Play("swing", .55f);
         // Keep normal movement, jumping and gravity under the movement controller.
         yield return new WaitForSeconds(Mathf.Max(0.01f, normalAttackDuration));
         FinishAttack();
@@ -112,6 +116,8 @@ public class PlayerAttack : MonoBehaviour
         previousGravity = rb.gravityScale;
         previousMovementEnabled = pm != null && pm.enabled;
         dashOwnsMovement = true;
+        if(contact != null)contact.BeginDash();
+        GameAudio.Play("dash", .6f);
         if (pm != null) pm.enabled = false;
         rb.gravityScale = 0f;
         float facing = transform.lossyScale.x < 0f ? -1f : 1f;
@@ -122,7 +128,7 @@ public class PlayerAttack : MonoBehaviour
         WaitForFixedUpdate physicsTick = new WaitForFixedUpdate();
         while (elapsed < duration)
         {
-            float speed = Mathf.Lerp(dashForce, 0f, elapsed / duration);
+            float speed = Mathf.Lerp(dashForce, dashForce * .35f, elapsed / duration);
             if (DashBlocked(facing, speed * Time.fixedDeltaTime)) speed = 0f;
             rb.linearVelocity = new Vector2(facing * speed, 0f);
             yield return physicsTick;
@@ -135,7 +141,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (!isAttacking) return;
         attackElapsed += Time.fixedDeltaTime;
-        if (attackElapsed >= activeFrom && attackElapsed < activeUntil) ResolveHits();
+        if (dashOwnsMovement || (attackElapsed >= activeFrom && attackElapsed < activeUntil)) ResolveHits();
     }
 
     private void ResolveHits()
@@ -144,9 +150,10 @@ public class PlayerAttack : MonoBehaviour
         var sr = GetComponent<SpriteRenderer>();
         if (sr != null && sr.flipX) facing *= -1f;
         Vector2 origin = body != null ? (Vector2)body.bounds.center : rb.position;
-        Vector2 center = origin + new Vector2(hitboxOffset.x * facing, hitboxOffset.y);
+        Vector2 center = origin + new Vector2((dashOwnsMovement ? .3f : hitboxOffset.x) * facing, hitboxOffset.y);
+        Vector2 size = dashOwnsMovement ? new Vector2(1.8f, hitboxSize.y) : hitboxSize;
         var filter = new ContactFilter2D(); filter.SetLayerMask(enemyLayers); filter.useTriggers = true;
-        int count = Physics2D.OverlapBox(center, hitboxSize, 0, filter, targets);
+        int count = Physics2D.OverlapBox(center, size, 0, filter, targets);
         for (int i = 0; i < count; i++)
         {
             var enemy = targets[i].GetComponentInParent<EnemyHealth>();
@@ -172,7 +179,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (body == null) return false;
         ContactFilter2D filter = new ContactFilter2D();
-        if (pm != null) filter.SetLayerMask(pm.groundLayer);
+        filter.SetLayerMask(attackBlockingLayers);
         filter.useTriggers = false;
         Vector2 direction = Vector2.right * facing;
         int count = body.Cast(direction, filter, dashHits, distance + 0.01f);
@@ -188,6 +195,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (dashOwnsMovement)
         {
+            if(contact != null)contact.EndDash();
             rb.gravityScale = previousGravity;
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
             if (pm != null) pm.enabled = previousMovementEnabled;

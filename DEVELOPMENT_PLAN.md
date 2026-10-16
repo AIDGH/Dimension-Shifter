@@ -113,3 +113,12 @@
 - Added temporary fading enemy health bar, Hurt/Die animation, stun/knockback, bright flash, generated impact sound, short real-time hit pause and impact motes. Death immediately disables colliders/patrol/physics, then removes enemy and health bar after animation/fade.
 - Both playable scenes wired. Slime attacks are deliberately deferred per user request.
 - Validated in an isolated Unity copy: 25 movement checks, 13 combat checks, 5 actual Play Mode combat checks, all 8 chunk prop audits and continuous-slope checks. Window control unavailable (CUA connection error); no claim of a manual full-level playthrough.
+
+## Update: audio, contact damage, phase dash, chunk selection (2026-10-16)
+
+- Imported 24 selected CC0 Kenney RPG/Impact clips with source licenses; added a bounded eight-voice SFX pool and distance-based surface footsteps.
+- Slime contact: 20 HP damage, 2-second shared cooldown, renderer-independent protection and blinking. Normal melee can land without contact.
+- B: 0.45-second phase dash, 3-second cooldown; enemy-only collision exclusion, 0.18-second exit grace, restored collision after separation; no trap immunity. Test passes against a slime kept alive to verify actual traversal.
+- Zero player health disables controls; R retries current scene. Both scenes enabled in build settings.
+- All six mid-chunk weights now 10; weighted no-replacement cycles avoid starvation and consecutive repetition when alternatives fit. Chunk_02 previously had weight 100/117.
+- Next suggested scope: clearly telegraphed slime leap attack; then a short two-dimension traversal/combat section and a finish/checkpoint loop.

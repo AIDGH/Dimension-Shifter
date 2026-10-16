@@ -70,36 +70,16 @@ public class LevelGenerator : MonoBehaviour
 
     void Update()
     {
-        if (levelFinished) return;
+        if (levelFinished || player == null || lastEndPosition == null) return;
 
         if (Vector2.Distance(player.position, lastEndPosition.position) < spawnDistance)
         {
             float remainingSpace = levelMaxX - lastEndPosition.position.x - endChunkLength;
 
-            List<WeightedChunk> validChunks = new List<WeightedChunk>();
-            int totalWeight = 0;
-
-            foreach (var item in midChunks)
+            GameObject next = ChooseNextChunk(remainingSpace);
+            if (next != null)
             {
-                if (item.length <= remainingSpace)
-                {
-                    validChunks.Add(item);
-                    totalWeight += item.weight;
-                }
-            }
-
-            if (validChunks.Count > 0)
-            {
-                int randomValue = Random.Range(0, totalWeight);
-                foreach (var item in validChunks)
-                {
-                    if (randomValue < item.weight)
-                    {
-                        SpawnSpecificChunk(item.chunkPrefab, lastEndPosition.position);
-                        break;
-                    }
-                    randomValue -= item.weight;
-                }
+                SpawnSpecificChunk(next, lastEndPosition.position);
             }
             else
             {
@@ -111,6 +91,32 @@ public class LevelGenerator : MonoBehaviour
                 levelFinished = true;
             }
         }
+    }
+
+    private readonly HashSet<GameObject> usedInCycle = new HashSet<GameObject>();
+    private GameObject previousChunk;
+
+    // Weighted selection without replacement: give every fitting chunk a turn.
+    public GameObject ChooseNextChunk(float remainingSpace)
+    {
+        var fitting = new List<WeightedChunk>();
+        foreach (var item in midChunks)
+            if (item != null && item.chunkPrefab != null && item.length > 0f && item.length <= remainingSpace)
+                fitting.Add(item);
+        if (fitting.Count == 0) return null;
+        var candidates = fitting.FindAll(item => !usedInCycle.Contains(item.chunkPrefab));
+        if (candidates.Count == 0) { usedInCycle.Clear(); candidates.AddRange(fitting); }
+        if (candidates.Count > 1) candidates.RemoveAll(item => item.chunkPrefab == previousChunk);
+        int total = 0;
+        foreach (var item in candidates) total += Mathf.Max(1, item.weight);
+        int roll = Random.Range(0, total);
+        foreach (var item in candidates)
+        {
+            roll -= Mathf.Max(1, item.weight);
+            if (roll >= 0) continue;
+            previousChunk = item.chunkPrefab; usedInCycle.Add(previousChunk); return previousChunk;
+        }
+        return null;
     }
 
     void SpawnSpecificChunk(GameObject prefab, Vector3 position)

@@ -5228,22 +5228,22 @@ MonoBehaviour:
   - {fileID: 8286138028367707816, guid: 9a73c12fbb84640b9962c23470db42ee, type: 3}
   midChunks:
   - chunkPrefab: {fileID: 1250948205135234389, guid: 388ee5dc3ea58425d8c94de47f2da764, type: 3}
-    weight: 1
+    weight: 10
     length: 0
   - chunkPrefab: {fileID: 8871029992822477718, guid: 9f3a495a0c5df4ae6bf56d5c973f0dfc, type: 3}
-    weight: 100
+    weight: 10
     length: 0
   - chunkPrefab: {fileID: 3541072488120019048, guid: bb30f9a4419344dbfb53c9150cc75ce9, type: 3}
-    weight: 3
+    weight: 10
     length: 0
   - chunkPrefab: {fileID: 4122550595619426016, guid: 8ecaacd3ec2714f37947d4e6281934f2, type: 3}
-    weight: 7
+    weight: 10
     length: 0
   - chunkPrefab: {fileID: 6637222970509723059, guid: e754e3f86072f4b2d865c09123e98d79, type: 3}
-    weight: 4
+    weight: 10
     length: 0
   - chunkPrefab: {fileID: 8203081373701955132, guid: cdc3924afe8fb43c784c1d04d2bf0355, type: 3}
-    weight: 2
+    weight: 10
     length: 0
   endChunks:
   - {fileID: 8033513389308798074, guid: f90e8b0264df643e09e3d1f06d1ec768, type: 3}
@@ -5910,6 +5910,8 @@ GameObject:
   - component: {fileID: 1161213800}
   - component: {fileID: 1161213801}
   - component: {fileID: 1161213802}
+  - component: {fileID: 1161213804}
+  - component: {fileID: 1161213803}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6134,8 +6136,8 @@ MonoBehaviour:
   healthBarFill: {fileID: 534872154}
   spriteRenderer: {fileID: 1161213796}
   damageColor: {r: 1, g: 0, b: 0, a: 1}
-  iFramesDuration: 1.5
-  numberOfFlashes: 4
+  iFramesDuration: 2
+  numberOfFlashes: 6
 --- !u!114 &1161213802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6162,12 +6164,42 @@ MonoBehaviour:
   activeUntil: 0.5
   normalAttackRate: 2
   normalAttackDuration: 0.6667
-  dashForce: 10
-  dashAttackDuration: 0.5
+  dashForce: 16
+  dashAttackDuration: 0.45
   dashCooldown: 3
   yLiftOffset: 0.15
   cooldownText: {fileID: 442644263}
   textDisplayDuration: 1
+--- !u!114 &1161213803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161213793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9ec2cfa4e394452b5231074a12e4de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementAudio
+  stepDistance: 0.95
+--- !u!114 &1161213804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161213793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2247ed7a491427185233d7e71375cd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerEnemyContact
+  contactDamage: 20
+  dashExitGrace: 0.18
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &1169551231
 GameObject:
   m_ObjectHideFlags: 0
