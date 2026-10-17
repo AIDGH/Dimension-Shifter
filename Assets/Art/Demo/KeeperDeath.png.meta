@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 47e32426bf9964bcba6d35ee21f8e794
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1071945701059910679
+    second: KeeperDeath_0
+  - first:
+      213: 6659451311551629402
+    second: KeeperDeath_1
+  - first:
+      213: 5733615738856372383
+    second: KeeperDeath_2
+  - first:
+      213: 2606110596663518984
+    second: KeeperDeath_3
+  - first:
+      213: -4251619776168427281
+    second: KeeperDeath_4
+  - first:
+      213: -1294468783121987159
+    second: KeeperDeath_5
+  - first:
+      213: -3141845965807748822
+    second: KeeperDeath_6
+  - first:
+      213: 9138939316628651999
+    second: KeeperDeath_7
+  - first:
+      213: 5203014537363481524
+    second: KeeperDeath_8
+  - first:
+      213: -5136826989304602413
+    second: KeeperDeath_9
+  - first:
+      213: 1566113463439326316
+    second: KeeperDeath_10
+  - first:
+      213: 2055710225587983981
+    second: KeeperDeath_11
+  - first:
+      213: 7025858093313272243
+    second: KeeperDeath_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KeeperDeath_10
+      rect:
+        serializedVersion: 2
+        x: 10950
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cf14ab5e3fbb510800000000000000
+      internalID: 1566113463439326316
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_11
+      rect:
+        serializedVersion: 2
+        x: 12045
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d665f4dfe89578c10800000000000000
+      internalID: 2055710225587983981
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_12
+      rect:
+        serializedVersion: 2
+        x: 13140
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9ad3616bcd08160800000000000000
+      internalID: 7025858093313272243
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abc11843f57c4204802e5bdde7ef284
+      internalID: -983166690
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_01
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2d153c6cc944dc6b3759d87b673321
+      internalID: 1426489531
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_02
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070a7eab40fa4e0f99e650bd8e1b66c
+      internalID: 1606925955
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_03
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5bba58e58ee4fe2a41ea4a2b877ecd
+      internalID: -1910400186
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_04
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bf1fd5c030c4756ac186e7fb2aeade
+      internalID: 550696524
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_05
+      rect:
+        serializedVersion: 2
+        x: 5475
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8a7feb4bbc748acbfec3423aca0816
+      internalID: -2013132802
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_06
+      rect:
+        serializedVersion: 2
+        x: 6570
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4cc9c44021a4ef4bf3524e2da0f9fd
+      internalID: 731401569
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_07
+      rect:
+        serializedVersion: 2
+        x: 7665
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b25e9c2942045d284aa53a8ad8a4b1
+      internalID: 578686643
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_08
+      rect:
+        serializedVersion: 2
+        x: 8760
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20c37482056d408199e998d55a3fa73
+      internalID: 957234600
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperDeath_09
+      rect:
+        serializedVersion: 2
+        x: 9855
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349918bf2ef6d446ab8b4d2e4f945b67
+      internalID: 1654707531
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID: ca03977750ba1432aabd19050b53b464
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KeeperDeath_00: -983166690
+      KeeperDeath_01: 1426489531
+      KeeperDeath_02: 1606925955
+      KeeperDeath_03: -1910400186
+      KeeperDeath_04: 550696524
+      KeeperDeath_05: -2013132802
+      KeeperDeath_06: 731401569
+      KeeperDeath_07: 578686643
+      KeeperDeath_08: 957234600
+      KeeperDeath_09: 1654707531
+      KeeperDeath_10: 1566113463439326316
+      KeeperDeath_11: 2055710225587983981
+      KeeperDeath_12: 7025858093313272243
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

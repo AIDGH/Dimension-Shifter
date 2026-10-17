@@ -1,26 +1,43 @@
-# Dimension Shifter
+# Dimension Shifter — The Rift Warden demo
 
-A chunk-based 2D action platformer built with Unity 6000.5.0f1 (URP 2D).
+A Unity 6000.5.0f1 / URP 2D action platformer built around Frost/Echo dimension shifting.
 
-Open this folder in Unity Hub using the version listed in `ProjectSettings/ProjectVersion.txt`.
+Open `Assets/Scenes/PaintedDimension.unity` and press Play, then choose **Begin Journey** (Enter). `SampleScene.unity` preserves the original terrain style with the same demo progression. The original random chunk library remains available; the demo follows ten authored encounters so its puzzles and boss cannot be skipped by random generation.
 
-- `Assets/Scenes/SampleScene.unity`: original pixel environment with the current movement and background fixes.
-- `Assets/Scenes/PaintedDimension.unity`: separate first pass of the painted stone environment, with eight painted chunk prefabs; original stones, crystals, trees, wood and bridge props are preserved. Press Play to generate the level.
+## Controls
 
-Controls: A/D or arrow keys to move, Space to jump/double jump, V for a normal strike (1 damage), B for a dash strike (2 damage). Acceleration can be toggled on PlayerMovement in the Inspector.
+| Key | Action |
+| --- | --- |
+| A/D or arrows | Move |
+| Space | Jump / one air jump |
+| V | Sword strike |
+| B | Phase dash through enemies; 3-second cooldown |
+| Q | Switch world; 2-second cooldown |
+| E | Use door, altar or portal |
+| C | Spirit bolt after finding the sanctuary reward; 1.35-second cooldown |
+| M | Toggle music |
+| R after death | Return to checkpoint |
+| N after death | Restart the entire journey |
 
-This checkpoint includes movement/slope and parallax fixes. Slimes have 3 HP, a temporary health bar on hit, knockback/stun, a hit flash/sound/pause, and a death animation with collider cleanup. Enemy attacks and dimension switching remain for later. Character and slime artwork are still the existing pixel assets.
+Start and outcome menus also support mouse buttons. The journey timer counts active gameplay, pauses at the start/death/finish screens, and resets on a new run.
 
-Development notes are in `DEVELOPMENT_PLAN.md`. Editor validation sources and the painted environment builder are under `Tools/`; run them in an isolated validation project as described in their source headers. Movement validation passed 25 checks; combat regression passed 13 checks and Play Mode combat passed 5 checks. Scenery validation checks all eight chunks, 100 slope ray samples and player slope traversal. Earlier rendered background validation passed nine repeat boundaries. These do not replace a complete playthrough or a standalone build test.
+## The journey
 
-Keep source asset attribution and license files with their assets. Generated painted artwork is documented in `Assets/Art/Painted/README.md`.
+1. Learn combat in Leap Garden and climb Crystal Ascent.
+2. Claim the upper sanctuary key in **Echo**, use it at the **Frost** doorway, enter the elevated hidden room, and claim Spirit Bolt at the altar. Use its return portal.
+3. Descend through enemy encounters and the dimension barriers.
+4. Shoot both seals in their matching world to open the relay gate.
+5. Clear three waves of inhabitants across **both** worlds in the proving grounds.
+6. Defeat the **Rift Warden**, then reach the final sanctuary.
 
-## Audio, contact damage and chunk variety
+The Warden has 64 HP, pursuit, a warned heavy charge/melee attack, ranged fans and alternating blue/violet recovery windows. Only the matching dimension can damage an exposed core. Below half health it pursues faster, warns for less time, and fires five bolts instead of three. Death resets the trial or boss encounter and opens its entrance for another attempt.
 
-Kenney CC0 SFX now cover footsteps (stone/snow/wood), sword swings, dash, jumps, landing, hurt and death. Licenses and source links: `Assets/Audio/README.md`. `GameAudio.masterVolume` adjusts the runtime SFX volume.
+Landing on a mushroom from above deals one damage and rebounds without contact damage. Side contact still hurts. The standalone slime that used to fall into the opening scene is removed. Enemies now show an exclamation mark before attacking.
 
-Slime contact costs 20 of 100 HP, with 2 seconds of damage invincibility and blinking. Normal melee reaches beyond physical contact. B phases through living enemies and deals 2 damage once; terrain still blocks the dash. The dash lasts 0.45 seconds with a 3-second cooldown and 0.18-second contact grace on exit. Traps remain dangerous during dash. At zero HP, controls stop and R reloads the current scene.
+Checkpoints preserve discovered keys, the weapon, activated seals, score and defeated ordinary enemies **during the current run**. There is no disk-save/profile/inventory system yet. Restarting resets the run.
 
-Both scenes have equal mid-chunk weights and weighted selection without replacement. Every fitting chunk gets a turn before reuse; near the end, only chunks fitting the remaining space are eligible. The original Chunk_02 weight of 100 (versus a total 17 for the other five) caused its ~85% selection rate.
+The first-play pacing target is approximately 7–8 minutes across traversal, discovery, mandatory fights and boss retries; it is a design estimate, not a measured or enforced minimum. Experienced play can finish faster. See `Docs/DemoRelease.md` for validation and limitations.
 
-Validation for this update: 11 focused audio/contact/chunk checks; actual Play Mode checks for safe melee reach, contact cooldown, passing through a surviving slime, damage resuming and the bounded SFX pool; existing 25 movement checks and 13 combat checks.
+Editor builders and tests live under `Tools/`, outside runtime imports. Copy `Tools/Demo/DemoSetup.cs`, `Tools/Art/PaintedVariantBuilder.cs`, and desired `Tools/Validation/Editor/*.cs` into an isolated project's `Assets/Editor` to regenerate/test. Run `DemoSetup.Run` on the existing polished project; do not run older expansion builders afterward without rebuilding the demo.
+
+Source artwork/audio attribution remains alongside the assets. Demo reference art is documented in `Assets/Art/Demo/PROVENANCE.md`.

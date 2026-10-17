@@ -12,6 +12,8 @@ public class PlayerEnemyContact : MonoBehaviour
     readonly Collider2D[] overlaps = new Collider2D[32];
     bool phasing, dashing;
     float graceRemaining;
+    float stompReady;
+    public int StompCount { get; private set; }
     public bool IsContactProtected => dashing || graceRemaining > 0f;
     void Awake()
     {
@@ -47,7 +49,17 @@ public class PlayerEnemyContact : MonoBehaviour
     public bool TryContact(EnemyHealth enemy)
     {
         if(enemy == null || enemy.IsDead || IsContactProtected) return false;
+        if(TryStomp(enemy))return false;
         return health.TryTakeDamage(contactDamage);
+    }
+    bool TryStomp(EnemyHealth enemy)
+    {
+        var ai=enemy.GetComponent<EnemyAttackAI>();
+        if(ai==null||ai.kind!=EnemyAttackAI.AttackKind.Spore||Time.time<stompReady)return false;
+        var shape=enemy.GetComponent<Collider2D>();var own=GetComponent<Collider2D>();var rb=GetComponent<Rigidbody2D>();
+        if(rb.linearVelocity.y>.2f||own.bounds.min.y<shape.bounds.max.y-.22f||Mathf.Abs(own.bounds.center.x-shape.bounds.center.x)>shape.bounds.extents.x+.1f)return false;
+        if(!enemy.TakeDamage(1,own.bounds.center,0))return false;
+        stompReady=Time.time+.25f;graceRemaining=.18f;rb.linearVelocity=new Vector2(rb.linearVelocity.x,11.5f);StompCount++;GameAudio.Play("jump",.45f);return true;
     }
     void OnCollisionEnter2D(Collision2D hit) => TryContact(hit.collider.GetComponentInParent<EnemyHealth>());
     void OnCollisionStay2D(Collision2D hit) => TryContact(hit.collider.GetComponentInParent<EnemyHealth>());

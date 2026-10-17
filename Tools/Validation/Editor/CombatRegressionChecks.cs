@@ -1,4 +1,4 @@
-using System;using System.Collections.Generic;using System.IO;using System.Reflection;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;
+using System;using System.Linq;using System.Collections.Generic;using System.IO;using System.Reflection;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;
 public static class CombatRegressionChecks
 {
  static readonly BindingFlags Private=BindingFlags.Instance|BindingFlags.NonPublic;
@@ -24,7 +24,7 @@ public static class CombatRegressionChecks
  Check("hurt suspends patrol, applies knockback, then resumes",()=>{Strike();Need(!enemy.GetComponent<EnemyPatrol>().enabled&&enemy.IsStunned,"No stun");Need(enemy.GetComponent<Rigidbody2D>().linearVelocity.x>0,"Wrong knockback");Call(enemy,"Tick",.4f);Need(enemy.GetComponent<EnemyPatrol>().enabled&&!enemy.IsStunned,"No resume");});
  Check("death is immediate, disables every collider and rejects later damage",()=>{enemy.TakeDamage(3,Vector2.left);Need(enemy.IsDead&&!enemy.GetComponent<Rigidbody2D>().simulated&&!enemy.GetComponent<EnemyPatrol>().enabled,"Death still moves");foreach(var c in enemy.GetComponentsInChildren<Collider2D>())Need(!c.enabled,"Ghost collider");Need(!enemy.TakeDamage(1,Vector2.left)&&enemy.CurrentHealth==0,"Damage accepted after death");});
  Check("disabling attack cancels its damage window",()=>{Call(player,"BeginAttack");Call(player,"OnDisable");Call(player,"FixedUpdate");Need(enemy.CurrentHealth==3,"Disabled attack damaged");});
- Check("both playable scenes have wired combat",()=>{foreach(var path in new[]{"Assets/Scenes/SampleScene.unity","Assets/Scenes/PaintedDimension.unity"}){EditorSceneManager.OpenScene(path);var health=UnityEngine.Object.FindAnyObjectByType<EnemyHealth>();Need(health!=null,"Missing health "+path);Need(health.GetComponent<SpriteRenderer>().sharedMaterial.shader.name=="DimensionShifter/EnemyFlash","Missing flash shader");var attack=UnityEngine.Object.FindAnyObjectByType<PlayerAttack>();Need(attack.normalAttackDuration>.66f,"Wrong animation duration");}});
+ Check("both playable scenes have wired combat",()=>{foreach(var path in new[]{"Assets/Scenes/SampleScene.unity","Assets/Scenes/PaintedDimension.unity"}){EditorSceneManager.OpenScene(path);var generator=UnityEngine.Object.FindAnyObjectByType<LevelGenerator>();var health=UnityEngine.Object.FindAnyObjectByType<EnemyHealth>();if(health==null&&generator!=null)health=generator.encounterChunks.SelectMany(g=>g.GetComponentsInChildren<EnemyHealth>(true)).FirstOrDefault();Need(health!=null,"Missing enemy health in generated route "+path);Need(health.GetComponent<SpriteRenderer>().sharedMaterial.shader.name=="DimensionShifter/EnemyFlash","Missing flash shader");var attack=UnityEngine.Object.FindAnyObjectByType<PlayerAttack>();Need(attack.normalAttackDuration>.66f,"Wrong animation duration");}});
  File.WriteAllLines("combat-results.txt",results);EditorApplication.Exit(failures==0?0:1);
  }
 }

@@ -1,3 +1,5 @@
+> Historical encounter-expansion notes. The completed ten-encounter demo is documented in [DemoRelease.md](DemoRelease.md).
+
 # Playable encounter expansion
 
 Open `Assets/Scenes/PaintedDimension.unity` for the painted terrain, or `SampleScene.unity` for the original tiles. The original six middle chunks and original chunk prefabs remain available.

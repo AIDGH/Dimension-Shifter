@@ -16,6 +16,14 @@ public class GameHUD : MonoBehaviour
     RectTransform outcomeCard;
     Image outcomeAccent;
     bool wasOver;
+    DemoSession demo;
+    CanvasGroup startMenu,bossCard;
+    TMP_Text journeyClock,objective,bossTitle,bossState;
+    Image bossFill;
+    RiftWarden warden;
+    TrialArena trial;
+    float nextBossSearch;
+
     public bool OutcomeVisible => modal != null && modal.alpha > .9f;
     Image[] shards=new Image[5]; Image xpFill,shiftFill,dashFill;
     CanvasGroup toast,modal;
@@ -57,15 +65,17 @@ public class GameHUD : MonoBehaviour
         Label(note,"TRAIL NOTE",new Vector2(24,-12),new Vector2(610,24),15,gold);
         hint=Label(note,"",new Vector2(24,-40),new Vector2(610,53),20,Color.white);hint.textWrappingMode=TextWrappingModes.Normal;
         checkpoint=Label(canvas.transform,"",new Vector2(28,-195),new Vector2(440,30),17,new Color(.65f,.8f,.9f));
-        var controls=Panel("Controls",canvas.transform,new Vector2(.5f,0),new Vector2(0,18),new Vector2(680,40));
-        var help=Label(controls,"A / D  Move     SPACE  Jump     V  Strike     M  Music",new Vector2(12,-4),new Vector2(656,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
+        var controls=Panel("Controls",canvas.transform,new Vector2(.5f,0),new Vector2(0,18),new Vector2(800,40));
+        var help=Label(controls,"A / D Move   SPACE Jump   V Strike   C Cast   E Use   M Music",new Vector2(12,-4),new Vector2(776,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
         BuildOutcome();
+        BuildDemoUI();
         toast.alpha=modal.alpha=0;modal.interactable=false;modal.blocksRaycasts=false;
 
     }
     void Update()
     {
         if(canvas==null)return;
+        UpdateDemoUI();
         float fraction=health.maxHealth>0?health.currentHealth/health.maxHealth:0;
         for(int i=0;i<5;i++)shards[i].color=Color.Lerp(new Color(.13f,.2f,.28f),health.IsInvincible?Color.white:cyan,Mathf.Clamp01(fraction*5-i));
         vitality.text=Mathf.CeilToInt(health.currentHealth)+" / "+Mathf.CeilToInt(health.maxHealth);
@@ -85,7 +95,7 @@ public class GameHUD : MonoBehaviour
         {
             bool won=run.Completed;Color light=won?gold:violet;
             ending.text=won?"RIFT RESTORED":"YOUR LIGHT FADES";ending.color=light;
-            outcomeSubtitle.text=won?"Two worlds. One path home.":"The sanctuary remembers you. Your progress is safe.";
+            outcomeSubtitle.text=demo!=null ? "TIME  "+demo.Clock+"     ·     FALLS  "+demo.Deaths : won?"Two worlds. One path home.":"The sanctuary remembers you. Your progress is safe.";
             outcomeScore.text=rewards.Score.ToString("N0")+"  POINTS";
             outcomeStats.text=rewards.Defeated+"  ENEMIES     •     "+rewards.Relics+"  RELICS     •     RESONANCE "+rewards.Level;
             primaryLabel.text=won?"R   JOURNEY AGAIN":"R   RETURN TO SANCTUARY";
@@ -95,6 +105,46 @@ public class GameHUD : MonoBehaviour
         }
         wasOver=over;
 
+    }
+    void BuildDemoUI()
+    {
+        demo=GetComponent<DemoSession>();if(demo==null)return;
+        var top=Panel("Journey clock",canvas.transform,new Vector2(.5f,1),new Vector2(0,-28),new Vector2(660,114));
+        journeyClock=Label(top,"00:00",new Vector2(20,-8),new Vector2(620,34),27,gold);journeyClock.alignment=TextAlignmentOptions.Midline;
+        objective=Label(top,"",new Vector2(20,-48),new Vector2(620,56),19,Color.white);objective.alignment=TextAlignmentOptions.Midline;objective.textWrappingMode=TextWrappingModes.Normal;
+        var boss=Panel("Warden vitality",canvas.transform,new Vector2(.5f,1),new Vector2(0,-160),new Vector2(620,92));bossCard=boss.gameObject.AddComponent<CanvasGroup>();bossCard.alpha=0;
+        bossTitle=Label(boss,"RIFT WARDEN",new Vector2(20,-8),new Vector2(580,28),22,gold);bossTitle.alignment=TextAlignmentOptions.Midline;
+        Picture(boss,"Armor track",new Vector2(20,-43),new Vector2(580,8),new Color(.12f,.14f,.2f),rounded);
+        bossFill=Picture(boss,"Core vitality",new Vector2(20,-43),new Vector2(580,8),violet,rounded);bossFill.type=Image.Type.Filled;bossFill.fillMethod=Image.FillMethod.Horizontal;
+        bossState=Label(boss,"",new Vector2(20,-57),new Vector2(580,24),16,Color.white);bossState.alignment=TextAlignmentOptions.Midline;
+        var veil=new GameObject("Start menu",typeof(RectTransform));veil.transform.SetParent(canvas.transform,false);var rect=veil.GetComponent<RectTransform>();rect.anchorMin=Vector2.zero;rect.anchorMax=Vector2.one;rect.offsetMin=rect.offsetMax=Vector2.zero;
+        var shade=veil.AddComponent<Image>();shade.color=new Color(.012f,.02f,.05f,.91f);startMenu=veil.AddComponent<CanvasGroup>();
+        var card=Panel("Journey begins",veil.transform,new Vector2(.5f,.5f),Vector2.zero,new Vector2(900,650));
+        Picture(card,"Echo crest",new Vector2(414,-30),new Vector2(72,80),violet,diamond);
+        var title=Label(card,"DIMENSION SHIFTER",new Vector2(30,-130),new Vector2(840,70),48,Color.white);title.alignment=TextAlignmentOptions.Midline;
+        var sub=Label(card,"THE RIFT WARDEN",new Vector2(30,-207),new Vector2(840,35),23,gold);sub.alignment=TextAlignmentOptions.Midline;
+        var story=Label(card,"A key in one world. A door in another.\nFind the lost spirit and break the Warden's seal.",new Vector2(65,-267),new Vector2(770,78),23,new Color(.77f,.84f,.94f));story.alignment=TextAlignmentOptions.Midline;story.textWrappingMode=TextWrappingModes.Normal;
+        var keys=Label(card,"A / D Move   ·   SPACE Jump / Air jump   ·   V Strike\nB Phase dash   ·   Q Change world   ·   E Interact\nC Spirit bolt (unlock in the hidden sanctuary)",new Vector2(65,-370),new Vector2(770,90),20,new Color(.6f,.84f,.94f));keys.alignment=TextAlignmentOptions.Midline;keys.textWrappingMode=TextWrappingModes.Normal;
+        TMP_Text label;var button=ActionButton(card,"Begin journey",new Vector2(200,-505),new Vector2(500,62),new Color(.2f,.28f,.46f),()=>demo.Begin(),out label);label.text="ENTER   BEGIN JOURNEY";
+        var foot=Label(card,"Checkpoints remember discoveries during this run.",new Vector2(60,-592),new Vector2(780,28),17,new Color(.64f,.71f,.83f));foot.alignment=TextAlignmentOptions.Midline;
+        if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(button.gameObject);
+    }
+    void UpdateDemoUI()
+    {
+        if(demo==null)return;
+        if(!demo.Started&&Input.GetKeyDown(KeyCode.Return))demo.Begin();
+        bool menu=!demo.Started;startMenu.alpha=menu?1:0;startMenu.interactable=startMenu.blocksRaycasts=menu;
+        journeyClock.text=demo.Clock;objective.text=demo.Objective;
+        if(demo.Relays==3&&!demo.TrialCleared){if(trial==null)trial=FindAnyObjectByType<TrialArena>();if(trial!=null&&trial.Active)objective.text=trial.Status;}
+        if(warden==null&&Time.unscaledTime>=nextBossSearch){warden=FindAnyObjectByType<RiftWarden>();nextBossSearch=Time.unscaledTime+.5f;}
+        bossCard.alpha=warden!=null&&warden.Engaged?1:0;
+        if(warden!=null&&warden.Engaged)
+        {
+            var hp=warden.GetComponent<EnemyHealth>();bossFill.fillAmount=(float)hp.CurrentHealth/hp.maxHealth;
+            bossFill.color=warden.CoreDimension==0?cyan:violet;
+            bossTitle.text=warden.Enraged?"RIFT WARDEN  /  ENRAGED":"RIFT WARDEN";
+            bossState.text=warden.State==RiftWarden.Phase.Exposed?(warden.CoreDimension==0?"BLUE CORE OPEN · attack in FROST":"VIOLET CORE OPEN · attack in ECHO"):warden.State==RiftWarden.Phase.Windup?"HEAVY STRIKE INCOMING · jump or phase dash":"ARMORED · evade, then punish its recovery";
+        }
     }
     void BuildOutcome()
     {

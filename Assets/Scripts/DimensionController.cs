@@ -32,7 +32,7 @@ public class DimensionController : MonoBehaviour
     }
     public bool TryShift()
     {
-        if(player.IsDead || Time.time < nextShift || (RunProgress.Instance != null && RunProgress.Instance.Completed)) return false;
+        if((DemoSession.Instance!=null&&!DemoSession.Instance.Started) || player.IsDead || Time.time < nextShift || (RunProgress.Instance != null && RunProgress.Instance.Completed)) return false;
         var members=FindObjectsByType<DimensionMember>();
         foreach(var member in members)
             if(member.WouldOverlap(shape,1-Current)) { LastMessage="Step clear of the ghost barrier before shifting"; if(RunProgress.Instance != null)RunProgress.Instance.ShowMessage(LastMessage); return false; }

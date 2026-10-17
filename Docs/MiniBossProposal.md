@@ -1,6 +1,6 @@
-# Proposal only: Rift Lantern Keeper
+# Original proposal: Rift Lantern Keeper
 
-No boss implementation is included in this update. Discuss this design before building it.
+Historical design note. The user subsequently authorized implementation. The shipped demo uses the Rift Warden with the supplied False Knight artwork, pursuit, melee, ranged fans and alternating dimension vulnerability; see DemoRelease.md for the current design.
 
 An original stone-armored guardian with a suspended blue lantern and a violet core. It protects a small, two-level chamber. This uses the game's existing Frost/Echo distinction rather than introducing another input.
 

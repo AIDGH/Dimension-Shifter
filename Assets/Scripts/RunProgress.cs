@@ -46,6 +46,7 @@ public class RunProgress : MonoBehaviour
     public void Complete()
     {
         if(Completed || health.IsDead)return;
+        var demo=GetComponent<DemoSession>();if(demo!=null&&!demo.BossDefeated){ShowMessage("The Rift Warden still guards the exit.");return;}
         Completed=true; attack.enabled=false; movement.enabled=false; body.linearVelocity=Vector2.zero;
         health.enabled=false; GameAudio.Play("checkpoint",.6f);
     }

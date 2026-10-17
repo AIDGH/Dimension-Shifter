@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: ca3997f2da06146e88b4e63558c49049
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1424361682032032610
+    second: KeeperAttack_0
+  - first:
+      213: -9077177910079651219
+    second: KeeperAttack_1
+  - first:
+      213: -1658234341533487103
+    second: KeeperAttack_2
+  - first:
+      213: 4459088260630756717
+    second: KeeperAttack_3
+  - first:
+      213: -2866616649404241598
+    second: KeeperAttack_4
+  - first:
+      213: 5318120708246780451
+    second: KeeperAttack_5
+  - first:
+      213: 1930145873574851367
+    second: KeeperAttack_6
+  - first:
+      213: 4245393804385528255
+    second: KeeperAttack_7
+  - first:
+      213: 9122940695984903456
+    second: KeeperAttack_8
+  - first:
+      213: 8630081906743674791
+    second: KeeperAttack_9
+  - first:
+      213: -8309718916102488903
+    second: KeeperAttack_10
+  - first:
+      213: 5155303353247367916
+    second: KeeperAttack_11
+  - first:
+      213: 3803458099934158304
+    second: KeeperAttack_12
+  - first:
+      213: 7870202977167093249
+    second: KeeperAttack_13
+  - first:
+      213: -6337856719235448115
+    second: KeeperAttack_14
+  - first:
+      213: 9045908577789595699
+    second: KeeperAttack_15
+  - first:
+      213: 6423839932529867005
+    second: KeeperAttack_16
+  - first:
+      213: 7839286466782897490
+    second: KeeperAttack_17
+  - first:
+      213: 7022874890641362604
+    second: KeeperAttack_18
+  - first:
+      213: -22271998029215148
+    second: KeeperAttack_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KeeperAttack_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da48527f521d2421396edeab77d2970c
+      internalID: 115917268
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_01
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0779c4b44d348f5be597ec348ab86c
+      internalID: 1747453984
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_02
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d509cc22c5d43249d7b1ca76365da3
+      internalID: -1704193744
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_03
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddca776eb69140df91f0bdc3dd4a587
+      internalID: 260246682
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_04
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9221d703b9dcc427195db77edae4e87d
+      internalID: 1758971606
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_05
+      rect:
+        serializedVersion: 2
+        x: 5475
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a106bf9c4684741b9bea54ee21f420
+      internalID: -957635359
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_06
+      rect:
+        serializedVersion: 2
+        x: 6570
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82394e95b8a54d7e97bad4183e508a7
+      internalID: 1468781124
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_07
+      rect:
+        serializedVersion: 2
+        x: 7665
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816477de9da2a4ae8abd0ba655ad360c
+      internalID: 267077460
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeeperAttack_08
+      rect:
+        serializedVersion: 2
+        x: 8760
+        y: 0
+        width: 1095
+        height: 636
+      alignment: 9
+      pivot: {x: 0.5, y: 0.055031445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData:
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9041fb6ac18ce4b68bc8b232ccd6b99d
+      internalID: -1901329339
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    customData:
+    physicsShape: []
+    bones: []
+    spriteID: eeb514fd4f47145579b5ea5dc9521184
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KeeperAttack_00: 115917268
+      KeeperAttack_01: 1747453984
+      KeeperAttack_02: -1704193744
+      KeeperAttack_03: 260246682
+      KeeperAttack_04: 1758971606
+      KeeperAttack_05: -957635359
+      KeeperAttack_06: 1468781124
+      KeeperAttack_07: 267077460
+      KeeperAttack_08: -1901329339
+  mipmapLimitGroupName:
+  pSDRemoveMatte: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

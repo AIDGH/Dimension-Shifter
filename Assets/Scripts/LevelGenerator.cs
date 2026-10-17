@@ -25,6 +25,7 @@ public class LevelGenerator : MonoBehaviour
     public GameObject[] endChunks;
     [Tooltip("Authored encounters inserted between randomly chosen chunks.")]
     public GameObject[] encounterChunks;
+    public bool authoredOnly;
     int encounterIndex, midSpawnCount;
 
     [Header("Level Settings")]
@@ -99,6 +100,7 @@ public class LevelGenerator : MonoBehaviour
 
     public GameObject ChooseRouteChunk(float remainingSpace)
     {
+        if(authoredOnly)return encounterChunks!=null&&encounterIndex<encounterChunks.Length?encounterChunks[encounterIndex++]:null;
         if (encounterChunks != null && encounterIndex < encounterChunks.Length && midSpawnCount % 2 == 0)
         {
             var encounter = encounterChunks[encounterIndex];

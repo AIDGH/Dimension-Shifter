@@ -3135,10 +3135,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1958457144454639350, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958457144454639350, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958457144454639350, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3416380330036038549, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
       propertyPath: m_Name
       value: PouncingSlime
       objectReference: {fileID: 0}
+    - target: {fileID: 7615126479825679620, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
+      propertyPath: m_Sprite
+      value:
+      objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3162,6 +3178,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3382482954661381032}
     m_Modifications:
+    - target: {fileID: 506404105771067563, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_Sprite
+      value:
+      objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3201,6 +3221,18 @@ PrefabInstance:
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855421891359321978, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855421891359321978, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855421891359321978, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8352235320071759969, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_Name
@@ -3229,6 +3261,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2618789691699687198}
     m_Modifications:
+    - target: {fileID: 506404105771067563, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_Sprite
+      value:
+      objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3268,6 +3304,18 @@ PrefabInstance:
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855421891359321978, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855421891359321978, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855421891359321978, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8352235320071759969, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_Name

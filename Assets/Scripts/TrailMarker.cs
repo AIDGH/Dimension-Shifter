@@ -19,6 +19,7 @@ public class TrailMarker : MonoBehaviour
     {
         var run=other.GetComponentInParent<RunProgress>();
         if(run==null || activated || other.GetComponentInParent<PlayerHealth>().IsDead) return;
+        if(kind==MarkerKind.Exit&&DemoSession.Instance!=null&&!DemoSession.Instance.BossDefeated){run.ShowMessage("Defeat the Rift Warden to open the final sanctuary.");return;}
         activated=true;
         if(kind==MarkerKind.Checkpoint)run.SetCheckpoint(spawnPoint!=null?spawnPoint.position:transform.position,message);
         else if(kind==MarkerKind.Exit)run.Complete();

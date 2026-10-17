@@ -34,12 +34,14 @@ public class EnemyHealth : MonoBehaviour
         colliders = GetComponentsInChildren<Collider2D>();
         CurrentHealth = Mathf.Max(1, maxHealth);
         if (sprite != null) { originalColor = sprite.color; flash = new MaterialPropertyBlock(); }
-        if (Application.isPlaying) CreateBar();
+        if (Application.isPlaying && GetComponent<RiftWarden>()==null) CreateBar();
     }
 
     public bool TakeDamage(int damage, Vector2 attackerPosition, float knockback = 3f)
     {
         if (!isActiveAndEnabled || IsDead || damage <= 0) return false;
+        var warden=GetComponent<RiftWarden>();
+        if(warden!=null&&!warden.AcceptHit())return false;
         CurrentHealth = Mathf.Max(0, CurrentHealth - damage);
         if (patrol != null) { if (!IsStunned) resumePatrol = patrol.enabled; patrol.enabled = false; }
         if (IsDead)
@@ -59,9 +61,9 @@ public class EnemyHealth : MonoBehaviour
         }
         else
         {
-            hurtRemaining = hurtDuration;
+            hurtRemaining = warden!=null ? 0 : hurtDuration;
             float direction = body.position.x >= attackerPosition.x ? 1f : -1f;
-            body.linearVelocity = new Vector2(direction * knockback, 1.2f);
+            if(warden==null)body.linearVelocity = new Vector2(direction * knockback, 1.2f);
             Play("Slime_Hurt");
             barRemaining = healthBarDuration;
             if (barRoot != null) barRoot.SetActive(true);
@@ -70,6 +72,13 @@ public class EnemyHealth : MonoBehaviour
         SetFlash(1f);
         if (Application.isPlaying) CombatFeedback.Hit(transform.position, IsDead);
         return true;
+    }
+
+    public void ResetForRetry()
+    {
+        if(IsDead)return;
+        CurrentHealth=maxHealth;hurtRemaining=barRemaining=flashRemaining=0;
+        if(barRoot!=null)barRoot.SetActive(false);
     }
 
     void Update() => Tick(Time.deltaTime);
