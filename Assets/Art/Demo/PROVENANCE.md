@@ -10,3 +10,5 @@ Selected from the user's local Hollow Knight reference collections; no remote do
 Hollow Knight characters and imagery belong to Team Cherry. These user-provided reference assets are not original Dimension Shifter artwork. The Java reference project's README does not grant a source-code license. This demo's C# puzzle, projectile, trial and boss behavior was implemented independently for the existing Unity game.
 
 Warning.png and Rune.png are original code-generated UI/effect primitives made by Tools/Demo/DemoSetup.cs. The checkpoint ring, terrain texture and original audio retain their existing provenance records.
+
+SanctumDoorV2.png: original generated sanctuary door, created with the built-in image_gen tool on 2026-10-17. The generation prompt is recorded in Docs/SanctumDoorArt.md. Supersedes the earlier reference door in both sanctuary terrain variants.

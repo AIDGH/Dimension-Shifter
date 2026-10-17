@@ -72,6 +72,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(DemoSession.Instance!=null&&DemoSession.Instance.Paused)
+        {
+            moveInput=0; jumpBufferRemaining=0; jumpReleased=false; bufferedJumpReleased=false;
+            return;
+        }
         moveInput = Input.GetAxisRaw("Horizontal");
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -162,6 +167,12 @@ public class PlayerMovement : MonoBehaviour
         jumpBufferRemaining = Mathf.Max(0f, jumpBufferRemaining - dt);
     }
 
+    public void BounceFromEnemy(float speed)
+    {
+        groundIgnoreRemaining=.18f;isGrounded=false;coyoteRemaining=0;jumpBufferRemaining=0;
+        jumpReleased=bufferedJumpReleased=false;rb.gravityScale=baseGravity;
+        rb.linearVelocity=new Vector2(rb.linearVelocity.x,speed);
+    }
     private void ProbeGround()
     {
         isGrounded = false;
@@ -184,6 +195,8 @@ public class PlayerMovement : MonoBehaviour
             if (hit.normal.y < minNormalY) return;
             var separation = body.Distance(hit.collider);
             if (!separation.isValid || separation.distance > groundProbeDistance) return;
+            var enemy=hit.collider.GetComponentInParent<EnemyHealth>();
+            if(enemy!=null&&GetComponent<PlayerEnemyContact>().TryStomp(enemy))return;
             groundNormal = hit.normal;
             groundDistance = Mathf.Max(0f, separation.distance) / hit.normal.y;
             int touches = body.Cast(Vector2.down, groundFilter, groundHits, groundProbeDistance);

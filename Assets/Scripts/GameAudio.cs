@@ -19,9 +19,16 @@ public class GameAudio : MonoBehaviour
             string cue=clip.name.Substring(0,split);
             if(!cues.TryGetValue(cue,out var list))cues[cue]=list=new List<AudioClip>();list.Add(clip);
         }
-        voices=new AudioSource[8];
+        var replaced=new HashSet<string>();
+        foreach(var clip in Resources.LoadAll<AudioClip>("HollowSFX"))
+        {
+            int split=clip.name.LastIndexOf('_');if(split<0)continue;string cue=clip.name.Substring(0,split);
+            if(replaced.Add(cue))cues[cue]=new List<AudioClip>();cues[cue].Add(clip);
+        }
+        voices=new AudioSource[12];
         for(int i=0;i<voices.Length;i++){voices[i]=gameObject.AddComponent<AudioSource>();voices[i].playOnAwake=false;voices[i].spatialBlend=0;}
     }
+    public static void Warmup(){if(instance==null)instance=new GameObject("Game SFX").AddComponent<GameAudio>();}
     public static void Play(string cue,float volume=1f)
     {
         if(!Application.isPlaying)return;

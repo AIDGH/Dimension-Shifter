@@ -45,7 +45,7 @@ public static class DemoSetup
         try
         {
             material=AssetDatabase.LoadAssetAtPath<Material>("Assets/Art/Painted/PaintedSprites.mat");rift=AssetDatabase.LoadAssetAtPath<Material>("Assets/Art/Polish/Rift.mat");Symbols();
-            foreach(var n in new[]{"Idle","Run","Stunned"})Import("Keeper"+n,5,200,true);Import("KeeperAttack",9,200,true);Import("KeeperDeath",13,200,true);Import("SpiritBolt",4,260);Import("EchoKey",1,170);Import("SanctumDoor",1,260,true);key=Frames("EchoKey")[0];door=Frames("SanctumDoor")[0];
+            foreach(var n in new[]{"Idle","Run","Stunned"})Import("Keeper"+n,5,200,true);Import("KeeperAttack",9,200,true);Import("KeeperDeath",13,200,true);Import("SpiritBolt",4,260);Import("EchoKey",1,170);Import("SanctumDoorV2",1,464.6875f,true);key=Frames("EchoKey")[0];door=Frames("SanctumDoorV2")[0];
             // All warning renderers, including embedded instances in existing authored chunks.
             foreach(string path in Directory.GetFiles(Enc,"*.prefab"))
             {
@@ -99,7 +99,7 @@ public static class DemoSetup
         Block(map,7,0,3,2);Block(map,12,0,3,4);Block(map,17,0,4,6);PhaseSeal(root.transform,10,0);
         Item(root.transform,"Echo key",new Vector3(18.5f,6.9f),QuestInteractable.Kind.EchoKey,1,key);Enemy(root.transform,22,0,1);
         Block(map,25,17,20,1);Block(map,24,17,1,9);Block(map,45,17,1,9);Block(map,24,25,22,1);
-        var entry=Item(root.transform,"Blue key door",new Vector3(31,.1f),QuestInteractable.Kind.BlueDoor,0,door);entry.destination=Child("Sanctum arrival",root.transform,new Vector3(28,18.7f)).transform;
+        var entry=Item(root.transform,"Blue key door",new Vector3(31,-.01f),QuestInteractable.Kind.BlueDoor,0,door);entry.visual.color=Color.white;entry.visual.sortingOrder=0;entry.visual.transform.localPosition=Vector3.forward;entry.destination=Child("Sanctum arrival",root.transform,new Vector3(28,18.7f)).transform;
         Block(map,38,18,4,1);
         Item(root.transform,"Spirit altar",new Vector3(40,19.8f),QuestInteractable.Kind.Spirit,-1,Frames("SpiritBolt")[1]);
         var back=Item(root.transform,"Return portal",new Vector3(27,18),QuestInteractable.Kind.ReturnPortal,-1,AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Art/Polish/CheckpointShrine.png"));back.destination=Child("Trail return",root.transform,new Vector3(48,.7f)).transform;
@@ -129,10 +129,11 @@ public static class DemoSetup
         var root=Root("16_WardenArena",52);var map=Map(root.transform);Block(map,0,-4,52,4);Checkpoint(root.transform,"Warden's threshold");Block(map,17,4,3,1);Block(map,35,4,3,1);
         var go=Child("Rift Warden",root.transform,new Vector3(33,.05f));go.layer=10;go.tag="Enemy";var body=go.AddComponent<Rigidbody2D>();body.gravityScale=3;body.mass=8;body.constraints=RigidbodyConstraints2D.FreezeRotation;body.collisionDetectionMode=CollisionDetectionMode2D.Continuous;
         var shape=go.AddComponent<BoxCollider2D>();shape.size=new Vector2(1.65f,2.25f);shape.offset=new Vector2(0,1.125f);
-        var hp=go.AddComponent<EnemyHealth>();hp.maxHealth=64;hp.rewardScore=1800;hp.rewardXP=100;hp.deathDuration=1.6f;
+        var hp=go.AddComponent<EnemyHealth>();hp.maxHealth=48;hp.rewardScore=1800;hp.rewardXP=100;hp.deathDuration=1.6f;
         var boss=go.AddComponent<RiftWarden>();boss.idle=Frames("KeeperIdle");boss.run=Frames("KeeperRun");boss.attack=Frames("KeeperAttack");boss.stunned=Frames("KeeperStunned");boss.death=Frames("KeeperDeath");boss.visual=Visual("Warden armor",go.transform,Vector3.zero,boss.idle[0]);
         boss.warning=Visual("Attack warning",go.transform,new Vector3(0,3.3f),warning,1.1f);boss.warning.enabled=false;
         boss.projectilePrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"SporeProjectile.prefab").GetComponent<EnemyProjectile>();
+        boss.slimePrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"PouncingSlime.prefab");boss.mushroomPrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"SporeKeeper.prefab");boss.beamMaterial=material;
         boss.arenaLeft=Child("Arena left",root.transform,new Vector3(8,0)).transform;boss.arenaRight=Child("Arena right",root.transform,new Vector3(45,0)).transform;
         boss.entrance=Seal(root.transform,"Arena entrance",8,-.5f,48,out var entryGlow);var visibility=boss.entrance.gameObject.AddComponent<GateVisibility>();visibility.shape=boss.entrance;visibility.visual=entryGlow;
         Gate(root.transform,46,QuestGate.Requirement.Boss);Hint(root.transform,4,"The Warden pursues, slams, and fires a fan of bolts. During recovery its core glows BLUE or VIOLET: attack in that world. Below half health it enrages.");SaveBoth(root);

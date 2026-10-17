@@ -1,0 +1,7 @@
+# Sanctuary door replacement
+
+Generated using the built-in image_gen tool on 2026-10-17. Transparent output preserved without pixel editing. Integrated as Assets/Art/Demo/SanctumDoorV2.png; earlier door retained.
+
+## Generation prompt
+
+Use case: stylized-concept. Asset type: transparent 2D side-scrolling dark fantasy game environment sprite. Create ONE complete closed sanctuary doorway, front orthographic view, perfectly symmetrical, sturdy carved blue-gray stone pointed arch around two dark indigo metal door leaves, delicate silver insect-inspired filigree, a clearly visible small cyan-glowing keyhole at the center, a thin cyan seam between the leaves. A broad low stone threshold/plinth anchors the frame, its lowest edge straight and horizontal to meet a tilemap floor. Painterly hand-drawn polished game art with confident dark outlines, broad readable shapes, cool moonlight highlights, modest detail readable at 180 pixels tall. Full doorway including entire arch and base inside frame, isolated on genuinely transparent alpha background. Portrait doorway proportions about 0.68 width to height, centered with small even transparent margin. No perspective tilt, no room, no wall extension, no landscape, no ground plane, no cast shadow outside the base, no floating particles or detached ornaments, no text, no watermark. The door must be solid, closed and invitingly mysterious, not an open portal.

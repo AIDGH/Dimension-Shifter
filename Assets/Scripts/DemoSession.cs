@@ -1,10 +1,12 @@
 using UnityEngine;
 
 // Run-only progression. Respawning preserves discoveries; restarting creates a fresh run.
+[DefaultExecutionOrder(-100)]
 public class DemoSession : MonoBehaviour
 {
     public static DemoSession Instance { get; private set; }
     public bool Started { get; private set; }
+    public bool Paused { get; private set; }
     public float Elapsed { get; private set; }
     public bool HasEchoKey { get; private set; }
     public bool HasSpirit { get; private set; }
@@ -15,22 +17,34 @@ public class DemoSession : MonoBehaviour
     bool wasDead;
     public string Clock => System.TimeSpan.FromSeconds(Elapsed).ToString(@"mm\:ss");
     public string Objective => !HasEchoKey ? "Find the ECHO KEY in the violet sanctuary" : !HasSpirit ? "Use the key at the blue door · E" : Relays!=3 ? "C  Spirit bolt · awaken both dimension seals" : !TrialCleared ? "Clear the three waves in the proving grounds" : !BossDefeated ? "Defeat the Rift Warden · match its exposed core" : "The rift is open · reach the final sanctuary";
-    void Awake(){Instance=this;Time.timeScale=1;}
-    void Start(){if(!Started){Time.timeScale=0;GetComponent<PlayerMovement>().enabled=false;GetComponent<PlayerAttack>().enabled=false;}}
+    void Awake()
+    {
+        Instance=this;Time.timeScale=1;AudioListener.pause=false;
+        QualitySettings.vSyncCount=0;Application.targetFrameRate=120;QualitySettings.maxQueuedFrames=1;
+        Time.fixedDeltaTime=1f/100f;
+        GetComponent<SpriteRenderer>().sortingOrder=50;
+    }
+    void Start(){GameAudio.Warmup();if(!Started){Time.timeScale=0;GetComponent<PlayerMovement>().enabled=false;GetComponent<PlayerAttack>().enabled=false;}}
     public void Begin()
     {
         if(Started)return;Started=true;Time.timeScale=1;
         GetComponent<PlayerMovement>().enabled=true;GetComponent<PlayerAttack>().enabled=true;
-        GetComponent<RunProgress>().ShowMessage("Find the violet key. Q changes worlds; E interacts. C casts after discovering Spirit Bolt.");
+        GetComponent<RunProgress>().ShowMessage("Find the violet key. Q changes worlds; E interacts. Walk into Spirit Bolt to collect it. ESC pauses.");
+    }
+    public void SetPaused(bool paused)
+    {
+        if(paused&&(!Started||GetComponent<PlayerHealth>().IsDead||GetComponent<RunProgress>().Completed))return;
+        Paused=paused;Time.timeScale=paused?0:1;AudioListener.pause=paused;
     }
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Escape))SetPaused(!Paused);
         bool dead=GetComponent<PlayerHealth>().IsDead;
         if(dead&&!wasDead)Deaths++;wasDead=dead;
-        if(Started&&!dead&&!GetComponent<RunProgress>().Completed)Elapsed+=Time.deltaTime;
+        if(Started&&!Paused&&!dead&&!GetComponent<RunProgress>().Completed)Elapsed+=Time.deltaTime;
     }
     public void ClaimKey(){if(HasEchoKey)return;HasEchoKey=true;GetComponent<PlayerRewards>().Collect(150,30);GetComponent<RunProgress>().ShowMessage("ECHO KEY acquired. Return to the blue door and press E.");}
-    public void ClaimSpirit(){if(HasSpirit)return;HasSpirit=true;GetComponent<PlayerRewards>().Collect(250,50);GetComponent<RunProgress>().ShowMessage("SPIRIT BOLT unlocked · C. Find the return portal, then awaken the two seals.");}
+    public void ClaimSpirit(){if(HasSpirit)return;HasSpirit=true;GetComponent<PlayerRewards>().Collect(250,50);GameAudio.Play("pickup",.65f);GetComponent<RunProgress>().ShowMessage("SPIRIT BOLT unlocked · C. Find the return portal, then awaken the two seals.");}
     public void ActivateRelay(int dimension){int bit=1<<dimension;if((Relays&bit)!=0)return;Relays|=bit;GetComponent<PlayerRewards>().Collect(150,30);GetComponent<RunProgress>().ShowMessage(Relays==3?"Both seals awakened. The proving grounds are open.":"One seal awakened. Find the other world's seal.");}
-    void OnDestroy(){if(Instance==this){Instance=null;Time.timeScale=1;}}
+    void OnDestroy(){if(Instance==this){Instance=null;Time.timeScale=1;AudioListener.pause=false;}}
 }

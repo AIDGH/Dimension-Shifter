@@ -63,6 +63,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
+        if(DemoSession.Instance!=null&&DemoSession.Instance.Paused)return;
         if (cooldownText != null)
         {
             bool show = showTextTimer > 0f && Time.time < nextDashTime;

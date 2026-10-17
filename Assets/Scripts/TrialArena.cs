@@ -22,7 +22,7 @@ public class TrialArena : MonoBehaviour
     void Start(){if(entrance!=null)entrance.enabled=false;}
     void Update()
     {
-        var s=DemoSession.Instance;if(s==null||!s.Started||s.TrialCleared)return;
+        var s=DemoSession.Instance;if(s==null||!s.Started||s.Paused||s.TrialCleared)return;
         if(s.GetComponent<PlayerHealth>().IsDead||(Active&&(s.transform.position.x<transform.position.x-2||s.transform.position.x>transform.position.x+width+2))){if(Active)ResetTrial();return;}
         if(!Active)
         {if(s.transform.position.x>transform.position.x+4&&s.transform.position.x<transform.position.x+width-4){Active=true;if(entrance!=null)entrance.enabled=true;nextWave=Time.time+1;}return;}
@@ -30,13 +30,15 @@ public class TrialArena : MonoBehaviour
         if(enemies.Count>0||Time.time<nextWave)return;
         if(Wave>=3){s.TrialCleared=true;Active=false;if(entrance!=null)entrance.enabled=false;s.GetComponent<RunProgress>().ShowMessage("TRIAL COMPLETE · the Warden awaits.");s.GetComponent<PlayerHealth>().Heal(35);return;}
         Wave++;s.GetComponent<RunProgress>().ShowMessage("PROVING GROUNDS · wave "+Wave+" / 3. Enemies inhabit BOTH worlds; Q to find the survivors.");
-        for(int i=0;i<Wave+2;i++)
+        for(int i=0;i<(Wave==1?2:3);i++)
         {
-            int dimension=i%2;var anchor=new GameObject(dimension==0?"Trial frost enemy":"Trial echo enemy");anchor.transform.position=spawnPoints[i%spawnPoints.Length].position;
+            int dimension=i%2;var anchor=new GameObject(dimension==0?"Trial frost enemy":"Trial echo enemy");float x=Mathf.Clamp(s.transform.position.x+(i%2==0?-1:1)*(4+i*1.8f),transform.position.x+3,transform.position.x+width-3);
+            var floor=Physics2D.Raycast(new Vector2(x,transform.position.y+6),Vector2.down,16,1<<8);
+            anchor.transform.position=new Vector3(x,floor.collider!=null?floor.point.y:transform.position.y-1);
             var child=Instantiate(dimension==0?slimePrefab:mushroomPrefab,anchor.transform);child.transform.localPosition=dimension==0?Vector3.up*.48f:Vector3.zero;
             var member=anchor.AddComponent<DimensionActor>();member.dimension=dimension;member.content=child;member.Apply(DimensionController.Instance.Current);enemies.Add(anchor);
         }
-        nextWave=Time.time+2;
+        nextWave=Time.time+.75f;
     }
     void ResetTrial(){foreach(var g in enemies)if(g!=null)Destroy(g);enemies.Clear();Wave=0;Active=false;if(entrance!=null)entrance.enabled=false;}
 }

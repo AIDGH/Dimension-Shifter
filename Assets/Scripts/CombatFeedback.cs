@@ -54,6 +54,6 @@ public class CombatFeedback : MonoBehaviour
             mote.sprite.color = new Color(.7f, 1f, .88f, Mathf.Clamp01(mote.life / .2f)); motes[i] = mote;
         }
     }
-    void RestoreTime() { if (ownsPause && Time.timeScale == 0f) Time.timeScale = previousScale; ownsPause = false; }
+    void RestoreTime() { if (ownsPause && Time.timeScale == 0f && (DemoSession.Instance==null || (DemoSession.Instance.Started&&!DemoSession.Instance.Paused))) Time.timeScale = previousScale; ownsPause = false; }
     void OnDisable() { RestoreTime(); }
 }

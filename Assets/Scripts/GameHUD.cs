@@ -17,12 +17,19 @@ public class GameHUD : MonoBehaviour
     Image outcomeAccent;
     bool wasOver;
     DemoSession demo;
-    CanvasGroup startMenu,bossCard;
+    CanvasGroup startMenu,bossCard,pauseMenu;
+    Button resumeButton;
+    bool wasPaused;
     TMP_Text journeyClock,objective,bossTitle,bossState;
     Image bossFill;
     RiftWarden warden;
     TrialArena trial;
-    float nextBossSearch;
+    float nextBossSearch,nextInteractionSearch,noticeFlash;
+    QuestInteractable[] interactions;
+    RectTransform interactionCard;
+    CanvasGroup interactionGroup;
+    TMP_Text interactionLabel;
+    string previousNotice;
 
     public bool OutcomeVisible => modal != null && modal.alpha > .9f;
     Image[] shards=new Image[5]; Image xpFill,shiftFill,dashFill;
@@ -61,14 +68,20 @@ public class GameHUD : MonoBehaviour
         Label(skills,"B  PHASE DASH",new Vector2(20,-103),new Vector2(190,24),16,new Color(.7f,.8f,.9f));
         dashTime=Label(skills,"",new Vector2(220,-103),new Vector2(90,24),16,Color.white);dashTime.alignment=TextAlignmentOptions.MidlineRight;
         dashFill=Picture(skills,"Dash ready",new Vector2(20,-133),new Vector2(290,3),new Color(.7f,.8f,.9f),rounded);dashFill.type=Image.Type.Filled;dashFill.fillMethod=Image.FillMethod.Horizontal;
-        var note=Panel("Trail note",canvas.transform,new Vector2(.5f,0),new Vector2(0,80),new Vector2(660,105));toast=note.gameObject.AddComponent<CanvasGroup>();
-        Label(note,"TRAIL NOTE",new Vector2(24,-12),new Vector2(610,24),15,gold);
-        hint=Label(note,"",new Vector2(24,-40),new Vector2(610,53),20,Color.white);hint.textWrappingMode=TextWrappingModes.Normal;
+        var note=Panel("Trail note",canvas.transform,new Vector2(.5f,0),new Vector2(0,105),new Vector2(820,120));toast=note.gameObject.AddComponent<CanvasGroup>();
+        Label(note,"TRAIL NOTE",new Vector2(24,-12),new Vector2(770,24),18,gold);
+        hint=Label(note,"",new Vector2(24,-40),new Vector2(770,63),23,Color.white);hint.textWrappingMode=TextWrappingModes.Normal;
         checkpoint=Label(canvas.transform,"",new Vector2(28,-195),new Vector2(440,30),17,new Color(.65f,.8f,.9f));
-        var controls=Panel("Controls",canvas.transform,new Vector2(.5f,0),new Vector2(0,18),new Vector2(800,40));
-        var help=Label(controls,"A / D Move   SPACE Jump   V Strike   C Cast   E Use   M Music",new Vector2(12,-4),new Vector2(776,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
+        var controls=Panel("Controls",canvas.transform,new Vector2(.5f,0),new Vector2(0,18),new Vector2(960,40));
+        var help=Label(controls,"A / D Move   SPACE Jump   V Strike   C Cast   E Use   M Music   ESC Pause",new Vector2(12,-4),new Vector2(936,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
+        Picture(note,"Notice accent",new Vector2(0,-5),new Vector2(6,110),gold,rounded);
+        interactionCard=Panel("Nearby interaction",canvas.transform,new Vector2(.5f,.5f),Vector2.zero,new Vector2(400,64));
+        interactionCard.GetComponent<Image>().color=new Color(.025f,.13f,.2f,.97f);
+        interactionGroup=interactionCard.gameObject.AddComponent<CanvasGroup>();interactionGroup.alpha=0;interactionGroup.blocksRaycasts=false;
+        interactionLabel=Label(interactionCard,"",new Vector2(10,-5),new Vector2(380,54),23,cyan);interactionLabel.alignment=TextAlignmentOptions.Midline;interactionLabel.textWrappingMode=TextWrappingModes.Normal;
         BuildOutcome();
         BuildDemoUI();
+        BuildPauseUI();
         toast.alpha=modal.alpha=0;modal.interactable=false;modal.blocksRaycasts=false;
 
     }
@@ -76,6 +89,7 @@ public class GameHUD : MonoBehaviour
     {
         if(canvas==null)return;
         UpdateDemoUI();
+        UpdateInteraction();
         float fraction=health.maxHealth>0?health.currentHealth/health.maxHealth:0;
         for(int i=0;i<5;i++)shards[i].color=Color.Lerp(new Color(.13f,.2f,.28f),health.IsInvincible?Color.white:cyan,Mathf.Clamp01(fraction*5-i));
         vitality.text=Mathf.CeilToInt(health.currentHealth)+" / "+Mathf.CeilToInt(health.maxHealth);
@@ -85,7 +99,11 @@ public class GameHUD : MonoBehaviour
         shiftFill.fillAmount=1-dimension.CooldownRemaining/Mathf.Max(.1f,dimension.cooldown);shiftFill.color=accent;
         dashTime.text=attack.DashCooldownRemaining>0?attack.DashCooldownRemaining.ToString("F1")+" s":"READY";
         dashFill.fillAmount=1-attack.DashCooldownRemaining/Mathf.Max(.1f,attack.dashCooldown);
-        hint.text=run.ActiveMessage;toast.alpha=Mathf.MoveTowards(toast.alpha,string.IsNullOrEmpty(hint.text)?0:1,Time.unscaledDeltaTime*4);
+        hint.text=run.ActiveMessage;
+        if(hint.text!=previousNotice){previousNotice=hint.text;noticeFlash=1;}
+        noticeFlash=Mathf.Max(0,noticeFlash-Time.unscaledDeltaTime*.7f);
+        toast.GetComponent<Image>().color=Color.Lerp(new Color(.035f,.065f,.11f,.96f),new Color(.12f,.21f,.28f,.98f),noticeFlash);
+        hint.color=Color.Lerp(Color.white,gold,noticeFlash*.6f);toast.alpha=Mathf.MoveTowards(toast.alpha,string.IsNullOrEmpty(hint.text)?0:1,Time.unscaledDeltaTime*4);
         checkpoint.text="SANCTUARY  /  "+run.CheckpointName;
         bool over=health.IsDead||run.Completed;
         modal.alpha=Mathf.MoveTowards(modal.alpha,over?1:0,Time.unscaledDeltaTime*2.8f);
@@ -111,7 +129,7 @@ public class GameHUD : MonoBehaviour
         demo=GetComponent<DemoSession>();if(demo==null)return;
         var top=Panel("Journey clock",canvas.transform,new Vector2(.5f,1),new Vector2(0,-28),new Vector2(660,114));
         journeyClock=Label(top,"00:00",new Vector2(20,-8),new Vector2(620,34),27,gold);journeyClock.alignment=TextAlignmentOptions.Midline;
-        objective=Label(top,"",new Vector2(20,-48),new Vector2(620,56),19,Color.white);objective.alignment=TextAlignmentOptions.Midline;objective.textWrappingMode=TextWrappingModes.Normal;
+        objective=Label(top,"",new Vector2(20,-48),new Vector2(620,56),21,cyan);objective.alignment=TextAlignmentOptions.Midline;objective.textWrappingMode=TextWrappingModes.Normal;
         var boss=Panel("Warden vitality",canvas.transform,new Vector2(.5f,1),new Vector2(0,-160),new Vector2(620,92));bossCard=boss.gameObject.AddComponent<CanvasGroup>();bossCard.alpha=0;
         bossTitle=Label(boss,"RIFT WARDEN",new Vector2(20,-8),new Vector2(580,28),22,gold);bossTitle.alignment=TextAlignmentOptions.Midline;
         Picture(boss,"Armor track",new Vector2(20,-43),new Vector2(580,8),new Color(.12f,.14f,.2f),rounded);
@@ -133,6 +151,13 @@ public class GameHUD : MonoBehaviour
     {
         if(demo==null)return;
         if(!demo.Started&&Input.GetKeyDown(KeyCode.Return))demo.Begin();
+        bool paused=demo.Paused;
+        if(pauseMenu!=null)
+        {
+            pauseMenu.alpha=paused?1:0;pauseMenu.interactable=pauseMenu.blocksRaycasts=paused;
+            if(paused!=wasPaused&&EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(paused?resumeButton.gameObject:null);
+            wasPaused=paused;
+        }
         bool menu=!demo.Started;startMenu.alpha=menu?1:0;startMenu.interactable=startMenu.blocksRaycasts=menu;
         journeyClock.text=demo.Clock;objective.text=demo.Objective;
         if(demo.Relays==3&&!demo.TrialCleared){if(trial==null)trial=FindAnyObjectByType<TrialArena>();if(trial!=null&&trial.Active)objective.text=trial.Status;}
@@ -143,8 +168,46 @@ public class GameHUD : MonoBehaviour
             var hp=warden.GetComponent<EnemyHealth>();bossFill.fillAmount=(float)hp.CurrentHealth/hp.maxHealth;
             bossFill.color=warden.CoreDimension==0?cyan:violet;
             bossTitle.text=warden.Enraged?"RIFT WARDEN  /  ENRAGED":"RIFT WARDEN";
-            bossState.text=warden.State==RiftWarden.Phase.Exposed?(warden.CoreDimension==0?"BLUE CORE OPEN · attack in FROST":"VIOLET CORE OPEN · attack in ECHO"):warden.State==RiftWarden.Phase.Windup?"HEAVY STRIKE INCOMING · jump or phase dash":"ARMORED · evade, then punish its recovery";
+            bossState.text=warden.State==RiftWarden.Phase.Exposed?(warden.CoreDimension==0?"BLUE CORE OPEN · attack in FROST":"VIOLET CORE OPEN · attack in ECHO"):warden.State==RiftWarden.Phase.BeamWindup?"ENERGY LANCE · aim locks, then DASH or JUMP":warden.State==RiftWarden.Phase.Leap?"LEAP STRIKE · move out of the landing path":warden.State==RiftWarden.Phase.Windup?"HEAVY STRIKE INCOMING · jump or phase dash":"ARMORED · evade, then punish its recovery";
         }
+    }
+    void UpdateInteraction()
+    {
+        interactionGroup.alpha=0;
+        if(demo==null||!demo.Started||demo.Paused||health.IsDead||run.Completed)return;
+        if(Time.unscaledTime>=nextInteractionSearch){interactions=FindObjectsByType<QuestInteractable>();nextInteractionSearch=Time.unscaledTime+.4f;}
+        QuestInteractable nearest=null;float distance=3.4f;
+        if(interactions!=null)foreach(var q in interactions)
+        {
+            if(q==null||q.kind==QuestInteractable.Kind.Relay||q.kind==QuestInteractable.Kind.EchoKey||(q.kind==QuestInteractable.Kind.Spirit&&demo.HasSpirit))continue;
+            float d=Vector2.Distance(transform.position,q.transform.position);if(d<distance){distance=d;nearest=q;}
+        }
+        if(nearest==null)return;
+        bool wrong=nearest.dimension>=0&&nearest.dimension!=dimension.Current;
+        interactionLabel.text=wrong?"Q  →  SWITCH TO FROST":nearest.kind==QuestInteractable.Kind.BlueDoor?(demo.HasEchoKey?"[ E ]   ENTER SANCTUARY":"LOCKED · FIND THE ECHO KEY"):nearest.kind==QuestInteractable.Kind.Spirit?"SPIRIT BOLT\nWALK INTO THE LIGHT":!demo.HasSpirit?"COLLECT THE SPIRIT FIRST":"[ E ]   RETURN TO TRAIL";
+        interactionLabel.color=wrong?violet:nearest.kind==QuestInteractable.Kind.BlueDoor&&!demo.HasEchoKey?gold:cyan;
+        Vector3 anchor=nearest.transform.position+Vector3.up*1.6f;
+        if(nearest.visual!=null)anchor.y=nearest.visual.bounds.max.y+.5f;
+        var screen=Camera.main.WorldToScreenPoint(anchor);if(screen.z<0)return;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.GetComponent<RectTransform>(),screen,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:Camera.main,out var local);
+        var bounds=canvas.GetComponent<RectTransform>().rect;
+        interactionCard.anchoredPosition=new Vector2(Mathf.Clamp(local.x,bounds.xMin+210,bounds.xMax-210),Mathf.Clamp(local.y,bounds.yMin+220,bounds.yMax-235));
+        interactionGroup.alpha=1;
+    }
+    void BuildPauseUI()
+    {
+        if(demo==null)return;
+        var veil=new GameObject("Pause menu",typeof(RectTransform));veil.transform.SetParent(canvas.transform,false);
+        var rect=veil.GetComponent<RectTransform>();rect.anchorMin=Vector2.zero;rect.anchorMax=Vector2.one;rect.offsetMin=rect.offsetMax=Vector2.zero;
+        veil.AddComponent<Image>().color=new Color(.012f,.02f,.045f,.88f);
+        pauseMenu=veil.AddComponent<CanvasGroup>();pauseMenu.alpha=0;pauseMenu.interactable=pauseMenu.blocksRaycasts=false;
+        var card=Panel("Pause card",veil.transform,new Vector2(.5f,.5f),Vector2.zero,new Vector2(720,460));
+        Picture(card,"Pause crest",new Vector2(337,-32),new Vector2(46,52),cyan,diamond);
+        var title=Label(card,"BETWEEN WORLDS",new Vector2(30,-110),new Vector2(660,55),38,Color.white);title.alignment=TextAlignmentOptions.Midline;
+        var note=Label(card,"Take a breath. Your journey is paused.",new Vector2(30,-174),new Vector2(660,35),21,new Color(.74f,.82f,.92f));note.alignment=TextAlignmentOptions.Midline;
+        TMP_Text label;resumeButton=ActionButton(card,"Resume journey",new Vector2(110,-238),new Vector2(500,58),new Color(.16f,.29f,.42f),()=>demo.SetPaused(false),out label);label.text="ESC   RESUME JOURNEY";
+        ActionButton(card,"Return to title",new Vector2(160,-318),new Vector2(400,48),new Color(.12f,.15f,.24f),()=>{demo.SetPaused(false);SceneManager.LoadScene(SceneManager.GetActiveScene().name);},out label);label.text="RETURN TO TITLE";
+        var foot=Label(card,"Returning to title resets this run.",new Vector2(30,-396),new Vector2(660,28),17,new Color(.64f,.71f,.83f));foot.alignment=TextAlignmentOptions.Midline;
     }
     void BuildOutcome()
     {

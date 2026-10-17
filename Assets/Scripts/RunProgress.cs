@@ -22,7 +22,7 @@ public class RunProgress : MonoBehaviour
         if(Completed) { if(Input.GetKeyDown(KeyCode.R))SceneManager.LoadScene(SceneManager.GetActiveScene().name); return; }
         if(!health.IsDead && transform.position.y < CheckpointPosition.y-18f) Respawn();
     }
-    public void ShowMessage(string text) { message=text; messageUntil=Time.time+5f; }
+    public void ShowMessage(string text) { message=text; messageUntil=Time.time+Mathf.Clamp(5f+text.Length/22f,8f,14f); }
     public void SetCheckpoint(Vector3 position, string label)
     {
         CheckpointPosition=position; CheckpointName=label;

@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
   m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 64
+  maxHealth: 48
   hurtDuration: 0.3334
   deathDuration: 1.6
   healthBarDuration: 1.8
@@ -276,6 +276,9 @@ MonoBehaviour:
   warning: {fileID: 2541889632011973714}
   projectilePrefab: {fileID: 6174905320313659833, guid: bd0f40fe1555749e19836cb1c9ffe50c, type: 3}
   entrance: {fileID: 532427575419983288}
+  slimePrefab: {fileID: 3416380330036038549, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
+  mushroomPrefab: {fileID: 8352235320071759969, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+  beamMaterial: {fileID: 2100000, guid: 0e06cc1b79c47416a95947d5877ccce8, type: 2}
   arenaLeft: {fileID: 8453953674567184399}
   arenaRight: {fileID: 3127348716785770877}
 --- !u!1 &577698448122389998
