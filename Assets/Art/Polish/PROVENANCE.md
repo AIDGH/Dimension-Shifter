@@ -9,3 +9,5 @@ Use case: stylized-concept. Asset type: single transparent sprite for a side-scr
 The rift shader is a project-native animated effect. HUD panels and vitality diamonds are generated UI primitives, not external artwork.
 
 SoftBackground.shader adapts Unity URP Sprite-Unlit-Default, copyright © 2020 Unity Technologies ApS, under the Unity Companion License for Unity-dependent projects: https://unity.com/legal/licenses/unity-companion-license . Its added vertical alpha feather blends the existing forest art into the atmosphere.
+
+Sanctuary.shader also adapts Unity URP Sprite-Unlit-Default under the same Unity Companion License (see UnityShaderLicense.md). Its color mask shifts the shrine’s cyan ring to violet in Echo while retaining alpha and neutral stone. It uses the same generated sprite; no additional external art was imported.

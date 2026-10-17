@@ -20,12 +20,12 @@ public class ExpansionCheckRunner:MonoBehaviour
  public IEnumerator RunChecks()
  {
   hp=Object.FindFirstObjectByType<PlayerHealth>();body=hp.GetComponent<Rigidbody2D>();movement=hp.GetComponent<PlayerMovement>();dimension=hp.GetComponent<DimensionController>();run=hp.GetComponent<RunProgress>();
-  movement.enabled=false;Object.FindFirstObjectByType<CameraFollow>().enabled=false;body.constraints=RigidbodyConstraints2D.FreezeAll;body.gravityScale=0;
+  movement.enabled=false;Camera.main.GetComponent<CameraFollow>().enabled=false;body.constraints=RigidbodyConstraints2D.FreezeAll;body.gravityScale=0;
   var rift=Spawn("09_RiftCrossing_Painted",new Vector3(1000,0));Place(1006);yield return new WaitForFixedUpdate();yield return null;
   var gates=rift.GetComponentsInChildren<DimensionMember>().Where(m=>m.name.Contains("seal")).ToArray();var frost=gates.First(m=>m.dimension==0);var echo=gates.First(m=>m.dimension==1);
   Need(frost.IsPresent&&!echo.IsPresent,"Frost starts with the cyan gate solid and violet gate ghosted");
   Need(dimension.TryShift(),"Q can change dimension in clear space");
-  Need(!frost.IsPresent&&echo.IsPresent&&frost.GetComponent<Collider2D>().isTrigger,"Shift changes collision as well as appearance");
+  Need(!frost.IsPresent&&echo.IsPresent&&frost.GetComponentInChildren<Collider2D>().isTrigger,"Shift changes collision as well as appearance");
   Place(1008,1);yield return new WaitForSeconds(2.1f);
   Need(!dimension.TryShift()&&dimension.Current==1,"Shift is refused if a new solid gate would trap the player");
   Place(1006);Need(dimension.TryShift(),"Leaving the ghost gate permits shifting again");

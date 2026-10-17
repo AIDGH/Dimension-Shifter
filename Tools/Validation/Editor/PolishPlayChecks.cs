@@ -35,7 +35,7 @@ public class PolishCheckRunner:MonoBehaviour
   var music=hp.GetComponent<WorldMusic>().GetComponents<AudioSource>().Where(a=>a.loop).ToArray();Need(music.Length==2&&music.All(a=>a.clip!=null&&Mathf.Abs(a.clip.length-32)<.05f),"Both dimensions load matching 32-second looping music");
   var rift=Spawn("09_RiftCrossing_Painted",new Vector3(1040,0));yield return null;
   foreach(var gate in rift.GetComponentsInChildren<DimensionMember>().Where(m=>m.name.Contains("seal")))Need(gate.GetComponentsInChildren<SpriteRenderer>().Length==0&&gate.GetComponentsInChildren<MeshRenderer>().Any(r=>r.sharedMaterial.shader.name=="DimensionShifter/LivingRift"),"Barrier uses a flowing energy seam without plant sprites");
-  var ascent=Spawn("10_CrystalAscent_Painted",new Vector3(1080,0));var descent=Spawn("11_HollowDescent_Painted",new Vector3(1120,6));yield return null;Physics2D.SyncTransforms();
+  var ascent=Spawn("10_CrystalAscent_Painted",new Vector3(1100,0));var descent=Spawn("11_HollowDescent_Painted",new Vector3(1140,6));yield return null;Physics2D.SyncTransforms();
   Need(ascent.transform.Find("EndPosition").localPosition.y==6&&descent.transform.Find("EndPosition").localPosition.y==-6,"Vertical chunks rise and descend six units");
   foreach(var root in new[]{ascent,descent})for(int i=0;i<18;i++){float expected=root.transform.position.y+(root==ascent?1:-1)*Mathf.Min(3,i/4)*2;var hit=Physics2D.Raycast(new Vector2(root.transform.position.x+i+.5f,expected+.05f),Vector2.down,1,1<<8);Need(hit.collider!=null&&Mathf.Abs(hit.point.y-expected)<.02f,"Vertical floor sample "+root.name+" x="+i);}
   // Preview real Play Mode objects and the same HUD at two aspect ratios.
@@ -43,8 +43,8 @@ public class PolishCheckRunner:MonoBehaviour
   File.WriteAllText("polish-render-debug.txt","Camera "+camera.transform.position+" player "+hp.transform.position+" viewport "+camera.WorldToViewportPoint(hp.transform.position)+"\n"+string.Join("\n",garden.GetComponentsInChildren<Renderer>().Select(r=>r.name+" enabled="+r.enabled+" bounds="+r.bounds+" order="+r.sortingOrder)));
   Capture("polish-frost.png",1600,900,ui);dimension.SetDimension(1);hp.GetComponent<RunProgress>().ShowMessage("ECHO  •  New inhabitants awaken beyond the veil");yield return new WaitForSeconds(.4f);Capture("polish-echo.png",1600,900,ui);
   camera.transform.position=new Vector3(1048,2,camera.transform.position.z);Place(1044,.65f);yield return new WaitForSeconds(.2f);Capture("polish-rift.png",1280,800,ui);
-  camera.transform.position=new Vector3(1089,6,camera.transform.position.z);Place(1092,6.65f);yield return new WaitForSeconds(.2f);Capture("polish-ascent.png",1600,900,ui);
-  camera.transform.position=new Vector3(1129,-2,camera.transform.position.z);Place(1132,.65f);yield return new WaitForSeconds(.2f);Capture("polish-descent.png",1600,900,ui);
+  camera.transform.position=new Vector3(1109,6,camera.transform.position.z);Place(1112,6.65f);yield return new WaitForSeconds(.2f);Capture("polish-ascent.png",1600,900,ui);
+  camera.transform.position=new Vector3(1149,-2,camera.transform.position.z);Place(1152,.65f);yield return new WaitForSeconds(.2f);Capture("polish-descent.png",1600,900,ui);
   Need(camera.clearFlags==CameraClearFlags.SolidColor&&camera.backgroundColor.b<.12f,"Deep background covers the viewport after upward and downward camera travel");
   PolishPlayChecks.Finish(0);
  }

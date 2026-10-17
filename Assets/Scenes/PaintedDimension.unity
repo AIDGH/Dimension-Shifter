@@ -4991,7 +4991,7 @@ MonoBehaviour:
   smoothTimeX: 0.15
   smoothTimeY: 0.3
   minX: 1
-  maxX: 260
+  maxX: 320
   airborneVerticalDeadzone: 3
   yOffset: 1
 --- !u!114 &519420034
@@ -5271,6 +5271,7 @@ MonoBehaviour:
   - {fileID: 3772858215755309312, guid: 1d8ebf9729f344e73880c81042b2f751, type: 3}
   - {fileID: 1865397416083930852, guid: 759b45c8842d445a688e181168a591b2, type: 3}
   - {fileID: 6766594667112919869, guid: f908a1734f3734529a0ebe0547b52e93, type: 3}
+  - {fileID: 568524471974092349, guid: f0ad74d91dcd1494e98923abbcf13a82, type: 3}
   - {fileID: 1754664597644380579, guid: 8508134470ea34a1ca3445d5516b0eca, type: 3}
   spawnDistance: 20
 --- !u!4 &649879812
@@ -8260,7 +8261,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1652150253
 MonoBehaviour:
@@ -8291,7 +8292,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652150247}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}

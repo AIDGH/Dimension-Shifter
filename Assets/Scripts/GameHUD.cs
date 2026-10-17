@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 // One scalable Canvas replaces the debug IMGUI boxes and the old solid red bar.
 public class GameHUD : MonoBehaviour
@@ -9,6 +11,12 @@ public class GameHUD : MonoBehaviour
     Canvas canvas;
     PlayerHealth health; PlayerRewards rewards; DimensionController dimension; PlayerAttack attack; RunProgress run;
     TMP_Text vitality,score,rank,world,shiftTime,dashTime,hint,checkpoint,ending;
+    TMP_Text outcomeSubtitle,outcomeScore,outcomeStats,primaryLabel;
+    Button primaryButton, restartButton;
+    RectTransform outcomeCard;
+    Image outcomeAccent;
+    bool wasOver;
+    public bool OutcomeVisible => modal != null && modal.alpha > .9f;
     Image[] shards=new Image[5]; Image xpFill,shiftFill,dashFill;
     CanvasGroup toast,modal;
     Sprite rounded,diamond;
@@ -22,7 +30,7 @@ public class GameHUD : MonoBehaviour
         if(attack.cooldownText!=null)attack.cooldownText.gameObject.SetActive(false);
         displayFont=TMP_FontAsset.CreateFontAsset(font);
         rounded=MakeShape(false);diamond=MakeShape(true);
-        var go=new GameObject("Dimension HUD",typeof(RectTransform));canvas=go.AddComponent<Canvas>();canvas.renderMode=RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=100;
+        var go=new GameObject("Dimension HUD",typeof(RectTransform));canvas=go.AddComponent<Canvas>();canvas.renderMode=RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=100;go.AddComponent<GraphicRaycaster>();
         var scaler=go.AddComponent<CanvasScaler>();scaler.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=new Vector2(1920,1080);scaler.matchWidthOrHeight=.5f;
         var status=Panel("Vitality card",canvas.transform,new Vector2(0,1),new Vector2(28,-28),new Vector2(360,145));
         Label(status,"VITALITY",new Vector2(22,-12),new Vector2(160,24),16,new Color(.65f,.76f,.85f));
@@ -51,9 +59,9 @@ public class GameHUD : MonoBehaviour
         checkpoint=Label(canvas.transform,"",new Vector2(28,-195),new Vector2(440,30),17,new Color(.65f,.8f,.9f));
         var controls=Panel("Controls",canvas.transform,new Vector2(.5f,0),new Vector2(0,18),new Vector2(680,40));
         var help=Label(controls,"A / D  Move     SPACE  Jump     V  Strike     M  Music",new Vector2(12,-4),new Vector2(656,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
-        var finish=Panel("Outcome",canvas.transform,new Vector2(.5f,.5f),Vector2.zero,new Vector2(540,220));modal=finish.gameObject.AddComponent<CanvasGroup>();
-        ending=Label(finish,"",new Vector2(25,-24),new Vector2(490,174),26,Color.white);ending.alignment=TextAlignmentOptions.Midline;
-        toast.alpha=modal.alpha=0;
+        BuildOutcome();
+        toast.alpha=modal.alpha=0;modal.interactable=false;modal.blocksRaycasts=false;
+
     }
     void Update()
     {
@@ -69,8 +77,59 @@ public class GameHUD : MonoBehaviour
         dashFill.fillAmount=1-attack.DashCooldownRemaining/Mathf.Max(.1f,attack.dashCooldown);
         hint.text=run.ActiveMessage;toast.alpha=Mathf.MoveTowards(toast.alpha,string.IsNullOrEmpty(hint.text)?0:1,Time.unscaledDeltaTime*4);
         checkpoint.text="SANCTUARY  /  "+run.CheckpointName;
-        bool over=health.IsDead||run.Completed;modal.alpha=Mathf.MoveTowards(modal.alpha,over?1:0,Time.unscaledDeltaTime*4);
-        ending.text=run.Completed?"RIFT RESTORED\n\n"+rewards.Score.ToString("N0")+" points   •   "+rewards.Relics+" relics\nR  —  Journey again":"YOUR LIGHT FADES\n\nReturn to "+run.CheckpointName+"\nR  —  Try again";
+        bool over=health.IsDead||run.Completed;
+        modal.alpha=Mathf.MoveTowards(modal.alpha,over?1:0,Time.unscaledDeltaTime*2.8f);
+        modal.interactable=over;modal.blocksRaycasts=over;
+        outcomeCard.localScale=Vector3.one*Mathf.Lerp(.95f,1,modal.alpha);
+        if(over)
+        {
+            bool won=run.Completed;Color light=won?gold:violet;
+            ending.text=won?"RIFT RESTORED":"YOUR LIGHT FADES";ending.color=light;
+            outcomeSubtitle.text=won?"Two worlds. One path home.":"The sanctuary remembers you. Your progress is safe.";
+            outcomeScore.text=rewards.Score.ToString("N0")+"  POINTS";
+            outcomeStats.text=rewards.Defeated+"  ENEMIES     •     "+rewards.Relics+"  RELICS     •     RESONANCE "+rewards.Level;
+            primaryLabel.text=won?"R   JOURNEY AGAIN":"R   RETURN TO SANCTUARY";
+            restartButton.gameObject.SetActive(!won);outcomeAccent.color=light;
+            if(!wasOver&&EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(primaryButton.gameObject);
+            if(Input.GetKeyDown(KeyCode.N))RestartJourney();
+        }
+        wasOver=over;
+
+    }
+    void BuildOutcome()
+    {
+        var veil=new GameObject("Outcome menu",typeof(RectTransform));veil.transform.SetParent(canvas.transform,false);
+        var rect=veil.GetComponent<RectTransform>();rect.anchorMin=Vector2.zero;rect.anchorMax=Vector2.one;rect.offsetMin=rect.offsetMax=Vector2.zero;
+        var shade=veil.AddComponent<Image>();shade.color=new Color(.012f,.02f,.045f,.87f);shade.raycastTarget=true;
+        modal=veil.AddComponent<CanvasGroup>();
+        outcomeCard=Panel("Sanctuary outcome",veil.transform,new Vector2(.5f,.5f),Vector2.zero,new Vector2(760,530));
+        Picture(outcomeCard,"Crest glow",new Vector2(349,-34),new Vector2(62,70),new Color(.32f,.2f,.55f),diamond);
+        outcomeAccent=Picture(outcomeCard,"Crest",new Vector2(363,-49),new Vector2(34,40),violet,diamond);
+        ending=Label(outcomeCard,"",new Vector2(30,-125),new Vector2(700,60),43,Color.white);ending.alignment=TextAlignmentOptions.Midline;
+        outcomeSubtitle=Label(outcomeCard,"",new Vector2(35,-192),new Vector2(690,35),20,new Color(.74f,.8f,.9f));outcomeSubtitle.alignment=TextAlignmentOptions.Midline;
+        Picture(outcomeCard,"Divider",new Vector2(100,-247),new Vector2(560,2),new Color(.35f,.5f,.65f,.5f),rounded);
+        outcomeScore=Label(outcomeCard,"",new Vector2(35,-268),new Vector2(690,42),32,gold);outcomeScore.alignment=TextAlignmentOptions.Midline;
+        outcomeStats=Label(outcomeCard,"",new Vector2(35,-316),new Vector2(690,32),17,new Color(.73f,.81f,.9f));outcomeStats.alignment=TextAlignmentOptions.Midline;
+        primaryButton=ActionButton(outcomeCard,"Return to sanctuary",new Vector2(130,-373),new Vector2(500,54),new Color(.16f,.29f,.42f),RetryFromOutcome,out primaryLabel);
+        TMP_Text secondary;restartButton=ActionButton(outcomeCard,"Restart journey",new Vector2(230,-445),new Vector2(300,40),new Color(.12f,.15f,.24f),RestartJourney,out secondary);secondary.text="N   RESTART JOURNEY";secondary.fontSize=17;
+    }
+    Button ActionButton(Transform parent,string name,Vector2 p,Vector2 size,Color color,UnityEngine.Events.UnityAction action,out TMP_Text label)
+    {
+        var image=Picture(parent,name,p,size,color,rounded);image.raycastTarget=true;
+        var button=image.gameObject.AddComponent<Button>();button.targetGraphic=image;
+        var colors=button.colors;colors.highlightedColor=new Color(1.25f,1.25f,1.25f);colors.selectedColor=colors.highlightedColor;colors.pressedColor=new Color(.7f,.8f,1);button.colors=colors;
+        button.onClick.AddListener(action);label=Label(image.transform,"",new Vector2(8,-3),size-new Vector2(16,6),20,Color.white);label.alignment=TextAlignmentOptions.Midline;return button;
+    }
+    public void RetryFromOutcome()
+    {
+        if(run.Completed){RestartJourney();return;}
+        if(!health.IsDead)return;
+        run.Respawn();if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(null);
+    }
+    public void RestartJourney()
+    {
+        if(!health.IsDead&&!run.Completed)return;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     RectTransform Panel(string name,Transform parent,Vector2 anchor,Vector2 pos,Vector2 size)
     {

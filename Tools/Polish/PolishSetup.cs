@@ -41,6 +41,7 @@ public static class PolishSetup
    EditorSceneManager.SaveScene(scene);
   }
   foreach(var path in Directory.GetFiles("Assets/Resources/Music","*.wav")){var audio=(AudioImporter)AssetImporter.GetAtPath(path);var sample=audio.defaultSampleSettings;sample.loadType=AudioClipLoadType.Streaming;sample.compressionFormat=AudioCompressionFormat.Vorbis;sample.quality=.7f;audio.defaultSampleSettings=sample;audio.SaveAndReimport();}
+  RouteRefinementSetup.Apply();
   AssetDatabase.SaveAssets();File.WriteAllLines("polish-setup-results.txt",report);EditorApplication.Exit(0);
  }catch(Exception e){Debug.LogException(e);EditorApplication.Exit(1);}}
  static T Add<T>(GameObject g)where T:Component{var c=g.GetComponent<T>();return c!=null?c:g.AddComponent<T>();}
@@ -59,7 +60,7 @@ public static class PolishSetup
   float foot=(bottom-rect.y-sprite.pivot.y)/sprite.pixelsPerUnit;
   // Remove the oversized secondary collision shape, retaining a grounded body box.
   foreach(var polygon in enemy.GetComponents<PolygonCollider2D>())Object.DestroyImmediate(polygon);
-  var box=enemy.GetComponent<BoxCollider2D>();if(box!=null){float top=box.offset.y+box.size.y*.5f;box.size=new Vector2(box.size.x,top-foot);box.offset=new Vector2(box.offset.x,(top+foot)*.5f);}
+  var box=enemy.GetComponent<BoxCollider2D>();if(box==null)box=enemy.AddComponent<BoxCollider2D>();box.enabled=true;box.isTrigger=false;if(box!=null){float top=box.offset.y+box.size.y*.5f;box.size=new Vector2(box.size.x,top-foot);box.offset=new Vector2(box.offset.x,(top+foot)*.5f);}
   importer.isReadable=readable;importer.SaveAndReimport();report.Add("Slime opaque foot="+foot+"; collider bottom aligned, "+enemy.name);
  }
  static void Shrine(TrailMarker marker)
