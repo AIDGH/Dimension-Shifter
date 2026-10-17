@@ -60,6 +60,10 @@ public class PlayerHealth : MonoBehaviour
         if (elapsed >= .12f && Mathf.FloorToInt(elapsed * Mathf.Max(1, numberOfFlashes) * 2 / Mathf.Max(.1f,iFramesDuration)) % 2 == 0) color.a *= .35f;
         spriteRenderer.color = color;
     }
+    public void Heal(float amount)
+    {
+        if(IsDead||amount<=0)return;currentHealth=Mathf.Min(maxHealth,currentHealth+amount);UpdateHealthUI();
+    }
     public void RestoreHealth()
     {
         currentHealth = maxHealth; invincibleRemaining = iFramesDuration;
@@ -70,7 +74,7 @@ public class PlayerHealth : MonoBehaviour
     void OnDisable() { if(spriteRenderer != null)spriteRenderer.color = originalColor; }
     void OnGUI()
     {
-        if (!IsDead) return;
+        if (!IsDead || GetComponent<GameHUD>() != null) return;
         var style = new GUIStyle(GUI.skin.box) { fontSize = 24, alignment = TextAnchor.MiddleCenter };
         GUI.Box(new Rect(Screen.width/2f-180, Screen.height/2f-45,360,90), "You fell\nPress R to retry", style);
     }

@@ -26,6 +26,7 @@ public class PlayerAttack : MonoBehaviour
     public float activeFrom = .0833f;
     public float activeUntil = .5f;
     public bool IsDashing => dashOwnsMovement;
+    public float DashCooldownRemaining => Mathf.Max(0,nextDashTime-Time.time);
     private PlayerEnemyContact contact;
     private bool dashOwnsMovement;
     private bool previousMovementEnabled;

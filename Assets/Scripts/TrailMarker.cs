@@ -23,6 +23,7 @@ public class TrailMarker : MonoBehaviour
         if(kind==MarkerKind.Checkpoint)run.SetCheckpoint(spawnPoint!=null?spawnPoint.position:transform.position,message);
         else if(kind==MarkerKind.Exit)run.Complete();
         else run.ShowMessage(message);
-        if(beacon!=null)beacon.color=new Color(.7f,1f,.8f);
+        var shrine=GetComponent<ShrineVisual>();if(shrine!=null)shrine.Activate();
+        else if(beacon!=null)beacon.color=new Color(.7f,1f,.8f);
     }
 }

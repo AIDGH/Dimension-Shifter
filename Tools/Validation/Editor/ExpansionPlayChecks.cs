@@ -26,7 +26,7 @@ public class ExpansionCheckRunner:MonoBehaviour
   Need(frost.IsPresent&&!echo.IsPresent,"Frost starts with the cyan gate solid and violet gate ghosted");
   Need(dimension.TryShift(),"Q can change dimension in clear space");
   Need(!frost.IsPresent&&echo.IsPresent&&frost.GetComponent<Collider2D>().isTrigger,"Shift changes collision as well as appearance");
-  Place(1008,1);yield return new WaitForSeconds(.7f);
+  Place(1008,1);yield return new WaitForSeconds(2.1f);
   Need(!dimension.TryShift()&&dimension.Current==1,"Shift is refused if a new solid gate would trap the player");
   Place(1006);Need(dimension.TryShift(),"Leaving the ghost gate permits shifting again");
   Need(rift.GetComponentsInChildren<TrailMarker>().Any(m=>m.kind==TrailMarker.MarkerKind.Checkpoint),"Rift encounter includes a safe checkpoint");

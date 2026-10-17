@@ -27,6 +27,7 @@ public class GameAudio : MonoBehaviour
         if(!Application.isPlaying)return;
         if(instance==null)instance=new GameObject("Game SFX").AddComponent<GameAudio>();
         instance.PlayCue(cue,volume);
+        if(cue=="dash") instance.PlayCue("swing",volume*.55f);
     }
     void PlayCue(string cue,float volume)
     {
@@ -35,7 +36,7 @@ public class GameAudio : MonoBehaviour
         foreach(var candidate in voices)if(!candidate.isPlaying){voice=candidate;break;}
         if(voice==null)voice=voices[cursor++%voices.Length];
         voice.pitch=.94f+(float)variation.NextDouble()*.12f;
-        if(cue=="dash")voice.pitch*=.8f;
+
         voice.clip=clips[variation.Next(clips.Count)];voice.volume=Mathf.Clamp01(volume*masterVolume);voice.Play();
     }
 }

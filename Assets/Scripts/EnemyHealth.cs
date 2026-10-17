@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour
     [Min(0f)] public float hurtDuration = 0.3334f;
     [Min(0f)] public float deathDuration = 0.3334f;
     [Min(0f)] public float healthBarDuration = 1.8f;
+    public int rewardScore = 100, rewardXP = 25;
     public int CurrentHealth { get; private set; }
     public bool IsDead => CurrentHealth <= 0;
     public bool IsStunned => !IsDead && hurtRemaining > 0f;
@@ -43,6 +44,11 @@ public class EnemyHealth : MonoBehaviour
         if (patrol != null) { if (!IsStunned) resumePatrol = patrol.enabled; patrol.enabled = false; }
         if (IsDead)
         {
+            if(Application.isPlaying)
+            {
+                var rewards=FindAnyObjectByType<PlayerRewards>();
+                if(rewards!=null)rewards.EnemyDefeated(rewardScore,rewardXP);
+            }
             hurtRemaining = 0f;
             deathRemaining = deathDuration + 0.18f;
             foreach (var collider in colliders) collider.enabled = false;

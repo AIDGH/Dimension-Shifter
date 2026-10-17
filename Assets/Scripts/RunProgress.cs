@@ -27,7 +27,7 @@ public class RunProgress : MonoBehaviour
     {
         CheckpointPosition=position; CheckpointName=label;
         checkpointDimension=DimensionController.Instance != null ? DimensionController.Instance.Current : 0;
-        health.RestoreHealth(); ShowMessage("Checkpoint saved: "+label); GameAudio.Play("air_jump",.45f);
+        health.RestoreHealth(); ShowMessage("Checkpoint saved: "+label); GameAudio.Play("checkpoint",.5f);
     }
     public void Respawn()
     {
@@ -40,17 +40,19 @@ public class RunProgress : MonoBehaviour
         foreach(var shot in FindObjectsByType<EnemyProjectile>(FindObjectsSortMode.None)) Destroy(shot.gameObject);
         if(DimensionController.Instance!=null)DimensionController.Instance.SetDimension(checkpointDimension);
         health.RestoreHealth(); movement.enabled=true; attack.enabled=true; if(contact!=null)contact.enabled=true;
-        Physics2D.SyncTransforms(); var camera=FindFirstObjectByType<CameraFollow>(); if(camera!=null)camera.SnapToPlayer();
+        Physics2D.SyncTransforms(); var camera=Camera.main!=null?Camera.main.GetComponent<CameraFollow>():null; if(camera!=null)camera.SnapToPlayer();
         ShowMessage("Returned to "+CheckpointName);
     }
     public void Complete()
     {
         if(Completed || health.IsDead)return;
         Completed=true; attack.enabled=false; movement.enabled=false; body.linearVelocity=Vector2.zero;
-        health.enabled=false; GameAudio.Play("air_jump",.6f);
+        health.enabled=false; GameAudio.Play("checkpoint",.6f);
     }
+    public string ActiveMessage => Time.time < messageUntil ? message : "";
     void OnGUI()
     {
+        if(GetComponent<GameHUD>() != null)return;
         var style=new GUIStyle(GUI.skin.box){fontSize=16,alignment=TextAnchor.MiddleCenter,wordWrap=true};
         string dimension=DimensionController.Instance != null && DimensionController.Instance.Current==1 ? "ECHO / violet" : "FROST / cyan";
         GUI.Box(new Rect(12,Screen.height-65,510,52),"V  Strike     B  Phase dash     Q  Shift dimension\n"+dimension+"     |     "+CheckpointName,style);

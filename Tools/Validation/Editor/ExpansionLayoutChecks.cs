@@ -7,12 +7,12 @@ public static class ExpansionLayoutChecks
  foreach(var scenePath in new[]{"Assets/Scenes/SampleScene.unity","Assets/Scenes/PaintedDimension.unity"})
  {
   EditorSceneManager.OpenScene(scenePath);var gen=UnityEngine.Object.FindFirstObjectByType<LevelGenerator>();
-  if(gen.encounterChunks.Length!=3||gen.midChunks.Length!=6)throw new Exception("Missing original or new chunks");
+  if(gen.encounterChunks.Length!=5||gen.midChunks.Length!=6)throw new Exception("Missing original or new chunks");
   typeof(LevelGenerator).GetMethod("Start",Private).Invoke(gen,null);
   for(int i=0;i<30;i++){var last=(Transform)typeof(LevelGenerator).GetField("lastEndPosition",Private).GetValue(gen);gen.player.position=last.position;typeof(LevelGenerator).GetMethod("Update",Private).Invoke(gen,null);}
   foreach(var prefab in gen.encounterChunks)if(!UnityEngine.Object.FindObjectsByType<Transform>().Any(t=>t.name==prefab.name+"(Clone)"))throw new Exception("Encounter skipped: "+prefab.name);
   if(!UnityEngine.Object.FindObjectsByType<TrailMarker>().Any(m=>m.kind==TrailMarker.MarkerKind.Exit))throw new Exception("Missing finish");
-  report.Add("PASS "+scenePath+": all three authored encounters spawn between old chunks; route reaches exit.");
+  report.Add("PASS "+scenePath+": all five authored encounters spawn between old chunks; route reaches exit.");
  }
  EditorSceneManager.OpenScene("Assets/Scenes/PaintedDimension.unity");
  var camera=Camera.main;camera.orthographic=true;camera.aspect=16f/9f;camera.orthographicSize=7.3f;

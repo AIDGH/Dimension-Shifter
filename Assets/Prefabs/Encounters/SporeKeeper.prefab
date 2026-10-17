@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0e06cc1b79c47416a95947d5877ccce8, type: 2}
+  - {fileID: 2100000, guid: c15c50fd42e4f4c3781225e07249d5d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -343,6 +343,8 @@ MonoBehaviour:
   hurtDuration: 0.3334
   deathDuration: 0.3334
   healthBarDuration: 1.8
+  rewardScore: 150
+  rewardXP: 35
 --- !u!114 &405814123207250252
 MonoBehaviour:
   m_ObjectHideFlags: 0

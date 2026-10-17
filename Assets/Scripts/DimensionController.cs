@@ -4,7 +4,7 @@ public class DimensionController : MonoBehaviour
 {
     public static DimensionController Instance { get; private set; }
     public int Current { get; private set; }
-    public float cooldown = .6f;
+    public float cooldown = 2f;
     public float CooldownRemaining => Mathf.Max(0, nextShift - Time.time);
     public string LastMessage { get; private set; }
     float nextShift;
@@ -26,7 +26,7 @@ public class DimensionController : MonoBehaviour
         if(backgrounds==null)return;
         for(int i=0;i<backgrounds.Length;i++)if(backgrounds[i]!=null)
         {
-            var tint=Current==0?Color.white:new Color(1.15f,.7f,1.1f,1);
+            var tint=Current==0?Color.white:new Color(.86f,.48f,1.12f,1);
             backgrounds[i].color=Color.Lerp(backgrounds[i].color,backgroundColors[i]*tint,Time.deltaTime*5);
         }
     }
@@ -36,12 +36,14 @@ public class DimensionController : MonoBehaviour
         var members=FindObjectsByType<DimensionMember>();
         foreach(var member in members)
             if(member.WouldOverlap(shape,1-Current)) { LastMessage="Step clear of the ghost barrier before shifting"; if(RunProgress.Instance != null)RunProgress.Instance.ShowMessage(LastMessage); return false; }
-        SetDimension(1-Current); nextShift=Time.time+cooldown; LastMessage=""; GameAudio.Play("air_jump",.5f); return true;
+        SetDimension(1-Current); nextShift=Time.time+cooldown; LastMessage=""; GameAudio.Play("shift",.5f); return true;
     }
     public void SetDimension(int value)
     {
         Current=Mathf.Clamp(value,0,1);
         foreach(var member in FindObjectsByType<DimensionMember>()) member.Apply(Current);
+        foreach(var actor in FindObjectsByType<DimensionActor>()) actor.Apply(Current);
+        foreach(var shot in FindObjectsByType<EnemyProjectile>()) Destroy(shot.gameObject);
         Physics2D.SyncTransforms();
     }
     void OnDestroy() { if(Instance==this)Instance=null; }

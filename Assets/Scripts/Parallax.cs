@@ -12,6 +12,8 @@ public class Parallax : MonoBehaviour
     private float tileWidth;
     private float worldTileWidth;
     private float authoredWidth;
+    private float initialCameraY;
+    [Range(0f,1f)] public float verticalFollow = .95f;
 
     void Start()
     {
@@ -19,7 +21,7 @@ public class Parallax : MonoBehaviour
         source = GetComponent<SpriteRenderer>();
         if (cam == null || source.sprite == null) { enabled = false; return; }
         viewCamera = cam.GetComponent<Camera>();
-        startPosition = transform.position;
+        startPosition = transform.position; initialCameraY=cam.position.y;
         tileWidth = source.sprite.rect.width / source.sprite.pixelsPerUnit;
         worldTileWidth = tileWidth * Mathf.Abs(transform.lossyScale.x);
         authoredWidth = source.drawMode == SpriteDrawMode.Simple ? tileWidth : source.size.x;
@@ -42,7 +44,7 @@ public class Parallax : MonoBehaviour
         // Preserve the original scene's absolute camera offsets: its layers were
         // positioned for this calibration, including the vertical forest overlap.
         transform.position = new Vector3(startPosition.x + cam.position.x * parallaxEffect + tile * worldTileWidth,
-            startPosition.y + cam.position.y * parallaxEffect, startPosition.z);
+            startPosition.y + initialCameraY * parallaxEffect + (cam.position.y-initialCameraY)*verticalFollow, startPosition.z);
         ResizeStrip();
     }
 
