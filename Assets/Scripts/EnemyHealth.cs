@@ -105,7 +105,7 @@ public class EnemyHealth : MonoBehaviour
             if (hurtRemaining <= 0f)
             {
                 if (patrol != null) patrol.enabled = resumePatrol;
-                Play("Slime_Move");
+                Play(patrol != null && patrol.enabled && Mathf.Abs(body.linearVelocity.x) > .1f ? "Slime_Move" : "Slime_Idle");
             }
         }
         barRemaining = Mathf.Max(0f, barRemaining - dt);

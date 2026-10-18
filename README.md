@@ -39,6 +39,12 @@ Checkpoints preserve discovered keys, the weapon, activated seals, score and def
 
 The first-play pacing target is approximately 7–8 minutes across traversal, discovery, mandatory fights and boss retries; it is a design estimate, not a measured or enforced minimum. Experienced play can finish faster. See `Docs/FinalDemoPolish.md` for the current polish and validation, and `Docs/DemoRelease.md` for the original release.
 
-Editor builders and tests live under `Tools/`, outside runtime imports. Copy `Tools/Demo/DemoSetup.cs`, `Tools/Art/PaintedVariantBuilder.cs`, and desired `Tools/Validation/Editor/*.cs` into an isolated project's `Assets/Editor` to regenerate/test. Run `DemoSetup.Run` on the existing polished project; do not run older expansion builders afterward without rebuilding the demo.
+Editor builders and tests live under `Tools/`, outside runtime imports. Copy `Tools/Demo/DemoSetup.cs`, `Tools/Art/PaintedVariantBuilder.cs`, and desired `Tools/Validation/Editor/*.cs` into an isolated project's `Assets/Editor` to regenerate/test. Do not rerun whole-project builders on current edited scenes or prefabs. Test transformations in an isolated copy and integrate selected files.
 
 Source artwork/audio attribution remains alongside the assets. Demo reference art is documented in `Assets/Art/Demo/PROVENANCE.md`.
+
+## Current collaboration and polish (2026-10-18)
+
+`main` is the chunk-based demo; `hollow-edition` is a separate Unity project/branch. Keep teammate work in `Assets/PrismChallenge` independent; see `Docs/PrismChallenge.md`. Authoring instructions: `Docs/ChunkDesignGuide.fa.md`.
+
+Levels 3/5/7 grant up to +3 blade/dash/cast damage. Dash cooldown decreases by 0.15 seconds per level, capped at 0.6 seconds; movement speed is unchanged. Latest work also fixes slime animation/sensing and adds the painted end tree and dedicated boss lightning material. See `Docs/WorkLog.md` for actual tests and build limitations.

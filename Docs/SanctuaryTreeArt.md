@@ -1,0 +1,7 @@
+# Sanctuary Tree — generated scenery
+
+Date: 2026-10-18. Generated with the built-in image_gen tool, transparent_background=true. This is original generated scenery, not a ripped Hollow Knight texture. Saved as Assets/Art/Scenery/SanctuaryTree.png; generated alpha retained without raster edits. Replaces the old tree pixels in the painted end-chunk prefabs; collider-bearing tiles are replaced with visually transparent equivalents, preserving geometry and placement.
+
+Final prompt:
+
+Use case: stylized-concept. Asset type: transparent game scenery sprite for a hand-painted dark fantasy side-scrolling Unity platformer. Create ONE complete ancient living sanctuary tree, full silhouette including roots, trunk, elegant crooked branches and a leafy crown, entirely isolated on genuine transparent background. Tall portrait composition, roughly 5 wide to 8 high. Dark blue-gray textured bark, cool muted teal and icy blue foliage with subtle luminous leaf tips, soft painterly brushwork and clear readable edges, melancholy magical forest mood. Straight-on side-view orthographic game prop, rooted flat along the bottom, narrow strong trunk in lower half and spreading asymmetric canopy in upper third. Entire tree fits with small transparent padding. No ground slab, no landscape, no sky, no cast shadow outside tree, no frame, no text, no objects or characters. Rich detail but controlled contrast that won't obscure the player. High resolution clean alpha.

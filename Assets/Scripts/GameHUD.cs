@@ -36,6 +36,7 @@ public class GameHUD : MonoBehaviour
     CanvasGroup toast,modal;
     Sprite rounded,diamond;
     TMP_FontAsset displayFont;
+    TMP_Text power;
     Color cyan=new Color(.39f,.92f,1),violet=new Color(.76f,.54f,1),gold=new Color(1,.8f,.4f);
     void Start()
     {
@@ -47,7 +48,7 @@ public class GameHUD : MonoBehaviour
         rounded=MakeShape(false);diamond=MakeShape(true);
         var go=new GameObject("Dimension HUD",typeof(RectTransform));canvas=go.AddComponent<Canvas>();canvas.renderMode=RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=100;go.AddComponent<GraphicRaycaster>();
         var scaler=go.AddComponent<CanvasScaler>();scaler.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=new Vector2(1920,1080);scaler.matchWidthOrHeight=.5f;
-        var status=Panel("Vitality card",canvas.transform,new Vector2(0,1),new Vector2(28,-28),new Vector2(360,145));
+        var status=Panel("Vitality card",canvas.transform,new Vector2(0,1),new Vector2(28,-28),new Vector2(360,176));
         Label(status,"VITALITY",new Vector2(22,-12),new Vector2(160,24),16,new Color(.65f,.76f,.85f));
         for(int i=0;i<5;i++)
         {
@@ -59,6 +60,7 @@ public class GameHUD : MonoBehaviour
         rank=Label(status,"",new Vector2(175,-93),new Vector2(162,25),16,new Color(.7f,.8f,.9f));
         Picture(status,"XP track",new Vector2(22,-125),new Vector2(316,5),new Color(.13f,.2f,.28f),rounded);
         xpFill=Picture(status,"XP",new Vector2(22,-125),new Vector2(316,5),gold,rounded);xpFill.type=Image.Type.Filled;xpFill.fillMethod=Image.FillMethod.Horizontal;
+        power=Label(status,"",new Vector2(22,-142),new Vector2(316,25),15,new Color(.7f,.85f,.95f));
         var skills=Panel("Dimension card",canvas.transform,new Vector2(1,1),new Vector2(-28,-28),new Vector2(330,145));
         world=Label(skills,"",new Vector2(20,-13),new Vector2(290,28),22,cyan);
         Label(skills,"Q  SHIFT",new Vector2(20,-53),new Vector2(145,24),17,Color.white);
@@ -71,7 +73,7 @@ public class GameHUD : MonoBehaviour
         var note=Panel("Trail note",canvas.transform,new Vector2(.5f,0),new Vector2(0,105),new Vector2(820,120));toast=note.gameObject.AddComponent<CanvasGroup>();
         Label(note,"TRAIL NOTE",new Vector2(24,-12),new Vector2(770,24),18,gold);
         hint=Label(note,"",new Vector2(24,-40),new Vector2(770,63),23,Color.white);hint.textWrappingMode=TextWrappingModes.Normal;
-        checkpoint=Label(canvas.transform,"",new Vector2(28,-195),new Vector2(440,30),17,new Color(.65f,.8f,.9f));
+        checkpoint=Label(canvas.transform,"",new Vector2(28,-226),new Vector2(440,30),17,new Color(.65f,.8f,.9f));
         var controls=Panel("Controls",canvas.transform,new Vector2(.5f,0),new Vector2(0,18),new Vector2(960,40));
         var help=Label(controls,"A / D Move   SPACE Jump   V Strike   C Cast   E Use   M Music   ESC Pause",new Vector2(12,-4),new Vector2(936,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
         Picture(note,"Notice accent",new Vector2(0,-5),new Vector2(6,110),gold,rounded);
@@ -94,11 +96,12 @@ public class GameHUD : MonoBehaviour
         for(int i=0;i<5;i++)shards[i].color=Color.Lerp(new Color(.13f,.2f,.28f),health.IsInvincible?Color.white:cyan,Mathf.Clamp01(fraction*5-i));
         vitality.text=Mathf.CeilToInt(health.currentHealth)+" / "+Mathf.CeilToInt(health.maxHealth);
         score.text=rewards.Score.ToString("N0")+"  pts";rank.text="RESONANCE  "+rewards.Level;xpFill.fillAmount=rewards.LevelProgress;
+        power.text="BLADE "+attack.EffectiveNormalDamage+"   DASH "+attack.EffectiveDashDamage+"   RECOVERY "+attack.EffectiveDashCooldown.ToString("F1")+"s";
         Color accent=dimension.Current==0?cyan:violet;world.text=dimension.Current==0?"FROST  /  waking world":"ECHO  /  spirit world";world.color=accent;
         shiftTime.text=dimension.CooldownRemaining>0?dimension.CooldownRemaining.ToString("F1")+" s":"READY";
         shiftFill.fillAmount=1-dimension.CooldownRemaining/Mathf.Max(.1f,dimension.cooldown);shiftFill.color=accent;
         dashTime.text=attack.DashCooldownRemaining>0?attack.DashCooldownRemaining.ToString("F1")+" s":"READY";
-        dashFill.fillAmount=1-attack.DashCooldownRemaining/Mathf.Max(.1f,attack.dashCooldown);
+        dashFill.fillAmount=1-attack.DashCooldownRemaining/Mathf.Max(.1f,attack.EffectiveDashCooldown);
         hint.text=run.ActiveMessage;
         if(hint.text!=previousNotice){previousNotice=hint.text;noticeFlash=1;}
         noticeFlash=Mathf.Max(0,noticeFlash-Time.unscaledDeltaTime*.7f);

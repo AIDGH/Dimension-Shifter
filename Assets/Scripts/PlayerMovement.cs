@@ -5,6 +5,9 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
+    [Tooltip("Native artwork direction only; movement, blade and cast keep a shared gameplay direction.")]
+    public bool spriteFacesRight = true;
+    public float FacingSign => transform.lossyScale.x < 0f ? -1f : 1f;
     public float acceleration = 30f;
     public float groundDeceleration = 50f;
     public float airDeceleration = 5f;
@@ -65,6 +68,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         body = GetComponent<Collider2D>();
         anim = GetComponent<Animator>();
+        var visual = GetComponent<SpriteRenderer>();
+        if (visual != null) visual.flipX = !spriteFacesRight;
         baseGravity = rb.gravityScale > 0f ? rb.gravityScale : 4f;
         rb.constraints |= RigidbodyConstraints2D.FreezeRotation;
         rb.rotation = 0f;

@@ -26,6 +26,9 @@ public class PlayerAttack : MonoBehaviour
     public float activeFrom = .0833f;
     public float activeUntil = .5f;
     public bool IsDashing => dashOwnsMovement;
+    public int EffectiveNormalDamage => normalDamage + (GetComponent<PlayerRewards>()?.DamageBonus ?? 0);
+    public int EffectiveDashDamage => dashDamage + (GetComponent<PlayerRewards>()?.DamageBonus ?? 0);
+    public float EffectiveDashCooldown => Mathf.Max(.5f, dashCooldown - (GetComponent<PlayerRewards>()?.DashCooldownReduction ?? 0f));
     public float DashCooldownRemaining => Mathf.Max(0,nextDashTime-Time.time);
     private PlayerEnemyContact contact;
     private bool dashOwnsMovement;
@@ -79,7 +82,7 @@ public class PlayerAttack : MonoBehaviour
             if (Time.time < nextDashTime) showTextTimer = textDisplayDuration;
             else if (!isAttacking)
             {
-                nextDashTime = Time.time + dashCooldown;
+                nextDashTime = Time.time + EffectiveDashCooldown;
                 showTextTimer = 0f;
                 StartCoroutine(DashAttackRoutine());
             }
@@ -91,10 +94,18 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
+    float Facing()
+    {
+        var movement = pm != null ? pm : GetComponent<PlayerMovement>();
+        if (movement != null) return movement.FacingSign;
+        var sr = GetComponent<SpriteRenderer>();
+        return (transform.lossyScale.x < 0 ? -1f : 1f) * (sr != null && sr.flipX ? -1f : 1f);
+    }
+
     private void BeginAttack()
     {
         isAttacking = true;
-        attackElapsed = 0f; attackDamage = normalDamage; struck.Clear();
+        attackElapsed = 0f; attackDamage = EffectiveNormalDamage; struck.Clear();
         if (anim != null && anim.runtimeAnimatorController != null)
         {
             anim.SetBool("IsAttacking", true);
@@ -114,7 +125,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator DashAttackRoutine()
     {
         BeginAttack();
-        attackDamage = dashDamage;
+        attackDamage = EffectiveDashDamage;
         previousGravity = rb.gravityScale;
         previousMovementEnabled = pm != null && pm.enabled;
         dashOwnsMovement = true;
@@ -122,9 +133,7 @@ public class PlayerAttack : MonoBehaviour
         GameAudio.Play("dash", .6f);
         if (pm != null) pm.enabled = false;
         rb.gravityScale = 0f;
-        float facing = transform.lossyScale.x < 0f ? -1f : 1f;
-        SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        if (sr != null && sr.flipX) facing *= -1f;
+        float facing = Facing();
         float duration = Mathf.Max(0.01f, dashAttackDuration);
         float elapsed = 0f;
         WaitForFixedUpdate physicsTick = new WaitForFixedUpdate();
@@ -148,9 +157,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void ResolveHits()
     {
-        float facing = transform.lossyScale.x < 0 ? -1f : 1f;
-        var sr = GetComponent<SpriteRenderer>();
-        if (sr != null && sr.flipX) facing *= -1f;
+        float facing = Facing();
         Vector2 origin = body != null ? (Vector2)body.bounds.center : rb.position;
         Vector2 center = origin + new Vector2((dashOwnsMovement ? .3f : hitboxOffset.x) * facing, hitboxOffset.y);
         Vector2 size = dashOwnsMovement ? new Vector2(1.8f, hitboxSize.y) : hitboxSize;
@@ -164,14 +171,13 @@ public class PlayerAttack : MonoBehaviour
             Vector2 point = targets[i].ClosestPoint(origin);
             var wallFilter = new ContactFilter2D(); wallFilter.SetLayerMask(attackBlockingLayers); wallFilter.useTriggers = false;
             if (Physics2D.Linecast(origin, point, wallFilter, dashHits) > 0) continue;
-            if (enemy.TakeDamage(attackDamage, origin, attackDamage == dashDamage ? 4f : 2.8f)) struck.Add(enemy);
+            if (enemy.TakeDamage(attackDamage, origin, dashOwnsMovement ? 4f : 2.8f)) struck.Add(enemy);
         }
     }
 
     void OnDrawGizmosSelected()
     {
-        float facing = transform.lossyScale.x < 0 ? -1f : 1f;
-        var sr = GetComponent<SpriteRenderer>(); if (sr != null && sr.flipX) facing *= -1f;
+        float facing = Facing();
         var collider = GetComponent<Collider2D>();
         Vector3 origin = collider != null ? collider.bounds.center : transform.position;
         Gizmos.color = Color.cyan;
