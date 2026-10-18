@@ -278,7 +278,7 @@ MonoBehaviour:
   entrance: {fileID: 532427575419983288}
   slimePrefab: {fileID: 3416380330036038549, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
   mushroomPrefab: {fileID: 8352235320071759969, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
-  beamMaterial: {fileID: 2100000, guid: 4661f513d6c3446a28a0f9407d418d2d, type: 2}
+  beamMaterial: {fileID: 2100000, guid: 0569fcd5b549046c3ac7411e0eb41a6f, type: 2}
   arenaLeft: {fileID: 8453953674567184399}
   arenaRight: {fileID: 3127348716785770877}
 --- !u!1 &577698448122389998

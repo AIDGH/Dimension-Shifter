@@ -22,7 +22,8 @@ public class EnemyAttackAI : MonoBehaviour
     Vector2 aim;
     readonly RaycastHit2D[] groundHits = new RaycastHit2D[8];
     void Awake() { health = GetComponent<EnemyHealth>(); body = GetComponent<Rigidbody2D>(); shape = GetComponent<Collider2D>(); }
-    void Start() { player = FindFirstObjectByType<PlayerHealth>(); }
+    void OnEnable() { Play("Slime_Idle"); }
+    void Start() { Play("Slime_Idle"); player = FindFirstObjectByType<PlayerHealth>(); }
     void FixedUpdate()
     {
         if (health.IsDead || health.IsStunned || player == null || player.IsDead) { CancelAttack(); return; }
@@ -48,7 +49,11 @@ public class EnemyAttackAI : MonoBehaviour
             }
             timer = recovery; return;
         }
-        if (grounded) body.linearVelocity = new Vector2(0, body.linearVelocity.y);
+        if (grounded)
+        {
+            body.linearVelocity = new Vector2(0, body.linearVelocity.y);
+            Play("Slime_Idle");
+        }
         Vector2 source = muzzle != null ? muzzle.position : shape.bounds.center;
         Vector2 delta = (Vector2)player.GetComponent<Collider2D>().bounds.center - source;
         if (timer > 0 || !grounded || delta.magnitude > range || Mathf.Abs(delta.x) < .4f) return;
@@ -66,7 +71,7 @@ public class EnemyAttackAI : MonoBehaviour
         for (int i = 0; i < n; i++) if (groundHits[i].normal.y > .6f) return true;
         return false;
     }
-    void Play(string state) { var a = GetComponent<Animator>(); if (a != null && a.HasState(0, Animator.StringToHash(state))) a.Play(state); }
+    void Play(string state) { var a = GetComponent<Animator>(); if (a != null && a.runtimeAnimatorController != null && a.HasState(0, Animator.StringToHash(state)) && !a.GetCurrentAnimatorStateInfo(0).IsName(state)) a.Play(state); }
     void CancelAttack() { winding = false; airborne = false; timer = recovery; if (warning != null) warning.enabled = false; }
     void OnDisable() { CancelAttack(); }
 }

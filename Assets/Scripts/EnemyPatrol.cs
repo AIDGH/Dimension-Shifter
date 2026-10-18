@@ -17,6 +17,9 @@ public class EnemyPatrol : MonoBehaviour
     public LayerMask walkableLayers;
 
     private Rigidbody2D rb;
+    Animator animator;
+    EnemyHealth health;
+    Vector2 lastPosition;
     private Collider2D body;
     private float turnTimer;
     private readonly RaycastHit2D[] hits = new RaycastHit2D[16];
@@ -25,6 +28,8 @@ public class EnemyPatrol : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         body = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        health = GetComponent<EnemyHealth>();
         rb.constraints |= RigidbodyConstraints2D.FreezeRotation;
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
@@ -33,6 +38,7 @@ public class EnemyPatrol : MonoBehaviour
 
     void FixedUpdate()
     {
+        SyncMotionAnimation();
         turnTimer = Mathf.Max(0f, turnTimer - Time.fixedDeltaTime);
         ContactFilter2D filter = new ContactFilter2D();
         filter.SetLayerMask(walkableLayers);
@@ -43,8 +49,8 @@ public class EnemyPatrol : MonoBehaviour
         bool ledge = false;
         if (grounded)
         {
-            Vector2 sensor = ledgeDetector != null ? (Vector2)ledgeDetector.position
-                : new Vector2(body.bounds.center.x + direction.x * (body.bounds.extents.x + 0.08f), body.bounds.center.y);
+            // Derive the leading edge from the actual collider, independent of artwork mirroring.
+            Vector2 sensor = new Vector2(body.bounds.center.x + direction.x * (body.bounds.extents.x + 0.08f), body.bounds.min.y + .15f);
             int count = Physics2D.Raycast(sensor, Vector2.down, filter, hits, groundRayDistance);
             bool groundAhead = false;
             for (int i = 0; i < count; i++)
@@ -61,6 +67,17 @@ public class EnemyPatrol : MonoBehaviour
             return;
         }
         rb.linearVelocity = new Vector2(wall || ledge ? 0f : (movingRight ? speed : -speed), rb.linearVelocity.y);
+    }
+
+    void OnEnable() { lastPosition = transform.position; }
+
+    void SyncMotionAnimation()
+    {
+        if (animator == null || animator.runtimeAnimatorController == null || (health != null && (health.IsDead || health.IsStunned))) return;
+        float travelled = Mathf.Abs(rb.position.x - lastPosition.x);
+        lastPosition = rb.position;
+        string state = travelled > .001f ? "Slime_Move" : "Slime_Idle";
+        if (animator.HasState(0, Animator.StringToHash(state)) && !animator.GetCurrentAnimatorStateInfo(0).IsName(state)) animator.Play(state);
     }
 
     private bool HasGround(ContactFilter2D filter)

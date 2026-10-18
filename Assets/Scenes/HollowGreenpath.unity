@@ -7585,7 +7585,7 @@ Camera:
   far clip plane: 1000
   field of view: 13
   orthographic: 1
-  orthographic size: 5.4
+  orthographic size: 6.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -10511,7 +10511,7 @@ MonoBehaviour:
   entrance: {fileID: 0}
   slimePrefab: {fileID: 0}
   mushroomPrefab: {fileID: 0}
-  beamMaterial: {fileID: 2100000, guid: 4661f513d6c3446a28a0f9407d418d2d, type: 2}
+  beamMaterial: {fileID: 2100000, guid: 0569fcd5b549046c3ac7411e0eb41a6f, type: 2}
   arenaLeft: {fileID: 1452290182}
   arenaRight: {fileID: 458349242}
 --- !u!114 &730229745
@@ -16081,6 +16081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 4
+  spriteFacesRight: 0
   acceleration: 35
   groundDeceleration: 50
   airDeceleration: 5
@@ -16184,7 +16185,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: -723200809, guid: bbd9fce620e2b47b08e62da307b9c77c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
