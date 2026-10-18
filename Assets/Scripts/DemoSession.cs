@@ -26,9 +26,8 @@ public class DemoSession : MonoBehaviour
     void Awake()
     {
         Instance=this;Time.timeScale=1;AudioListener.pause=false;
-        // A sustainable frame budget avoids a render/physics backlog on battery.
-        QualitySettings.vSyncCount=0;Application.targetFrameRate=60;QualitySettings.maxQueuedFrames=1;
-        Time.fixedDeltaTime=1f/60f;Time.maximumDeltaTime=.05f;
+        // Match presentation to the display instead of using a software 60 Hz sleep.
+        DesktopPresentation.Configure();
         GetComponent<SpriteRenderer>().sortingOrder=50;
         if(GetComponent<FrameDiagnostics>()==null)gameObject.AddComponent<FrameDiagnostics>();
     }

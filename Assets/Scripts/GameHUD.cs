@@ -178,16 +178,26 @@ public class GameHUD : MonoBehaviour
             bossState.text=warden.State==RiftWarden.Phase.Exposed?(warden.CoreDimension==0?"BLUE CORE OPEN · attack in FROST":"VIOLET CORE OPEN · attack in ECHO"):warden.State==RiftWarden.Phase.BeamWindup?"ENERGY LANCE · aim locks, then DASH or JUMP":warden.State==RiftWarden.Phase.Leap?"LEAP STRIKE · move out of the landing path":warden.State==RiftWarden.Phase.Windup?"HEAVY STRIKE INCOMING · jump or phase dash":"ARMORED · evade, then punish its recovery";
         }
     }
+    FinalTreeGate nearbyTree;
     void UpdateInteraction()
     {
         interactionGroup.alpha=0;
         if(demo==null||!demo.Started||demo.Paused||health.IsDead||run.Completed)return;
-        if(Time.unscaledTime>=nextInteractionSearch){interactions=FindObjectsByType<QuestInteractable>();nextInteractionSearch=Time.unscaledTime+.4f;}
+        if(Time.unscaledTime>=nextInteractionSearch){interactions=FindObjectsByType<QuestInteractable>();nearbyTree=FindAnyObjectByType<FinalTreeGate>();nextInteractionSearch=Time.unscaledTime+.4f;}
         QuestInteractable nearest=null;float distance=3.4f;
         if(interactions!=null)foreach(var q in interactions)
         {
             if(q==null||q.kind==QuestInteractable.Kind.Relay||q.kind==QuestInteractable.Kind.EchoKey||(q.kind==QuestInteractable.Kind.Spirit&&demo.HasSpirit))continue;
             float d=Vector2.Distance(transform.position,q.transform.position);if(d<distance){distance=d;nearest=q;}
+        }
+        var tree = nearbyTree;
+        if(tree != null && Vector2.Distance(transform.position, tree.transform.position) < tree.interactionRadius)
+        {
+            interactionLabel.text = tree.InteractionHint;
+            interactionLabel.color = demo.HasWardenKey ? cyan : gold;
+            interactionCard.anchoredPosition = new Vector2(0, -190);
+            interactionGroup.alpha = 1;
+            return;
         }
         if(nearest==null)return;
         bool wrong=nearest.dimension>=0&&nearest.dimension!=dimension.Current;
