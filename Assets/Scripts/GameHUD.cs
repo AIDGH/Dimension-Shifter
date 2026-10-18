@@ -75,7 +75,7 @@ public class GameHUD : MonoBehaviour
         hint=Label(note,"",new Vector2(24,-40),new Vector2(770,63),23,Color.white);hint.textWrappingMode=TextWrappingModes.Normal;
         checkpoint=Label(canvas.transform,"",new Vector2(28,-226),new Vector2(440,30),17,new Color(.65f,.8f,.9f));
         var controls=Panel("Controls",canvas.transform,new Vector2(.5f,0),new Vector2(0,18),new Vector2(960,40));
-        var help=Label(controls,"A / D Move   SPACE Jump   V Strike   C Cast   E Use   M Music   ESC Pause",new Vector2(12,-4),new Vector2(936,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
+        var help=Label(controls,"A / D Move   SPACE Jump   V Strike   C Cast   E Use   M Music   H Skin   ESC Pause",new Vector2(12,-4),new Vector2(936,30),17,new Color(.72f,.81f,.9f));help.alignment=TextAlignmentOptions.Midline;
         Picture(note,"Notice accent",new Vector2(0,-5),new Vector2(6,110),gold,rounded);
         interactionCard=Panel("Nearby interaction",canvas.transform,new Vector2(.5f,.5f),Vector2.zero,new Vector2(400,64));
         interactionCard.GetComponent<Image>().color=new Color(.025f,.13f,.2f,.97f);
@@ -84,12 +84,16 @@ public class GameHUD : MonoBehaviour
         BuildOutcome();
         BuildDemoUI();
         BuildPauseUI();
+        BuildPreferences();
+        if(GetComponent<StoryIntro>()==null)gameObject.AddComponent<StoryIntro>();
         toast.alpha=modal.alpha=0;modal.interactable=false;modal.blocksRaycasts=false;
 
     }
     void Update()
     {
         if(canvas==null)return;
+        if(skinLabel!=null)skinLabel.text="H  ·  CHARACTER: "+GetComponent<CharacterAppearance>().Label+"  ·  SWITCH";
+        if(movementLabel!=null)movementLabel.text="MOVEMENT: "+(GetComponent<PlayerMovement>().useAcceleration?"ACCELERATED":"INSTANT")+"  ·  SWITCH";
         UpdateDemoUI();
         UpdateInteraction();
         float fraction=health.maxHealth>0?health.currentHealth/health.maxHealth:0;
@@ -211,6 +215,16 @@ public class GameHUD : MonoBehaviour
         TMP_Text label;resumeButton=ActionButton(card,"Resume journey",new Vector2(110,-238),new Vector2(500,58),new Color(.16f,.29f,.42f),()=>demo.SetPaused(false),out label);label.text="ESC   RESUME JOURNEY";
         ActionButton(card,"Return to title",new Vector2(160,-318),new Vector2(400,48),new Color(.12f,.15f,.24f),()=>{demo.SetPaused(false);SceneManager.LoadScene(SceneManager.GetActiveScene().name);},out label);label.text="RETURN TO TITLE";
         var foot=Label(card,"Returning to title resets this run.",new Vector2(30,-396),new Vector2(660,28),17,new Color(.64f,.71f,.83f));foot.alignment=TextAlignmentOptions.Midline;
+    }
+    TMP_Text skinLabel, movementLabel;
+    void BuildPreferences()
+    {
+        var skin=GetComponent<CharacterAppearance>();if(skin==null)return;
+        var parent=pauseMenu.transform;
+        ActionButton(parent,"Character appearance",new Vector2(-250,-245),new Vector2(500,48),new Color(.17f,.23f,.35f),()=>{skin.Toggle();},out skinLabel);
+        skinLabel.transform.parent.GetComponent<RectTransform>().anchorMin=skinLabel.transform.parent.GetComponent<RectTransform>().anchorMax=new Vector2(.5f,.5f);
+        ActionButton(parent,"Movement response",new Vector2(-250,-303),new Vector2(500,48),new Color(.17f,.23f,.35f),()=>{var m=GetComponent<PlayerMovement>();m.useAcceleration=!m.useAcceleration;},out movementLabel);
+        movementLabel.transform.parent.GetComponent<RectTransform>().anchorMin=movementLabel.transform.parent.GetComponent<RectTransform>().anchorMax=new Vector2(.5f,.5f);
     }
     void BuildOutcome()
     {

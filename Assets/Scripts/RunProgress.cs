@@ -49,6 +49,7 @@ public class RunProgress : MonoBehaviour
     {
         if(Completed || health.IsDead)return;
         var demo=GetComponent<DemoSession>();if(demo!=null&&!demo.BossDefeated){ShowMessage("The Rift Warden still guards the exit.");return;}
+        if(demo!=null&&demo.RequiresTreeKey&&!demo.TreeOpened){ShowMessage("Use the Warden sigil at the ancient tree first · E.");return;}
         Completed=true; attack.enabled=false; movement.enabled=false; body.linearVelocity=Vector2.zero;
         health.enabled=false; GameAudio.Play("checkpoint",.6f);
     }

@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &231008
 PolygonCollider2D:
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 0
   idle:
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 4
   hurtDuration: 0.3334
@@ -1306,7 +1306,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 1
   idle:
@@ -1337,7 +1337,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 2
   hurtDuration: 0.3334
@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 1259350007}
@@ -2330,7 +2330,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &125092468
 PolygonCollider2D:
@@ -2820,7 +2820,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d82042afa6c1f42f1ac0f1f44f147232, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowDoor
   destination: {x: 140.04718, y: 16.52, z: 0}
   needsKey: 0
@@ -2884,7 +2884,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 59605365}
@@ -3537,7 +3537,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &234040657
 PolygonCollider2D:
@@ -3812,7 +3812,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &244713574
 PolygonCollider2D:
@@ -3908,7 +3908,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &263604494
 PolygonCollider2D:
@@ -4004,7 +4004,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &268485590
 PolygonCollider2D:
@@ -4190,7 +4190,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &276247877
 PolygonCollider2D:
@@ -4286,7 +4286,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 1493359379}
@@ -4319,7 +4319,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 835999903}
 --- !u!114 &309502353
@@ -4332,7 +4332,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: BossRoom
@@ -5819,7 +5819,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 1512346312}
@@ -6167,7 +6167,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &411509707
 PolygonCollider2D:
@@ -6521,7 +6521,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &439243423
 PolygonCollider2D:
@@ -6623,7 +6623,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 0
   idle:
@@ -6667,7 +6667,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 4
   hurtDuration: 0.3334
@@ -6972,7 +6972,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &468917109
 PolygonCollider2D:
@@ -7516,8 +7516,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
@@ -7626,7 +7626,7 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5796b18ec48ca47ceb218243bf25cf48, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   player: {fileID: 1161213797}
   playerMovement: {fileID: 0}
@@ -7646,7 +7646,7 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.PixelPerfectCamera
   m_ComponentVersion: 1
   m_AssetsPPU: 100
@@ -7670,7 +7670,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61441c24b6beb47d48b09d75207710ec, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowRoomCamera
   journey: {fileID: 1497735953}
 --- !u!1 &524435390
@@ -7761,7 +7761,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d82042afa6c1f42f1ac0f1f44f147232, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowDoor
   destination: {x: 103.48959, y: 16.740845, z: 0}
   needsKey: 1
@@ -7825,7 +7825,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &532922643
 PolygonCollider2D:
@@ -9312,8 +9312,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_ComponentVersion: 4
   m_LightType: 4
   m_BlendStyleIndex: 0
@@ -9984,7 +9984,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 1
   idle:
@@ -10015,7 +10015,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 2
   hurtDuration: 0.3334
@@ -10461,7 +10461,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b38c3563cba4498a306703fb0a47f9e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::RiftWarden
   idle:
   - {fileID: -391759701, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
@@ -10505,6 +10505,82 @@ MonoBehaviour:
   - {fileID: 1566113463439326316, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
   - {fileID: 2055710225587983981, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
   - {fileID: 7025858093313272243, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  groundedSprites:
+  - {fileID: -391759701, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 1040930673, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 476190428, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 1173162308, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: -277681994, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 922514033, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: 507142749, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: -470195424, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: -271312154, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: 667461227, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: 115917268, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1747453984, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: -1704193744, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 260246682, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1758971606, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: -957635359, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1468781124, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 267077460, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: -1901329339, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1915156517, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: 1522087224, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: 1180862941, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: -237716520, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: -508960597, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: -983166690, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1426489531, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1606925955, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: -1910400186, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 550696524, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: -2013132802, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 731401569, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 578686643, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 957234600, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1654707531, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1566113463439326316, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 2055710225587983981, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 7025858093313272243, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  spriteBottoms:
+  - 0
+  - 0.005
+  - 0.005
+  - 0
+  - -0.005
+  - 0.000000009536743
+  - 0.000000009536743
+  - -0.0049999906
+  - 0.0050000097
+  - -0.0049999906
+  - 0.005343527
+  - -0.04277659
+  - -0.030746559
+  - -0.06082163
+  - -0.04277659
+  - -0.030746559
+  - -0.00067148736
+  - 0.005343527
+  - -0.10292673
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0.19983608
+  - 0.1737705
+  - 0.16508196
+  - 0.017377049
+  - 0.14770491
+  - 0.16508196
+  - 0.18245903
+  - 0.19983608
+  - 0.2085246
+  - 0.2085246
+  - 0.19983608
+  - 0.2085246
   visual: {fileID: 1932931978}
   warning: {fileID: 2101167214}
   projectilePrefab: {fileID: 6174905320313659833, guid: bd0f40fe1555749e19836cb1c9ffe50c, type: 3}
@@ -10524,7 +10600,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 48
   hurtDuration: 0.3334
@@ -10726,7 +10802,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &741675470
 PolygonCollider2D:
@@ -11184,7 +11260,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &776099548
 PolygonCollider2D:
@@ -11282,7 +11358,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 913119448}
@@ -11880,7 +11956,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d43cffb7fa1a412abed38f59e0eb841e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::QuestInteractable
   kind: 0
   dimension: 1
@@ -12219,7 +12295,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 0
   idle:
@@ -12263,7 +12339,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 4
   hurtDuration: 0.3334
@@ -12705,7 +12781,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &946420275
 PolygonCollider2D:
@@ -12803,7 +12879,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &954208272
 PolygonCollider2D:
@@ -13247,7 +13323,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &969632683
 PolygonCollider2D:
@@ -13442,7 +13518,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &985082432
 PolygonCollider2D:
@@ -13691,7 +13767,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 3438114}
 --- !u!4 &993767757
@@ -13754,7 +13830,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &998090502
 PolygonCollider2D:
@@ -14650,7 +14726,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 1
   idle:
@@ -14681,7 +14757,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 2
   hurtDuration: 0.3334
@@ -15345,7 +15421,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 1157576343}
 --- !u!114 &1124501922
@@ -15358,7 +15434,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Greenpath-room2
@@ -16061,6 +16137,7 @@ GameObject:
   - component: {fileID: 1161213807}
   - component: {fileID: 1161213811}
   - component: {fileID: 1161213810}
+  - component: {fileID: 1161213812}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -16078,12 +16155,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20484a2d7a5f44218b79219ddbb54825, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 4
   spriteFacesRight: 0
-  acceleration: 35
-  groundDeceleration: 50
+  acceleration: 85
+  groundDeceleration: 85
   airDeceleration: 5
   landingMomentumCut: 0.66
   jumpForce: 16
@@ -16227,7 +16304,7 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -16279,7 +16356,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84259d37d662f477bb9d7837c31d4cf8, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 100
   currentHealth: 0
@@ -16298,7 +16375,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec2b74a97847142a4a70562779f97266, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
   normalDamage: 1
   dashDamage: 2
@@ -16310,10 +16387,10 @@ MonoBehaviour:
     m_Bits: 768
   hitboxSize: {x: 1.1, y: 1}
   hitboxOffset: {x: 0.65, y: -0.05}
-  activeFrom: 0.0833
-  activeUntil: 0.5
-  normalAttackRate: 2
-  normalAttackDuration: 0.6667
+  activeFrom: 0.04
+  activeUntil: 0.26
+  normalAttackRate: 2.6
+  normalAttackDuration: 0.38
   dashForce: 16
   dashAttackDuration: 0.45
   dashCooldown: 3
@@ -16330,7 +16407,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae9ec2cfa4e394452b5231074a12e4de, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementAudio
   stepDistance: 0.95
 --- !u!114 &1161213804
@@ -16343,7 +16420,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d2247ed7a491427185233d7e71375cd, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerEnemyContact
   contactDamage: 20
   dashExitGrace: 0.18
@@ -16360,7 +16437,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c66cb19dfc9e4e3ea9fe9239eaca721, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::RunProgress
   useAbsoluteFallLimit: 1
 --- !u!114 &1161213806
@@ -16373,7 +16450,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d859c49b3dba2408480639292326b209, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionController
   cooldown: 2
 --- !u!114 &1161213807
@@ -16386,7 +16463,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1fd5bbec32ab490ca1008be885d61af, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::WorldMusic
   volume: 0.24
 --- !u!114 &1161213808
@@ -16399,7 +16476,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24f60f4abeaa64c38a5a91a8e1c991fb, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::GameHUD
   font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
 --- !u!114 &1161213809
@@ -16412,7 +16489,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3778deb1432414d2bbfb015911525dcf, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRewards
 --- !u!114 &1161213810
 MonoBehaviour:
@@ -16424,7 +16501,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 743c73157f3c4b31b66bbe81641733c8, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::SpiritWeapon
   frames:
   - {fileID: -1666213283, guid: 8a486575db3ab494785cd4c745e85c21, type: 3}
@@ -16442,9 +16519,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7b31e0935804eebbec0cb406935c7a6, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DemoSession
-  objectiveOverride: 
+  RequiresTreeKey: 0
+  objectiveOverride:
+--- !u!114 &1161213812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161213793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 719e9ffc04d5b472a80239dae47851a8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterAppearance
+  redController: {fileID: 9100000, guid: 9e17b91d721d34cb68a854e865a45f46, type: 2}
+  knightController: {fileID: 22100000, guid: eaf4e313df42447c2a4e95aa4c211e19, type: 2}
+  redIdle: {fileID: 6286595657586805340, guid: 203f54b0f387541a3bdc69ef89769f08, type: 3}
+  knightIdle: {fileID: -723200809, guid: bbd9fce620e2b47b08e62da307b9c77c, type: 3}
+  useKnight: 1
 --- !u!1 &1176212938
 GameObject:
   m_ObjectHideFlags: 0
@@ -16578,7 +16673,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 2049189298}
@@ -16940,7 +17035,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d82042afa6c1f42f1ac0f1f44f147232, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowDoor
   destination: {x: 72.5625, y: 30.999157, z: 0}
   needsKey: 0
@@ -17098,7 +17193,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 1
   idle:
@@ -17129,7 +17224,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 2
   hurtDuration: 0.3334
@@ -17575,7 +17670,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 1
   idle:
@@ -17606,7 +17701,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 2
   hurtDuration: 0.3334
@@ -18408,7 +18503,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 1226747610}
@@ -19413,7 +19508,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &1401894685
 PolygonCollider2D:
@@ -19758,7 +19853,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 713407136}
@@ -20641,7 +20736,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &1476782562
 PolygonCollider2D:
@@ -20921,7 +21016,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 0
   idle:
@@ -20965,7 +21060,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 4
   hurtDuration: 0.3334
@@ -21133,7 +21228,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5567d47cd2a2418ab13bb04c28bbc2a, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowJourney
   rooms:
   - serializedVersion: 2
@@ -21299,7 +21394,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 1
   idle:
@@ -21330,7 +21425,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 2
   hurtDuration: 0.3334
@@ -21682,7 +21777,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &1522576840
 PolygonCollider2D:
@@ -21868,7 +21963,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &1535725190
 PolygonCollider2D:
@@ -22055,7 +22150,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 446851274}
@@ -22452,7 +22547,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &1566921012
 PolygonCollider2D:
@@ -22594,7 +22689,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d82042afa6c1f42f1ac0f1f44f147232, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowDoor
   destination: {x: 208.1875, y: 5.5324993, z: 0}
   needsKey: 0
@@ -22662,7 +22757,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 0
   idle:
@@ -22706,7 +22801,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 4
   hurtDuration: 0.3334
@@ -22890,7 +22985,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 7941892}
@@ -23971,7 +24066,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 366555991}
 --- !u!114 &1650851125
@@ -23984,7 +24079,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Greenpath-room1
@@ -25141,7 +25236,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 1575195678}
@@ -25666,7 +25761,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d43cffb7fa1a412abed38f59e0eb841e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::QuestInteractable
   kind: 2
   dimension: 1
@@ -27820,7 +27915,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &1944660504
 PolygonCollider2D:
@@ -28387,10 +28482,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 2
-  message: 
+  message:
   spawnPoint: {fileID: 0}
   beacon: {fileID: 0}
   alignToGround: 0
@@ -28530,7 +28625,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae01e7397a4e4e86a2fa90d2edd0876, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowHazard
 --- !u!60 &1964647603
 PolygonCollider2D:
@@ -28721,7 +28816,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 1061053766}
@@ -29636,7 +29731,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 638d8227981c64ab7874b1e5b1fbd70e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::HollowEnemy
   flying: 1
   idle:
@@ -29667,7 +29762,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 2
   hurtDuration: 0.3334

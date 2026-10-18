@@ -12,3 +12,7 @@ User-supplied local reference: `Game/HollowKnight-mini/assets`.
 Tiled transform reference: https://doc.mapeditor.org/en/stable/reference/global-tile-ids/ . UV lookup uses the inverse transform (horizontal/vertical, then diagonal swap); all four flags are cleared from the tile ID.
 
 These imported images are user-provided Hollow Knight-derived content; this file records provenance and does not claim original authorship or grant a redistribution license.
+
+## Deadline 2026-10-18 additions
+
+The optional Knight player sheets originate from the user-supplied HollowKnight-mini player assets, already imported in the Hollow Edition. H / Pause restores Red. Story artwork combines the previously generated Dimension Shifter page background with existing project door/tree art. No original authorship of supplied Hollow Knight art is claimed.

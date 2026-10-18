@@ -3170,7 +3170,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 48
   hurtDuration: 0.3334
@@ -3188,7 +3188,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b38c3563cba4498a306703fb0a47f9e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::RiftWarden
   idle:
   - {fileID: -391759701, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
@@ -3232,6 +3232,82 @@ MonoBehaviour:
   - {fileID: 1566113463439326316, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
   - {fileID: 2055710225587983981, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
   - {fileID: 7025858093313272243, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  groundedSprites:
+  - {fileID: -391759701, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 1040930673, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 476190428, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 1173162308, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: -277681994, guid: 7b1870131d14a4d7596eaba4154d39ad, type: 3}
+  - {fileID: 922514033, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: 507142749, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: -470195424, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: -271312154, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: 667461227, guid: 7fbccf5772a5c44a98c70318e1679ccf, type: 3}
+  - {fileID: 115917268, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1747453984, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: -1704193744, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 260246682, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1758971606, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: -957635359, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1468781124, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 267077460, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: -1901329339, guid: ca3997f2da06146e88b4e63558c49049, type: 3}
+  - {fileID: 1915156517, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: 1522087224, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: 1180862941, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: -237716520, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: -508960597, guid: 0bfac230f65174d27937d0c89d91a5de, type: 3}
+  - {fileID: -983166690, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1426489531, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1606925955, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: -1910400186, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 550696524, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: -2013132802, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 731401569, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 578686643, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 957234600, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1654707531, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 1566113463439326316, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 2055710225587983981, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  - {fileID: 7025858093313272243, guid: 47e32426bf9964bcba6d35ee21f8e794, type: 3}
+  spriteBottoms:
+  - 0
+  - 0.005
+  - 0.005
+  - 0
+  - -0.005
+  - 0.000000009536743
+  - 0.000000009536743
+  - -0.0049999906
+  - 0.0050000097
+  - -0.0049999906
+  - 0.005343527
+  - -0.04277659
+  - -0.030746559
+  - -0.06082163
+  - -0.04277659
+  - -0.030746559
+  - -0.00067148736
+  - 0.005343527
+  - -0.10292673
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0.19983608
+  - 0.1737705
+  - 0.16508196
+  - 0.017377049
+  - 0.14770491
+  - 0.16508196
+  - 0.18245903
+  - 0.19983608
+  - 0.2085246
+  - 0.2085246
+  - 0.19983608
+  - 0.2085246
   visual: {fileID: 2064696928870064455}
   warning: {fileID: 925991645757616609}
   projectilePrefab: {fileID: 6174905320313659833, guid: bd0f40fe1555749e19836cb1c9ffe50c, type: 3}
@@ -3333,7 +3409,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Warden's threshold
@@ -3350,7 +3426,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 8184669011836318151}
 --- !u!1 &5490409366892492071
@@ -3443,7 +3519,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bdf32d97659453a8469bb4f9607ab37, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::QuestGate
   requirement: 3
   barrier: {fileID: 4072073589010317536}
@@ -3692,7 +3768,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09e1898be1ee4555aa74261a4795790c, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::GateVisibility
   shape: {fileID: 1437119047298859814}
   visual: {fileID: 1019532726839088738}
@@ -3785,7 +3861,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: 'The Warden pursues, slams, and fires a fan of bolts. During recovery

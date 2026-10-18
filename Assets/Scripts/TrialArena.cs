@@ -3,6 +3,7 @@ using UnityEngine;
 public class TrialArena : MonoBehaviour
 {
     public GameObject slimePrefab,mushroomPrefab;
+    public GameObject mossflyPrefab,hornheadPrefab;
     public Transform[] spawnPoints;
     public Collider2D entrance;
     public float width=60;
@@ -37,7 +38,10 @@ public class TrialArena : MonoBehaviour
             reserved.Add(position);
             int dimension=i%2;var anchor=new GameObject(dimension==0?"Trial frost enemy":"Trial echo enemy");
             anchor.transform.position=position;
-            var child=Instantiate(dimension==0?slimePrefab:mushroomPrefab,anchor.transform);child.transform.localPosition=dimension==0?Vector3.up*.48f:Vector3.zero;
+            bool modern=Wave>=2&&(i==0||i==1);var prefab=modern?(dimension==0?mossflyPrefab:hornheadPrefab):null;
+            GameObject child;
+            if(prefab!=null){var template=prefab.GetComponent<DimensionActor>();child=Instantiate(template.content,anchor.transform);child.transform.localPosition=Vector3.up*(dimension==0?2.2f:.52f);}
+            else{child=Instantiate(dimension==0?slimePrefab:mushroomPrefab,anchor.transform);child.transform.localPosition=dimension==0?Vector3.up*.48f:Vector3.zero;}
             var member=anchor.AddComponent<DimensionActor>();member.dimension=dimension;member.content=child;member.Apply(DimensionController.Instance.Current);enemies.Add(anchor);
         }
         nextWave=Time.time+.75f;

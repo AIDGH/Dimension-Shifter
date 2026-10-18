@@ -106,7 +106,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (anim != null && anim.runtimeAnimatorController != null)
         {
-            anim.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+            anim.SetFloat("Speed", Mathf.Abs(moveInput) > .01f ? Mathf.Max(.2f, Mathf.Abs(rb.linearVelocity.x)) : Mathf.Abs(rb.linearVelocity.x));
             anim.SetBool("IsGrounded", isGrounded);
         }
     }

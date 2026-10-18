@@ -39,6 +39,7 @@ public class PlayerAttack : MonoBehaviour
     [Min(0.1f)] public float normalAttackRate = 2f;
     [Min(0.01f)] public float normalAttackDuration = 0.6667f;
     private float nextNormalAttackTime;
+    float strikeBufferedUntil, dashBufferedUntil;
 
     [Header("Dash Attack (B)")]
     [Min(0f)] public float dashForce = 16f;
@@ -77,18 +78,22 @@ public class PlayerAttack : MonoBehaviour
                 showTextTimer -= Time.deltaTime;
             }
         }
-        if (Input.GetKeyDown(KeyCode.B) && !Input.GetKey(KeyCode.LeftControl) && !Input.GetKey(KeyCode.RightControl))
+        if (Input.GetKeyDown(KeyCode.V)) strikeBufferedUntil = Time.time + .14f;
+        if (Input.GetKeyDown(KeyCode.B) && !Input.GetKey(KeyCode.LeftControl) && !Input.GetKey(KeyCode.RightControl)) dashBufferedUntil = Time.time + .14f;
+        if (dashBufferedUntil > Time.time)
         {
             if (Time.time < nextDashTime) showTextTimer = textDisplayDuration;
             else if (!isAttacking)
             {
+                dashBufferedUntil = 0;
                 nextDashTime = Time.time + EffectiveDashCooldown;
                 showTextTimer = 0f;
                 StartCoroutine(DashAttackRoutine());
             }
         }
-        if (!isAttacking && Time.time >= nextNormalAttackTime && Input.GetKeyDown(KeyCode.V))
+        if (!isAttacking && Time.time >= nextNormalAttackTime && strikeBufferedUntil > Time.time)
         {
+            strikeBufferedUntil = 0;
             nextNormalAttackTime = Time.time + 1f / Mathf.Max(0.1f, normalAttackRate);
             StartCoroutine(NormalAttackRoutine());
         }
@@ -218,6 +223,7 @@ public class PlayerAttack : MonoBehaviour
     void OnDisable()
     {
         StopAllCoroutines();
+        strikeBufferedUntil = dashBufferedUntil = 0;
         FinishAttack();
         if (cooldownText != null) cooldownText.gameObject.SetActive(false);
     }
