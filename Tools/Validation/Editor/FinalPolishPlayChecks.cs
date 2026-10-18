@@ -41,7 +41,7 @@ public class FinalPolishRunner:MonoBehaviour
     IEnumerator Check()
     {
         s=DemoSession.Instance;hp=s.GetComponent<PlayerHealth>();body=s.GetComponent<Rigidbody2D>();move=s.GetComponent<PlayerMovement>();cam=Camera.main;canvas=Object.FindObjectsByType<Canvas>().First(c=>c.name=="Dimension HUD");s.Begin();yield return new WaitForSeconds(.6f);
-        Need(Application.targetFrameRate==120&&QualitySettings.vSyncCount==0&&Mathf.Abs(Time.fixedDeltaTime-.01f)<.001f,"Responsive presentation configured for 120 FPS and 100 Hz physics");
+        Need(Application.targetFrameRate==60&&QualitySettings.vSyncCount==0&&Mathf.Abs(Time.fixedDeltaTime-1f/60f)<.001f,"Responsive presentation configured for 60 FPS and 60 Hz physics");
         Need(s.GetComponent<SpriteRenderer>().sortingOrder==50,"Player renders in front of door and checkpoint artwork");Capture("polish-scenery.png");
         Object.FindAnyObjectByType<LevelGenerator>().enabled=false;Freeze();cam.GetComponent<CameraFollow>().enabled=false;
         var sanctum=Spawn("13_KeySanctum_Painted",1000);yield return null;var items=sanctum.GetComponentsInChildren<QuestInteractable>();var door=items.First(q=>q.kind==QuestInteractable.Kind.BlueDoor);var spirit=items.First(q=>q.kind==QuestInteractable.Kind.Spirit);

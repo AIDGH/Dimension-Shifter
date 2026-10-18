@@ -9,6 +9,8 @@ public class GameAudio : MonoBehaviour
     readonly System.Random variation = new System.Random();
     AudioSource[] voices;
     int cursor;
+    float accentUntil;
+    public static float MusicMix => instance!=null&&Time.unscaledTime<instance.accentUntil?.65f:1f;
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
     static void ResetStatics() { instance = null; }
     void Awake()
@@ -39,6 +41,7 @@ public class GameAudio : MonoBehaviour
     void PlayCue(string cue,float volume)
     {
         if(!cues.TryGetValue(cue,out var clips)||clips.Count==0)return;
+        if(!cue.StartsWith("step_"))accentUntil=Time.unscaledTime+.28f;
         AudioSource voice=null;
         foreach(var candidate in voices)if(!candidate.isPlaying){voice=candidate;break;}
         if(voice==null)voice=voices[cursor++%voices.Length];

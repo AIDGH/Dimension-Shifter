@@ -91,7 +91,7 @@ public class RiftWarden : MonoBehaviour
                 var origin=(Vector2)transform.position+new Vector2(lockedDirection*.8f,1.4f);
                 if(timer>.65f)beamAim=((Vector2)player.GetComponent<Collider2D>().bounds.center-origin).normalized;
                 if(aimLine==null)
-                {var g=new GameObject("Beam aim warning");g.transform.SetParent(transform);aimLine=g.AddComponent<LineRenderer>();aimLine.sharedMaterial=beamMaterial;aimLine.positionCount=2;aimLine.startWidth=aimLine.endWidth=.045f;aimLine.sortingOrder=45;}
+                {var g=new GameObject("Beam aim warning");g.transform.SetParent(transform);aimLine=g.AddComponent<LineRenderer>();aimLine.sharedMaterial=warning!=null?warning.sharedMaterial:beamMaterial;aimLine.positionCount=2;aimLine.startWidth=aimLine.endWidth=.045f;aimLine.sortingOrder=45;}
                 aimLine.enabled=true;aimLine.startColor=aimLine.endColor=new Color(1,.65f,.2f,.55f+.4f*Mathf.PingPong(Time.time*4,1));
                 aimLine.SetPosition(0,origin);aimLine.SetPosition(1,origin+beamAim*18);
                 if(timer<=0)
@@ -149,6 +149,12 @@ public class RiftWarden : MonoBehaviour
         if(State==Phase.Dormant)return;
         ClearHelpers();ClearBeams();nextHit=0;body.position=home;body.linearVelocity=Vector2.zero;health.ResetForRetry();Enter(Phase.Dormant,0);if(entrance!=null)entrance.enabled=false;
         foreach(var shot in FindObjectsByType<EnemyProjectile>())Destroy(shot.gameObject);
+    }
+    public void ResetForPractice()
+    {
+        ClearHelpers();ClearBeams();nextHit=0;cycle=0;
+        body.position=home;body.linearVelocity=Vector2.zero;health.ResetForRetry();
+        Enter(Phase.Dormant,0);if(entrance!=null)entrance.enabled=false;
     }
     void LateUpdate()
     {

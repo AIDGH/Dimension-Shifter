@@ -56,6 +56,9 @@ public class PlayerMovement : MonoBehaviour
     private int airJumpsRemaining;
     private bool jumpReleased;
     private bool bufferedJumpReleased;
+    public float LastInputToPhysicsMs { get; private set; }
+    double inputChangedAt;
+    bool pendingInputSample;
 
     void Awake()
     {
@@ -77,7 +80,9 @@ public class PlayerMovement : MonoBehaviour
             moveInput=0; jumpBufferRemaining=0; jumpReleased=false; bufferedJumpReleased=false;
             return;
         }
-        moveInput = Input.GetAxisRaw("Horizontal");
+        float nextInput = Input.GetAxisRaw("Horizontal");
+        if(nextInput != moveInput){inputChangedAt=Time.realtimeSinceStartupAsDouble;pendingInputSample=true;}
+        moveInput = nextInput;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             jumpBufferRemaining = jumpBufferTime;
@@ -103,6 +108,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(pendingInputSample){LastInputToPhysicsMs=(float)((Time.realtimeSinceStartupAsDouble-inputChangedAt)*1000);pendingInputSample=false;}
         float dt = Time.fixedDeltaTime;
         groundIgnoreRemaining = Mathf.Max(0f, groundIgnoreRemaining - dt);
         bool wasGrounded = isGrounded;

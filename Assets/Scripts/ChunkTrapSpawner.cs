@@ -11,7 +11,7 @@ public class ChunkTrapSpawner : MonoBehaviour
     public float spawnChance = 50f; // احتمال (برای محاسبه امید ریاضی)
     
     public LayerMask groundLayer;
-    public float yOffset = 0.5f; 
+    public float yOffset = 0.59f;
 
     [Header("Obstacle Avoidance")]
     public LayerMask obstacleLayer;

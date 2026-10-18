@@ -74,7 +74,7 @@ public class PlayerAttack : MonoBehaviour
                 showTextTimer -= Time.deltaTime;
             }
         }
-        if (Input.GetKeyDown(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.B) && !Input.GetKey(KeyCode.LeftControl) && !Input.GetKey(KeyCode.RightControl))
         {
             if (Time.time < nextDashTime) showTextTimer = textDisplayDuration;
             else if (!isAttacking)

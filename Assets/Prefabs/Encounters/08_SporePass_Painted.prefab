@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 3705536553573599140}
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Spore pass
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 3415685348139422569}
 --- !u!1 &1865397416083930852
@@ -235,6 +235,8 @@ Transform:
   - {fileID: 9069052889025850259}
   - {fileID: 3160929652922598805}
   - {fileID: 975092848243444368}
+  - {fileID: 208320604185206632}
+  - {fileID: 777391693818749233}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &5998541851226961045
@@ -323,7 +325,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 2512995221325416201}
@@ -523,7 +525,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 1400577918734726602}
@@ -699,7 +701,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 75
   experience: 30
@@ -1257,7 +1259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: Spore keepers aim before firing. Use stone cover, jump, or dash through
@@ -1296,6 +1298,96 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3452279638591834842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7258650167904416091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208320604185206632}
+  - component: {fileID: 6981712857501023476}
+  - component: {fileID: 5311428508149029783}
+  m_Layer: 0
+  m_Name: Underside join Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &208320604185206632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7258650167904416091}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3452279638591834842}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6981712857501023476
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7258650167904416091}
+  m_Mesh: {fileID: 4300000, guid: d23ad6d56ffa443cf8cd5075af5aa027, type: 2}
+--- !u!23 &5311428508149029783
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7258650167904416091}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b876e9190ec5a42ecb85e46d9ec3b3e7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7739081790998144249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,7 +1674,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03945a23b8a44763a37211eb3881a48, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimedHazard
   restDuration: 2
   warningDuration: 0.9
@@ -1671,7 +1763,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 60
   experience: 25
@@ -3154,7 +3246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7615126479825679620, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
       propertyPath: m_Sprite
-      value:
+      value: 
       objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3185,7 +3277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.58999985
       objectReference: {fileID: 0}
     - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3243,7 +3335,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 506404105771067563, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_Sprite
-      value:
+      value: 
       objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3316,6 +3408,68 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8352235320071759969, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
   m_PrefabInstance: {fileID: 4649311415258312645}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6483358422142549034
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3452279638591834842}
+    m_Modifications:
+    - target: {fileID: 1473855202573185551, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_Name
+      value: Frost Mossfly
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+--- !u!4 &777391693818749233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+  m_PrefabInstance: {fileID: 6483358422142549034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6955462143553133995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3326,7 +3480,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 506404105771067563, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_Sprite
-      value:
+      value: 
       objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalPosition.x

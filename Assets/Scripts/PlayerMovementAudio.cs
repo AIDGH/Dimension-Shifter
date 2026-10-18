@@ -19,7 +19,7 @@ public class PlayerMovementAudio : MonoBehaviour
         if(grounded && (attack==null||!attack.IsDashing) && distance<.5f)
         {
             walked+=distance;
-            if(walked>=stepDistance){walked%=stepDistance;GameAudio.Play(StepCue(),.25f);}
+            if(walked>=stepDistance){walked%=stepDistance;GameAudio.Play(StepCue(),.42f);}
         }
         else walked=0;
         wasGrounded=grounded;

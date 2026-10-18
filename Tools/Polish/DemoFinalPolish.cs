@@ -28,7 +28,7 @@ public static class DemoFinalPolish
             {
                 var root=PrefabUtility.LoadPrefabContents(path);bool changed=false;
                 foreach(var boss in root.GetComponentsInChildren<RiftWarden>(true))
-                {boss.GetComponent<EnemyHealth>().maxHealth=48;boss.slimePrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"PouncingSlime.prefab");boss.mushroomPrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"SporeKeeper.prefab");boss.beamMaterial=material;changed=true;}
+                {boss.GetComponent<EnemyHealth>().maxHealth=48;boss.slimePrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"PouncingSlime.prefab");boss.mushroomPrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"SporeKeeper.prefab");boss.beamMaterial=AssetDatabase.LoadAssetAtPath<Material>("Assets/Art/Polish/Rift.mat");changed=true;}
                 if(path.Contains("_Painted")){Dress(root);changed=true;}
                 if(Path.GetFileName(path).StartsWith("07_")||Path.GetFileName(path).StartsWith("08_")||Path.GetFileName(path).StartsWith("11_"))
                 {

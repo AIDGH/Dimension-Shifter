@@ -144,7 +144,7 @@ public class GameHUD : MonoBehaviour
         var story=Label(card,"A key in one world. A door in another.\nFind the lost spirit and break the Warden's seal.",new Vector2(65,-267),new Vector2(770,78),23,new Color(.77f,.84f,.94f));story.alignment=TextAlignmentOptions.Midline;story.textWrappingMode=TextWrappingModes.Normal;
         var keys=Label(card,"A / D Move   ·   SPACE Jump / Air jump   ·   V Strike\nB Phase dash   ·   Q Change world   ·   E Interact\nC Spirit bolt (unlock in the hidden sanctuary)",new Vector2(65,-370),new Vector2(770,90),20,new Color(.6f,.84f,.94f));keys.alignment=TextAlignmentOptions.Midline;keys.textWrappingMode=TextWrappingModes.Normal;
         TMP_Text label;var button=ActionButton(card,"Begin journey",new Vector2(200,-505),new Vector2(500,62),new Color(.2f,.28f,.46f),()=>demo.Begin(),out label);label.text="ENTER   BEGIN JOURNEY";
-        var foot=Label(card,"Checkpoints remember discoveries during this run.",new Vector2(60,-592),new Vector2(780,28),17,new Color(.64f,.71f,.83f));foot.alignment=TextAlignmentOptions.Midline;
+        var foot=Label(card,"DEMO "+Application.version+"  ·  Checkpoints remember discoveries during this run.",new Vector2(60,-592),new Vector2(780,28),17,new Color(.64f,.71f,.83f));foot.alignment=TextAlignmentOptions.Midline;
         if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(button.gameObject);
     }
     void UpdateDemoUI()

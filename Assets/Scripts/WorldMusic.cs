@@ -19,7 +19,8 @@ public class WorldMusic : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.M))Muted=!Muted;
         if(frost==null)return;
         bool other=DimensionController.Instance!=null&&DimensionController.Instance.Current==1;
-        frost.volume=Mathf.MoveTowards(frost.volume,Muted||other?0:volume,Time.unscaledDeltaTime*.25f);
-        echo.volume=Mathf.MoveTowards(echo.volume,Muted||!other?0:volume,Time.unscaledDeltaTime*.25f);
+        float mix=volume*GameAudio.MusicMix;
+        frost.volume=Mathf.MoveTowards(frost.volume,Muted||other?0:mix,Time.unscaledDeltaTime*.6f);
+        echo.volume=Mathf.MoveTowards(echo.volume,Muted||!other?0:mix,Time.unscaledDeltaTime*.6f);
     }
 }

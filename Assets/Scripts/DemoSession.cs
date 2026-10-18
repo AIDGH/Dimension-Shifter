@@ -20,9 +20,11 @@ public class DemoSession : MonoBehaviour
     void Awake()
     {
         Instance=this;Time.timeScale=1;AudioListener.pause=false;
-        QualitySettings.vSyncCount=0;Application.targetFrameRate=120;QualitySettings.maxQueuedFrames=1;
-        Time.fixedDeltaTime=1f/100f;
+        // A sustainable frame budget avoids a render/physics backlog on battery.
+        QualitySettings.vSyncCount=0;Application.targetFrameRate=60;QualitySettings.maxQueuedFrames=1;
+        Time.fixedDeltaTime=1f/60f;Time.maximumDeltaTime=.05f;
         GetComponent<SpriteRenderer>().sortingOrder=50;
+        if(GetComponent<FrameDiagnostics>()==null)gameObject.AddComponent<FrameDiagnostics>();
     }
     void Start(){GameAudio.Warmup();if(!Started){Time.timeScale=0;GetComponent<PlayerMovement>().enabled=false;GetComponent<PlayerAttack>().enabled=false;}}
     public void Begin()
@@ -38,10 +40,32 @@ public class DemoSession : MonoBehaviour
     }
     void Update()
     {
+        if ((Input.GetKey(KeyCode.LeftControl)||Input.GetKey(KeyCode.RightControl)) &&
+            (Input.GetKey(KeyCode.LeftShift)||Input.GetKey(KeyCode.RightShift)) && Input.GetKeyDown(KeyCode.B))
+            StartCoroutine(BossPractice());
         if(Input.GetKeyDown(KeyCode.Escape))SetPaused(!Paused);
         bool dead=GetComponent<PlayerHealth>().IsDead;
         if(dead&&!wasDead)Deaths++;wasDead=dead;
         if(Started&&!Paused&&!dead&&!GetComponent<RunProgress>().Completed)Elapsed+=Time.deltaTime;
+    }
+    public System.Collections.IEnumerator BossPractice()
+    {
+        var run=GetComponent<RunProgress>();
+        var generator=FindAnyObjectByType<LevelGenerator>();
+        if(generator==null||!generator.LoadAuthoredRoute())yield break;
+        Begin();SetPaused(false);
+        HasEchoKey=HasSpirit=true;Relays=3;TrialCleared=true;BossDefeated=false;
+        foreach(var trial in FindObjectsByType<TrialArena>())trial.ResetTrial();
+        var boss=generator.RecreatePracticeArena();
+        // Wait for newly created actors to initialize before restoring their checkpoint.
+        yield return null;
+        if(boss==null)yield break;
+        run.ResumeForPractice();
+        boss.ResetForPractice();
+        var position=new Vector3(boss.arenaLeft.position.x+3,boss.transform.position.y+.65f,transform.position.z);
+        GetComponent<DimensionController>().SetDimension(0);
+        run.SetCheckpoint(position,"Warden practice");run.Respawn();
+        run.ShowMessage("BOSS PRACTICE · full health + Spirit Bolt. CTRL + SHIFT + B restarts this fight.");
     }
     public void ClaimKey(){if(HasEchoKey)return;HasEchoKey=true;GetComponent<PlayerRewards>().Collect(150,30);GetComponent<RunProgress>().ShowMessage("ECHO KEY acquired. Return to the blue door and press E.");}
     public void ClaimSpirit(){if(HasSpirit)return;HasSpirit=true;GetComponent<PlayerRewards>().Collect(250,50);GameAudio.Play("pickup",.65f);GetComponent<RunProgress>().ShowMessage("SPIRIT BOLT unlocked · C. Find the return portal, then awaken the two seals.");}

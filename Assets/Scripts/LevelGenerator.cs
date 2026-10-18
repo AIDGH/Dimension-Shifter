@@ -37,6 +37,8 @@ public class LevelGenerator : MonoBehaviour
     private Transform lastEndPosition;
     private bool levelFinished = false;
     private float endChunkLength;
+    GameObject bossArenaPrefab, bossArenaInstance;
+    Vector3 bossArenaPosition;
 
     void Start()
     {
@@ -138,7 +140,26 @@ public class LevelGenerator : MonoBehaviour
     void SpawnSpecificChunk(GameObject prefab, Vector3 position)
     {
         GameObject newChunk = Instantiate(prefab, position, Quaternion.identity);
+        if(newChunk.GetComponentInChildren<RiftWarden>()!=null){bossArenaPrefab=prefab;bossArenaInstance=newChunk;bossArenaPosition=position;}
         lastEndPosition = newChunk.transform.Find("EndPosition");
+    }
+
+    // Practice teleport needs the real authored route, including its final camera bounds.
+    public bool LoadAuthoredRoute()
+    {
+        if (!authoredOnly || lastEndPosition == null) return false;
+        while (encounterIndex < encounterChunks.Length)
+            SpawnSpecificChunk(encounterChunks[encounterIndex++], lastEndPosition.position);
+        if (!levelFinished && endChunks.Length > 0) SpawnSpecificChunk(endChunks[0], lastEndPosition.position);
+        levelFinished = true;
+        return true;
+    }
+    public RiftWarden RecreatePracticeArena()
+    {
+        if(bossArenaPrefab==null)return null;
+        if(bossArenaInstance!=null)Destroy(bossArenaInstance);
+        bossArenaInstance=Instantiate(bossArenaPrefab,bossArenaPosition,Quaternion.identity);
+        return bossArenaInstance.GetComponentInChildren<RiftWarden>();
     }
 
     float GetChunkLength(GameObject chunkPrefab)

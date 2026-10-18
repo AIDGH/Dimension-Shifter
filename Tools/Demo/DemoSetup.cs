@@ -133,7 +133,7 @@ public static class DemoSetup
         var boss=go.AddComponent<RiftWarden>();boss.idle=Frames("KeeperIdle");boss.run=Frames("KeeperRun");boss.attack=Frames("KeeperAttack");boss.stunned=Frames("KeeperStunned");boss.death=Frames("KeeperDeath");boss.visual=Visual("Warden armor",go.transform,Vector3.zero,boss.idle[0]);
         boss.warning=Visual("Attack warning",go.transform,new Vector3(0,3.3f),warning,1.1f);boss.warning.enabled=false;
         boss.projectilePrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"SporeProjectile.prefab").GetComponent<EnemyProjectile>();
-        boss.slimePrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"PouncingSlime.prefab");boss.mushroomPrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"SporeKeeper.prefab");boss.beamMaterial=material;
+        boss.slimePrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"PouncingSlime.prefab");boss.mushroomPrefab=AssetDatabase.LoadAssetAtPath<GameObject>(Enc+"SporeKeeper.prefab");boss.beamMaterial=AssetDatabase.LoadAssetAtPath<Material>("Assets/Art/Polish/Rift.mat");
         boss.arenaLeft=Child("Arena left",root.transform,new Vector3(8,0)).transform;boss.arenaRight=Child("Arena right",root.transform,new Vector3(45,0)).transform;
         boss.entrance=Seal(root.transform,"Arena entrance",8,-.5f,48,out var entryGlow);var visibility=boss.entrance.gameObject.AddComponent<GateVisibility>();visibility.shape=boss.entrance;visibility.visual=entryGlow;
         Gate(root.transform,46,QuestGate.Requirement.Boss);Hint(root.transform,4,"The Warden pursues, slams, and fires a fan of bolts. During recovery its core glows BLUE or VIOLET: attack in that world. Below half health it enrages.");SaveBoth(root);

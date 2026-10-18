@@ -19,6 +19,7 @@ public static class MovementRegressionChecks
 
     public static void Run()
     {
+        Time.fixedDeltaTime = 1f/60f;
         Physics2D.simulationMode = SimulationMode2D.Script;
         Check("flat ground: stable and upright", () => {
             Setup(); Floor(); Step(80);

@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 25
   experience: 10
@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Hollow descent
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 2120471072466351886}
 --- !u!1 &3589899511571500516
@@ -2978,7 +2978,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 25
   experience: 10
@@ -3022,6 +3022,7 @@ Transform:
   - {fileID: 1688474010626202265}
   - {fileID: 1052226464103109515}
   - {fileID: 6685716267370485152}
+  - {fileID: 4975984583960286183}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &7831679426005087498
@@ -3178,7 +3179,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 150
   experience: 50
@@ -3264,7 +3265,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 25
   experience: 10
@@ -3515,3 +3516,65 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 1
   m_ApplyActiveColorSpace: 1
+--- !u!1001 &6159588826211157328
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3808279014559791388}
+    m_Modifications:
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292558328808805752, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+      propertyPath: m_Name
+      value: Trail ice 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+--- !u!4 &4975984583960286183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
+  m_PrefabInstance: {fileID: 6159588826211157328}
+  m_PrefabAsset: {fileID: 0}

@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Spore pass
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 5024643908388516183}
 --- !u!1 &1252774884564295088
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: Spore keepers aim before firing. Use stone cover, jump, or dash through
@@ -725,7 +725,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 75
   experience: 30
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 60
   experience: 25
@@ -983,7 +983,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 1000038230772272700}
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 4239018531118113189}
@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03945a23b8a44763a37211eb3881a48, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimedHazard
   restDuration: 2
   warningDuration: 0.9
@@ -2865,7 +2865,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 3621958089984664496}
@@ -2935,7 +2935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7615126479825679620, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
       propertyPath: m_Sprite
-      value:
+      value: 
       objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2966,7 +2966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.58999985
       objectReference: {fileID: 0}
     - target: {fileID: 1185993691002427063, guid: 9e4a96cb4eb484b989d270d755ba5769, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3024,7 +3024,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 506404105771067563, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_Sprite
-      value:
+      value: 
       objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3107,7 +3107,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 506404105771067563, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_Sprite
-      value:
+      value: 
       objectReference: {fileID: 21300000, guid: d4d5effcb1b13406693e5a7463b8c3ea, type: 3}
     - target: {fileID: 4881705898406769590, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
       propertyPath: m_LocalPosition.x

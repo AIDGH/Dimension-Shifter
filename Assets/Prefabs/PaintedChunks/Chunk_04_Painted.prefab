@@ -518,7 +518,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  yOffset: 0.5
+  yOffset: 0.59
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 512
