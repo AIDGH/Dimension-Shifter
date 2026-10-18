@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="640" viewBox="0 0 1500 640">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#0b122d"/><stop offset="1" stop-color="#172642"/></linearGradient><linearGradient id="trail"><stop stop-color="#54efff"/><stop offset=".5" stop-color="#c77aff"/><stop offset="1" stop-color="#ffca5c"/></linearGradient></defs>
+<rect width="1500" height="640" rx="20" fill="url(#sky)"/>
+<g font-family="Arial, sans-serif"><text x="58" y="58" font-size="15" letter-spacing="3" fill="#8ba2c4">DIMENSION SHIFTER / OPTIONAL MOVEMENT TRIAL</text>
+<text x="56" y="105" font-size="38" font-weight="bold" fill="#ffca5c">THE PRISM CRUCIBLE</text>
+<text x="58" y="136" font-size="17" fill="#afc1da">Design layout from the implemented coordinates — not a gameplay capture</text>
+<path d="M80 445 Q260 280 490 365 T900 335 Q1040 215 1320 273" fill="none" stroke="url(#trail)" stroke-width="2" stroke-dasharray="7 9" opacity=".7"/>
+
+<path d="M70.0 458.0 h133.6 l-20.0 32 l-46.8 13 l-46.8 -13 Z" fill="#819bbb" opacity=".22"/>
+<path d="M70.0 458.0 h133.6" stroke="#819bbb" stroke-width="4"/>
+<text x="136.8" y="524.0" text-anchor="middle" fill="#819bbb" font-size="12" font-weight="bold">START</text>
+<path d="M245.3 426.5 h75.1 l-11.3 32 l-26.3 13 l-26.3 -13 Z" fill="#54efff" opacity=".22"/>
+<path d="M245.3 426.5 h75.1" stroke="#54efff" stroke-width="4"/>
+<text x="282.9" y="492.5" text-anchor="middle" fill="#54efff" font-size="12" font-weight="bold">FROST</text>
+<path d="M353.9 395.0 h75.1 l-11.3 32 l-26.3 13 l-26.3 -13 Z" fill="#c77aff" opacity=".22"/>
+<path d="M353.9 395.0 h75.1" stroke="#c77aff" stroke-width="4"/>
+<text x="391.5" y="461.0" text-anchor="middle" fill="#c77aff" font-size="12" font-weight="bold">ECHO</text>
+<path d="M470.8 395.0 h133.6 l-20.0 32 l-46.8 13 l-46.8 -13 Z" fill="#819bbb" opacity=".22"/>
+<path d="M470.8 395.0 h133.6" stroke="#819bbb" stroke-width="4"/>
+<text x="537.6" y="461.0" text-anchor="middle" fill="#819bbb" font-size="12" font-weight="bold">REST</text>
+<path d="M687.9 395.0 h167.0 l-25.1 32 l-58.4 13 l-58.4 -13 Z" fill="#819bbb" opacity=".22"/>
+<path d="M687.9 395.0 h167.0" stroke="#819bbb" stroke-width="4"/>
+<text x="771.4" y="461.0" text-anchor="middle" fill="#819bbb" font-size="12" font-weight="bold">REST</text>
+<path d="M905.0 363.5 h75.1 l-11.3 32 l-26.3 13 l-26.3 -13 Z" fill="#c77aff" opacity=".22"/>
+<path d="M905.0 363.5 h75.1" stroke="#c77aff" stroke-width="4"/>
+<text x="942.6" y="429.5" text-anchor="middle" fill="#c77aff" font-size="12" font-weight="bold">ECHO</text>
+<path d="M1021.9 332.0 h75.1 l-11.3 32 l-26.3 13 l-26.3 -13 Z" fill="#54efff" opacity=".22"/>
+<path d="M1021.9 332.0 h75.1" stroke="#54efff" stroke-width="4"/>
+<text x="1059.5" y="398.0" text-anchor="middle" fill="#54efff" font-size="12" font-weight="bold">FROST</text>
+<path d="M1138.8 332.0 h183.7 l-27.6 32 l-64.3 13 l-64.3 -13 Z" fill="#819bbb" opacity=".22"/>
+<path d="M1138.8 332.0 h183.7" stroke="#819bbb" stroke-width="4"/>
+<text x="1230.6" y="398.0" text-anchor="middle" fill="#819bbb" font-size="12" font-weight="bold">REWARD</text>
+<circle cx="391.5" cy="372.9" r="18" fill="none" stroke="#c77aff" opacity=".6"/><path d="M391.5 360.9 l8 12 l-8 12 l-8 -12 Z" fill="#c77aff"/><text x="391.5" y="343.9" text-anchor="middle" fill="#c77aff" font-size="19" font-weight="bold">I</text>
+<circle cx="771.4" cy="372.9" r="18" fill="none" stroke="#54efff" opacity=".6"/><path d="M771.4 360.9 l8 12 l-8 12 l-8 -12 Z" fill="#54efff"/><text x="771.4" y="343.9" text-anchor="middle" fill="#54efff" font-size="19" font-weight="bold">II</text>
+<circle cx="1205.6" cy="310.0" r="18" fill="none" stroke="#ffca5c" opacity=".6"/><path d="M1205.6 298.0 l8 12 l-8 12 l-8 -12 Z" fill="#ffca5c"/><text x="1205.6" y="281.0" text-anchor="middle" fill="#ffca5c" font-size="19" font-weight="bold">III</text>
+<rect x="649.5" y="268" width="10" height="160" rx="5" fill="#54efff" opacity=".7"/><circle cx="654.5" cy="250" r="18" fill="none" stroke="#54efff" stroke-width="2"/><text x="654.5" y="255" text-anchor="middle" fill="#54efff" font-size="13">B</text>
+<text x="275" y="211" fill="#c77aff" font-size="19" font-weight="bold">I · TWIN ASCENT</text><text x="275" y="237" fill="#b4c4db" font-size="15">Land on the matching world</text>
+<text x="662" y="184" fill="#54efff" font-size="19" font-weight="bold">II · PULSE CROSSING</text><text x="662" y="210" fill="#b4c4db" font-size="15">Frost + dash through the quiet window</text>
+<text x="1000" y="193" fill="#ffca5c" font-size="19" font-weight="bold">III · SKYWEAVE</text><text x="1000" y="219" fill="#b4c4db" font-size="15">Two midair shifts, with a rest between</text>
+<path d="M56 561 H1444" stroke="#334766"/>
+<text x="58" y="596" font-size="17" fill="#e1e9f6">E · Leave anytime</text><text x="380" y="596" font-size="17" fill="#e1e9f6">F · Fresh attempt</text><text x="704" y="596" font-size="17" fill="#e1e9f6">Falls · Return to a resting island</text><text x="1114" y="596" font-size="17" fill="#ffca5c">Reward · PRISMWAKE</text></g></svg>
