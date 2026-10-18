@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bdf32d97659453a8469bb4f9607ab37, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::QuestGate
   requirement: 1
   barrier: {fileID: 1106714643458307865}
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b452a7689235a41608e3b17e101c7371, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionMember
   dimension: 1
 --- !u!1 &1924702566977647571
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 0
   content: {fileID: 8826465372918916785}
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b452a7689235a41608e3b17e101c7371, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionMember
   dimension: 0
 --- !u!1 &2468752218015610626
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 4
   hurtDuration: 0.3334
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fcb5599a6c6a41da9d0ec7dc744f74c, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyFlipbook
   idleFrames:
   - {fileID: -5076444770310194548, guid: 839b41b32e840486bb2b8a874716c89e, type: 3}
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 384e42cf7e2684ce7a16e1e51a5a1633, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttackAI
   kind: 1
   range: 8
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 4
   hurtDuration: 0.3334
@@ -1042,7 +1042,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fcb5599a6c6a41da9d0ec7dc744f74c, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyFlipbook
   idleFrames:
   - {fileID: -5076444770310194548, guid: 839b41b32e840486bb2b8a874716c89e, type: 3}
@@ -1068,7 +1068,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 384e42cf7e2684ce7a16e1e51a5a1633, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttackAI
   kind: 1
   range: 8
@@ -1247,6 +1247,7 @@ Transform:
   - {fileID: 5323116970781049640}
   - {fileID: 7600710519862941408}
   - {fileID: 3888276030300249225}
+  - {fileID: 3468914378218575575}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &9220135445422022742
@@ -1335,7 +1336,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 2468752218015610626}
@@ -1413,7 +1414,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d31b0d77ec4e4e2b8738de351f08544, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionActor
   dimension: 1
   content: {fileID: 2915612199785694289}
@@ -1553,7 +1554,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d43cffb7fa1a412abed38f59e0eb841e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::QuestInteractable
   kind: 4
   dimension: 0
@@ -6429,7 +6430,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: The second seal answers in FROST. Both seals stay awakened after death.
@@ -6617,7 +6618,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: Awaken BOTH seals with C. Your bolt carries the color of your current
@@ -7024,7 +7025,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Twin seals
@@ -7041,7 +7042,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 7783934930456012431}
 --- !u!1 &8826465372918916785
@@ -7160,7 +7161,7 @@ Animator:
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -7248,7 +7249,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69b5f06ed8f464e2086a75eb6d5a626e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 3
   hurtDuration: 0.3334
@@ -7266,7 +7267,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 384e42cf7e2684ce7a16e1e51a5a1633, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttackAI
   kind: 0
   range: 5.5
@@ -7321,7 +7322,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d43cffb7fa1a412abed38f59e0eb841e, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::QuestInteractable
   kind: 4
   dimension: 1
@@ -7577,6 +7578,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7551187456557142801}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &713059678755840000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3887803011987120598}
+    m_Modifications:
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 54.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.52000093
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411168077049010168, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+      propertyPath: m_Name
+      value: EchoHornhead
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+--- !u!4 &3468914378218575575 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4161683124273805015, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
+  m_PrefabInstance: {fileID: 713059678755840000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2702318692976003646
 PrefabInstance:
   m_ObjectHideFlags: 0

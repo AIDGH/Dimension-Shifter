@@ -53,9 +53,10 @@ public class EnemyHealth : MonoBehaviour
             }
             hurtRemaining = 0f;
             deathRemaining = deathDuration + 0.18f;
-            foreach (var collider in colliders) collider.enabled = false;
+            foreach (var collider in colliders) collider.enabled = warden != null && !collider.isTrigger;
             body.linearVelocity = Vector2.zero;
-            body.simulated = false;
+            body.simulated = warden != null;
+            if (warden != null) { body.gravityScale = 3; deathRemaining = Mathf.Max(deathRemaining, 3f); warden.PrepareDefeat(); }
             if (barRoot != null) barRoot.SetActive(false);
             Play("Slime_Die");
         }

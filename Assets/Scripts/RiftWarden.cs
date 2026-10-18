@@ -6,6 +6,7 @@ public class RiftWarden : MonoBehaviour
     public enum Phase { Dormant, Chase, Windup, Charge, Volley, Exposed, Defeated, Leap, BeamWindup }
     public Phase State { get; private set; }
     public Sprite[] idle,run,attack,stunned,death;
+    public Sprite[] groundedSprites;public float[] spriteBottoms;
     public SpriteRenderer visual,warning;
     public EnemyProjectile projectilePrefab;
     public Collider2D entrance;
@@ -102,6 +103,14 @@ public class RiftWarden : MonoBehaviour
                 break;
         }
     }
+    public void PrepareDefeat()
+    {
+        ClearHelpers(); ClearBeams(); Enter(Phase.Defeated, 10);
+        var shape=GetComponent<BoxCollider2D>();shape.size=new Vector2(1.65f,.6f);shape.offset=new Vector2(0,.3f);
+        if(entrance!=null)entrance.enabled=false;
+        if(DemoSession.Instance!=null){DemoSession.Instance.BossDefeated=true;DemoSession.Instance.ClaimWardenKey();}
+        RunProgress.Instance.ShowMessage(DemoSession.Instance!=null&&DemoSession.Instance.RequiresTreeKey?"WARDEN SIGIL obtained · take it to the ancient tree and press E.":"WARDEN DEFEATED · the final sanctuary is open.");
+    }
     readonly RaycastHit2D[] floorHits=new RaycastHit2D[8];
     bool Landed()
     {
@@ -164,6 +173,7 @@ public class RiftWarden : MonoBehaviour
         {
             int frame=State==Phase.Windup?Mathf.Min(2,Mathf.FloorToInt(stateTime*4)):State==Phase.Charge?Mathf.Min(frames.Length-1,3+Mathf.FloorToInt(stateTime*10)):State==Phase.Defeated?Mathf.Min(frames.Length-1,Mathf.FloorToInt(stateTime*8)):Mathf.FloorToInt(stateTime*8)%frames.Length;
             visual.sprite=frames[frame];visual.flipX=lockedDirection>0;
+            var foot=visual.transform.localPosition;float bottom=visual.sprite.bounds.min.y;int grounded=groundedSprites!=null?System.Array.IndexOf(groundedSprites,visual.sprite):-1;if(grounded>=0&&spriteBottoms!=null&&grounded<spriteBottoms.Length)bottom=spriteBottoms[grounded];foot.y=-bottom*visual.transform.localScale.y;visual.transform.localPosition=foot;
             // Feet are aligned from the imported opaque sprite bounds, independently of collision.
             if(State!=Phase.Defeated)visual.color=State==Phase.Exposed?(CoreDimension==1?new Color(1,.65f,1):new Color(.55f,1,1)):Color.white;
         }

@@ -5083,8 +5083,8 @@ MonoBehaviour:
   smoothTimeX: 0.15
   smoothTimeY: 0.3
   minX: 1
-  maxX: 483
-  airborneVerticalDeadzone: 3
+  maxX: 515
+  airborneVerticalDeadzone: 2
   yOffset: 1
 --- !u!114 &519420034
 MonoBehaviour:
@@ -5639,6 +5639,7 @@ MonoBehaviour:
   - {fileID: 3772858215755309312, guid: 1d8ebf9729f344e73880c81042b2f751, type: 3}
   - {fileID: 4312620088810651395, guid: 97af4d6edd7fe485f8ebe95159431f56, type: 3}
   - {fileID: 1754664597644380579, guid: 8508134470ea34a1ca3445d5516b0eca, type: 3}
+  - {fileID: 6341020827555236137, guid: f7afe4a8b829f4defba5b381a031e9bc, type: 3}
   - {fileID: 1865397416083930852, guid: 759b45c8842d445a688e181168a591b2, type: 3}
   - {fileID: 6766594667112919869, guid: f908a1734f3734529a0ebe0547b52e93, type: 3}
   - {fileID: 4232652455163901761, guid: 499eda9b74da94825ab188292048aea7, type: 3}
@@ -6706,6 +6707,7 @@ GameObject:
   - component: {fileID: 1161213807}
   - component: {fileID: 1161213811}
   - component: {fileID: 1161213810}
+  - component: {fileID: 1161213812}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6726,8 +6728,9 @@ MonoBehaviour:
   m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 4
-  acceleration: 35
-  groundDeceleration: 50
+  spriteFacesRight: 0
+  acceleration: 85
+  groundDeceleration: 85
   airDeceleration: 5
   landingMomentumCut: 0.66
   jumpForce: 16
@@ -6745,7 +6748,7 @@ MonoBehaviour:
   isGrounded: 1
   groundProbeDistance: 0.08
   maxSlopeAngle: 50
-  alignToSlope: 1
+  alignToSlope: 0
   slopeRotationSpeed: 240
   useAcceleration: 0
   maxSpeed: 5
@@ -6827,9 +6830,9 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6286595657586805340, guid: 203f54b0f387541a3bdc69ef89769f08, type: 3}
+  m_Sprite: {fileID: -723200809, guid: bbd9fce620e2b47b08e62da307b9c77c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -6864,7 +6867,7 @@ Animator:
   m_GameObject: {fileID: 1161213793}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9e17b91d721d34cb68a854e865a45f46, type: 2}
+  m_Controller: {fileID: 22100000, guid: eaf4e313df42447c2a4e95aa4c211e19, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6954,10 +6957,10 @@ MonoBehaviour:
     m_Bits: 768
   hitboxSize: {x: 1.1, y: 1}
   hitboxOffset: {x: 0.65, y: -0.05}
-  activeFrom: 0.0833
-  activeUntil: 0.5
-  normalAttackRate: 2
-  normalAttackDuration: 0.6667
+  activeFrom: 0.04
+  activeUntil: 0.26
+  normalAttackRate: 2.6
+  normalAttackDuration: 0.38
   dashForce: 16
   dashAttackDuration: 0.45
   dashCooldown: 3
@@ -7087,6 +7090,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b31e0935804eebbec0cb406935c7a6, type: 3}
   m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DemoSession
+  RequiresTreeKey: 1
+--- !u!114 &1161213812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161213793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f8cbfc08ca94c768c376154db24b24, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterAppearance
+  redController: {fileID: 9100000, guid: 9e17b91d721d34cb68a854e865a45f46, type: 2}
+  knightController: {fileID: 22100000, guid: eaf4e313df42447c2a4e95aa4c211e19, type: 2}
+  redIdle: {fileID: 6286595657586805340, guid: 203f54b0f387541a3bdc69ef89769f08, type: 3}
+  knightIdle: {fileID: -723200809, guid: bbd9fce620e2b47b08e62da307b9c77c, type: 3}
+  useKnight: 1
 --- !u!1 &1169551231
 GameObject:
   m_ObjectHideFlags: 0

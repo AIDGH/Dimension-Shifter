@@ -13,10 +13,15 @@ public class DemoSession : MonoBehaviour
     public int Relays { get; private set; }
     public bool TrialCleared { get; set; }
     public bool BossDefeated { get; set; }
+    public bool HasWardenKey { get; private set; }
+    public bool TreeOpened { get; private set; }
+    public bool RequiresTreeKey;
+    public void ClaimWardenKey(){HasWardenKey=true;}
+    public bool OpenTree(){if(!HasWardenKey||!BossDefeated)return false;TreeOpened=true;return true;}
     public int Deaths { get; private set; }
     bool wasDead;
     public string Clock => System.TimeSpan.FromSeconds(Elapsed).ToString(@"mm\:ss");
-    public string Objective => !HasEchoKey ? "Find the ECHO KEY in the violet sanctuary" : !HasSpirit ? "Use the key at the blue door · E" : Relays!=3 ? "C  Spirit bolt · awaken both dimension seals" : !TrialCleared ? "Clear the three waves in the proving grounds" : !BossDefeated ? "Defeat the Rift Warden · match its exposed core" : "The rift is open · reach the final sanctuary";
+    public string Objective => !HasEchoKey ? "Find the ECHO KEY in the violet sanctuary" : !HasSpirit ? "Use the key at the blue door · E" : Relays!=3 ? "C  Spirit bolt · awaken both dimension seals" : !TrialCleared ? "Clear the three waves in the proving grounds" : !BossDefeated ? "Defeat the Rift Warden · match its exposed core" : (RequiresTreeKey&&!TreeOpened?"Take the WARDEN SIGIL to the ancient tree · E":"The rift is open · reach the final sanctuary");
     void Awake()
     {
         Instance=this;Time.timeScale=1;AudioListener.pause=false;
@@ -54,7 +59,7 @@ public class DemoSession : MonoBehaviour
         var generator=FindAnyObjectByType<LevelGenerator>();
         if(generator==null||!generator.LoadAuthoredRoute())yield break;
         Begin();SetPaused(false);
-        HasEchoKey=HasSpirit=true;Relays=3;TrialCleared=true;BossDefeated=false;
+        HasEchoKey=HasSpirit=true;Relays=3;TrialCleared=true;BossDefeated=false;HasWardenKey=false;TreeOpened=false;
         foreach(var trial in FindObjectsByType<TrialArena>())trial.ResetTrial();
         var boss=generator.RecreatePracticeArena();
         // Wait for newly created actors to initialize before restoring their checkpoint.

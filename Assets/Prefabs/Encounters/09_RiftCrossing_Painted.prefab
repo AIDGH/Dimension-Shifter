@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 150
   experience: 50
@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03945a23b8a44763a37211eb3881a48, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TimedHazard
   restDuration: 2
   warningDuration: 0.9
@@ -1167,7 +1167,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b452a7689235a41608e3b17e101c7371, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionMember
   dimension: 0
 --- !u!1 &3909324540763903861
@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Rift crossing
@@ -1371,7 +1371,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 3781880203670474854}
 --- !u!1 &4182988328292355157
@@ -3501,7 +3501,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b452a7689235a41608e3b17e101c7371, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionMember
   dimension: 0
 --- !u!1 &6169069025745149908
@@ -3639,7 +3639,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b452a7689235a41608e3b17e101c7371, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionMember
   dimension: 1
 --- !u!1 &6583108983952504609
@@ -3722,7 +3722,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed7cbeec926245aeb0e8915a8e7d0ce, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ExperiencePickup
   points: 75
   experience: 25
@@ -3866,6 +3866,7 @@ Transform:
   - {fileID: 7375584243119458517}
   - {fileID: 9095786948530995462}
   - {fileID: 2718271520896295960}
+  - {fileID: 760946944976869633}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &4953227149995556584
@@ -4064,7 +4065,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03945a23b8a44763a37211eb3881a48, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TimedHazard
   restDuration: 2
   warningDuration: 0.9
@@ -4083,7 +4084,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b452a7689235a41608e3b17e101c7371, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionMember
   dimension: 1
 --- !u!1 &7221953793454565742
@@ -4357,7 +4358,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: The horizontal membrane is a bridge in Echo. In Frost you can pass through
@@ -4408,7 +4409,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b452a7689235a41608e3b17e101c7371, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::DimensionMember
   dimension: 1
 --- !u!1 &8341297216985757793
@@ -4761,7 +4762,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: Q changes which seals are solid. Tall walls cannot be jumped over; wait
@@ -4861,6 +4862,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1001 &6466941143781458970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7260240862734882041}
+    m_Modifications:
+    - target: {fileID: 1473855202573185551, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_Name
+      value: FrostMossfly
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.799999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+--- !u!4 &760946944976869633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5994393917061078299, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+  m_PrefabInstance: {fileID: 6466941143781458970}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7948788418272483249
 PrefabInstance:
   m_ObjectHideFlags: 0

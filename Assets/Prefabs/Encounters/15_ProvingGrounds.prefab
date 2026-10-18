@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 0
   message: Three waves guard the path. Defeat inhabitants of BOTH dimensions. C reaches
@@ -144,10 +144,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c09bb85932874af1b8316dc463d825dd, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrialArena
   slimePrefab: {fileID: 3416380330036038549, guid: 5ac7fdc3793814e23a77f9de6fb9d263, type: 3}
   mushroomPrefab: {fileID: 8352235320071759969, guid: cd502c23a82d845ffb0895d84434f312, type: 3}
+  mossflyPrefab: {fileID: 1473855202573185551, guid: a5fd74ada91e64393ab66cda9b99445f, type: 3}
+  hornheadPrefab: {fileID: 6411168077049010168, guid: 6752ac4f935cd43ce9a319665b31d8c1, type: 3}
   spawnPoints:
   - {fileID: 6570521537783406765}
   - {fileID: 7946714355032560822}
@@ -155,7 +157,7 @@ MonoBehaviour:
   - {fileID: 1079213103908193173}
   - {fileID: 3127031254074762505}
   entrance: {fileID: 9030193435622988328}
-  width: 70
+  width: 30
 --- !u!1 &766068571952246569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4236,7 +4238,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09e1898be1ee4555aa74261a4795790c, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::GateVisibility
   shape: {fileID: 9030193435622988328}
   visual: {fileID: 3714603985946452668}
@@ -4515,7 +4517,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a87f522e0f55a40b8b3d8594c56b2d38, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::TrailMarker
   kind: 1
   message: Proving grounds
@@ -4532,7 +4534,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a18aabb35e0934d54810b8eef20d8649, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::ShrineVisual
   shrine: {fileID: 7301382750815363768}
 --- !u!1 &4836596293758988995
@@ -4613,7 +4615,7 @@ Transform:
   m_GameObject: {fileID: 5079396920543242537}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77, y: -0.5, z: 0}
+  m_LocalPosition: {x: 36, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4676,7 +4678,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bdf32d97659453a8469bb4f9607ab37, type: 3}
-  m_Name: 
+  m_Name:
   m_EditorClassIdentifier: Assembly-CSharp::QuestGate
   requirement: 2
   barrier: {fileID: 597474328117505981}
