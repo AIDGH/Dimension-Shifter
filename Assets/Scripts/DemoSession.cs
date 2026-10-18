@@ -16,7 +16,8 @@ public class DemoSession : MonoBehaviour
     public int Deaths { get; private set; }
     bool wasDead;
     public string Clock => System.TimeSpan.FromSeconds(Elapsed).ToString(@"mm\:ss");
-    public string Objective => !HasEchoKey ? "Find the ECHO KEY in the violet sanctuary" : !HasSpirit ? "Use the key at the blue door · E" : Relays!=3 ? "C  Spirit bolt · awaken both dimension seals" : !TrialCleared ? "Clear the three waves in the proving grounds" : !BossDefeated ? "Defeat the Rift Warden · match its exposed core" : "The rift is open · reach the final sanctuary";
+    public string objectiveOverride;
+    public string Objective => !string.IsNullOrEmpty(objectiveOverride)?objectiveOverride: !HasEchoKey ? "Find the ECHO KEY in the violet sanctuary" : !HasSpirit ? "Use the key at the blue door · E" : Relays!=3 ? "C  Spirit bolt · awaken both dimension seals" : !TrialCleared ? "Clear the three waves in the proving grounds" : !BossDefeated ? "Defeat the Rift Warden · match its exposed core" : "The rift is open · reach the final sanctuary";
     void Awake()
     {
         Instance=this;Time.timeScale=1;AudioListener.pause=false;
@@ -52,7 +53,8 @@ public class DemoSession : MonoBehaviour
     {
         var run=GetComponent<RunProgress>();
         var generator=FindAnyObjectByType<LevelGenerator>();
-        if(generator==null||!generator.LoadAuthoredRoute())yield break;
+        if(generator==null){var journey=FindAnyObjectByType<HollowJourney>();var hollowBoss=FindAnyObjectByType<RiftWarden>();if(journey==null||hollowBoss==null)yield break;Begin();SetPaused(false);HasEchoKey=HasSpirit=true;BossDefeated=false;run.ResumeForPractice();hollowBoss.ResetForPractice();GetComponent<DimensionController>().SetDimension(0);var spot=new Vector3(hollowBoss.arenaLeft.position.x+3,hollowBoss.transform.position.y+.65f);journey.Teleport(spot);run.SetCheckpoint(spot,"Hollow Warden practice");run.Respawn();yield break;}
+        if(!generator.LoadAuthoredRoute())yield break;
         Begin();SetPaused(false);
         HasEchoKey=HasSpirit=true;Relays=3;TrialCleared=true;BossDefeated=false;
         foreach(var trial in FindObjectsByType<TrialArena>())trial.ResetTrial();
@@ -68,7 +70,7 @@ public class DemoSession : MonoBehaviour
         run.ShowMessage("BOSS PRACTICE · full health + Spirit Bolt. CTRL + SHIFT + B restarts this fight.");
     }
     public void ClaimKey(){if(HasEchoKey)return;HasEchoKey=true;GetComponent<PlayerRewards>().Collect(150,30);GetComponent<RunProgress>().ShowMessage("ECHO KEY acquired. Return to the blue door and press E.");}
-    public void ClaimSpirit(){if(HasSpirit)return;HasSpirit=true;GetComponent<PlayerRewards>().Collect(250,50);GameAudio.Play("pickup",.65f);GetComponent<RunProgress>().ShowMessage("SPIRIT BOLT unlocked · C. Find the return portal, then awaken the two seals.");}
+    public void ClaimSpirit(){if(HasSpirit)return;HasSpirit=true;GetComponent<PlayerRewards>().Collect(250,50);GameAudio.Play("pickup",.65f);GetComponent<RunProgress>().ShowMessage("SPIRIT BOLT unlocked · C. Return to FROST and open the eastern sanctum door.");}
     public void ActivateRelay(int dimension){int bit=1<<dimension;if((Relays&bit)!=0)return;Relays|=bit;GetComponent<PlayerRewards>().Collect(150,30);GetComponent<RunProgress>().ShowMessage(Relays==3?"Both seals awakened. The proving grounds are open.":"One seal awakened. Find the other world's seal.");}
     void OnDestroy(){if(Instance==this){Instance=null;Time.timeScale=1;AudioListener.pause=false;}}
 }

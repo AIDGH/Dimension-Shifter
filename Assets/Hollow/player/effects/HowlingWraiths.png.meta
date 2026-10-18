@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: cf8c9de4f208b402a8149501e2b2a26a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9027062977679632991
+    second: HowlingWraiths_0
+  - first:
+      213: -2463924732803320165
+    second: HowlingWraiths_1
+  - first:
+      213: 5062984874886625416
+    second: HowlingWraiths_2
+  - first:
+      213: -5018418148670088835
+    second: HowlingWraiths_3
+  - first:
+      213: 6208203986870167820
+    second: HowlingWraiths_4
+  - first:
+      213: 8845809818434669488
+    second: HowlingWraiths_5
+  - first:
+      213: -2240126790627879143
+    second: HowlingWraiths_6
+  - first:
+      213: 1151726468311409685
+    second: HowlingWraiths_7
+  - first:
+      213: 6138295889717691954
+    second: HowlingWraiths_8
+  - first:
+      213: 1853137066815854078
+    second: HowlingWraiths_9
+  - first:
+      213: 6900841202846174254
+    second: HowlingWraiths_10
+  - first:
+      213: 4405344070753764760
+    second: HowlingWraiths_11
+  - first:
+      213: 7614740204136217370
+    second: HowlingWraiths_12
+  - first:
+      213: -2666221468726043965
+    second: HowlingWraiths_13
+  - first:
+      213: -1093768872914020374
+    second: HowlingWraiths_14
+  - first:
+      213: -1677992385346572158
+    second: HowlingWraiths_15
+  - first:
+      213: 6586075308299421836
+    second: HowlingWraiths_16
+  - first:
+      213: 4903624272132013747
+    second: HowlingWraiths_17
+  - first:
+      213: -577755009281934023
+    second: HowlingWraiths_18
+  - first:
+      213: 919866191371946500
+    second: HowlingWraiths_19
+  - first:
+      213: 2829688303997405326
+    second: HowlingWraiths_20
+  - first:
+      213: 6438978997845571946
+    second: HowlingWraiths_21
+  - first:
+      213: 3927730490778187525
+    second: HowlingWraiths_22
+  - first:
+      213: 4648378350527798177
+    second: HowlingWraiths_23
+  - first:
+      213: -394818305483221751
+    second: HowlingWraiths_24
+  - first:
+      213: 8170547287400494767
+    second: HowlingWraiths_25
+  - first:
+      213: -5753252070086876275
+    second: HowlingWraiths_26
+  - first:
+      213: -6021495961971297099
+    second: HowlingWraiths_27
+  - first:
+      213: 7767702857183018021
+    second: HowlingWraiths_28
+  - first:
+      213: -1066062709338398228
+    second: HowlingWraiths_29
+  - first:
+      213: -1161739810013453036
+    second: HowlingWraiths_30
+  - first:
+      213: 7290801400222177977
+    second: HowlingWraiths_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HowlingWraiths_0
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 9
+        width: 218
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aaca563f1964d70800000000000000
+      internalID: 9027062977679632991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 7
+        width: 288
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9675fb82816ecdd0800000000000000
+      internalID: -2463924732803320165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_2
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 5
+        width: 301
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888faca3be5534640800000000000000
+      internalID: 5062984874886625416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_3
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 8
+        width: 301
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d795522584ffa5ab0800000000000000
+      internalID: -5018418148670088835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_4
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 6
+        width: 302
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c096f8232a8f72650800000000000000
+      internalID: 6208203986870167820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_5
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 7
+        width: 304
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb067aa921a2ca70800000000000000
+      internalID: 8845809818434669488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_6
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 7
+        width: 307
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9171ac87d8879e0e0800000000000000
+      internalID: -2240126790627879143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_7
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 7
+        width: 307
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514ed1eee11cbff00800000000000000
+      internalID: 1151726468311409685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_8
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 7
+        width: 302
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2360dd0f69b9f2550800000000000000
+      internalID: 6138295889717691954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_9
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 252
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef51bab085aa7b910800000000000000
+      internalID: 1853137066815854078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_10
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 154
+        width: 145
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c86030386b4cf50800000000000000
+      internalID: 6900841202846174254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_11
+      rect:
+        serializedVersion: 2
+        x: 4116
+        y: 232
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895c6a2871de22d30800000000000000
+      internalID: 4405344070753764760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_12
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 28
+        width: 125
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bbc6cfeddfca960800000000000000
+      internalID: 7614740204136217370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_13
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 171
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca501053bdaffad0800000000000000
+      internalID: -2666221468726043965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_14
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 101
+        width: 97
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7949f410722d0f0800000000000000
+      internalID: -1093768872914020374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_15
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 183
+        width: 19
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2807b9fd0d296b8e0800000000000000
+      internalID: -1677992385346572158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_16
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 71
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88882f2990766b50800000000000000
+      internalID: 6586075308299421836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_17
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 141
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be79648b4c2d0440800000000000000
+      internalID: 4903624272132013747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_18
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 105
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d3c8051e66bf7f0800000000000000
+      internalID: -577755009281934023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_19
+      rect:
+        serializedVersion: 2
+        x: 4134
+        y: 104
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40acd996d6504cc00800000000000000
+      internalID: 919866191371946500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_20
+      rect:
+        serializedVersion: 2
+        x: 4201
+        y: 134
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88c7d82582154720800000000000000
+      internalID: 2829688303997405326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_21
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 103
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6939ca8849db5950800000000000000
+      internalID: 6438978997845571946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_22
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 108
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507fd44421a128630800000000000000
+      internalID: 3927730490778187525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_23
+      rect:
+        serializedVersion: 2
+        x: 4881
+        y: 103
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab53dc4b7b528040800000000000000
+      internalID: 4648378350527798177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_24
+      rect:
+        serializedVersion: 2
+        x: 4897
+        y: 108
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905d9dec7d2558af0800000000000000
+      internalID: -394818305483221751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_25
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 8
+        width: 44
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6b90ee77d936170800000000000000
+      internalID: 8170547287400494767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_26
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 77
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83e03b69b75820b0800000000000000
+      internalID: -5753252070086876275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_27
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 57
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4704a63595f6ca0800000000000000
+      internalID: -6021495961971297099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_28
+      rect:
+        serializedVersion: 2
+        x: 4054
+        y: 40
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c3e23f79c6ccb60800000000000000
+      internalID: 7767702857183018021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_29
+      rect:
+        serializedVersion: 2
+        x: 3755
+        y: 10
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce128953d959431f0800000000000000
+      internalID: -1066062709338398228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_30
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 31
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415e7b64ccba0efe0800000000000000
+      internalID: -1161739810013453036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowlingWraiths_31
+      rect:
+        serializedVersion: 2
+        x: 4103
+        y: 13
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bad924ce312e2560800000000000000
+      internalID: 7290801400222177977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HowlingWraiths_0: 9027062977679632991
+      HowlingWraiths_1: -2463924732803320165
+      HowlingWraiths_10: 6900841202846174254
+      HowlingWraiths_11: 4405344070753764760
+      HowlingWraiths_12: 7614740204136217370
+      HowlingWraiths_13: -2666221468726043965
+      HowlingWraiths_14: -1093768872914020374
+      HowlingWraiths_15: -1677992385346572158
+      HowlingWraiths_16: 6586075308299421836
+      HowlingWraiths_17: 4903624272132013747
+      HowlingWraiths_18: -577755009281934023
+      HowlingWraiths_19: 919866191371946500
+      HowlingWraiths_2: 5062984874886625416
+      HowlingWraiths_20: 2829688303997405326
+      HowlingWraiths_21: 6438978997845571946
+      HowlingWraiths_22: 3927730490778187525
+      HowlingWraiths_23: 4648378350527798177
+      HowlingWraiths_24: -394818305483221751
+      HowlingWraiths_25: 8170547287400494767
+      HowlingWraiths_26: -5753252070086876275
+      HowlingWraiths_27: -6021495961971297099
+      HowlingWraiths_28: 7767702857183018021
+      HowlingWraiths_29: -1066062709338398228
+      HowlingWraiths_3: -5018418148670088835
+      HowlingWraiths_30: -1161739810013453036
+      HowlingWraiths_31: 7290801400222177977
+      HowlingWraiths_4: 6208203986870167820
+      HowlingWraiths_5: 8845809818434669488
+      HowlingWraiths_6: -2240126790627879143
+      HowlingWraiths_7: 1151726468311409685
+      HowlingWraiths_8: 6138295889717691954
+      HowlingWraiths_9: 1853137066815854078
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,7 +9,7 @@ public static class DemoBuildChecks
   {
    Physics2D.simulationMode=SimulationMode2D.FixedUpdate;
    var physics=AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/Physics2DSettings.asset");if(physics.Length>0)EditorUtility.SetDirty(physics[0]);
-   PlayerSettings.companyName="AIDGH";PlayerSettings.productName="Dimension Shifter";PlayerSettings.bundleVersion="1.0.4-demo";
+   PlayerSettings.companyName="AIDGH";PlayerSettings.productName="Dimension Shifter";PlayerSettings.bundleVersion="1.0.3-demo";
    PlayerSettings.SetScriptingBackend(NamedBuildTarget.Standalone,ScriptingImplementation.Mono2x);
    PlayerSettings.defaultScreenWidth=1600;PlayerSettings.defaultScreenHeight=900;PlayerSettings.fullScreenMode=FullScreenMode.Windowed;
    var scenes=new[]{"Assets/Scenes/PaintedDimension.unity","Assets/Scenes/SampleScene.unity"};EditorBuildSettings.scenes=Array.ConvertAll(scenes,p=>new EditorBuildSettingsScene(p,true));AssetDatabase.SaveAssets();

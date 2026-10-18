@@ -140,7 +140,7 @@ public class GameHUD : MonoBehaviour
         var card=Panel("Journey begins",veil.transform,new Vector2(.5f,.5f),Vector2.zero,new Vector2(900,650));
         Picture(card,"Echo crest",new Vector2(414,-30),new Vector2(72,80),violet,diamond);
         var title=Label(card,"DIMENSION SHIFTER",new Vector2(30,-130),new Vector2(840,70),48,Color.white);title.alignment=TextAlignmentOptions.Midline;
-        var sub=Label(card,"THE RIFT WARDEN",new Vector2(30,-207),new Vector2(840,35),23,gold);sub.alignment=TextAlignmentOptions.Midline;
+        var sub=Label(card,"HOLLOW DIMENSIONS",new Vector2(30,-207),new Vector2(840,35),23,gold);sub.alignment=TextAlignmentOptions.Midline;
         var story=Label(card,"A key in one world. A door in another.\nFind the lost spirit and break the Warden's seal.",new Vector2(65,-267),new Vector2(770,78),23,new Color(.77f,.84f,.94f));story.alignment=TextAlignmentOptions.Midline;story.textWrappingMode=TextWrappingModes.Normal;
         var keys=Label(card,"A / D Move   ·   SPACE Jump / Air jump   ·   V Strike\nB Phase dash   ·   Q Change world   ·   E Interact\nC Spirit bolt (unlock in the hidden sanctuary)",new Vector2(65,-370),new Vector2(770,90),20,new Color(.6f,.84f,.94f));keys.alignment=TextAlignmentOptions.Midline;keys.textWrappingMode=TextWrappingModes.Normal;
         TMP_Text label;var button=ActionButton(card,"Begin journey",new Vector2(200,-505),new Vector2(500,62),new Color(.2f,.28f,.46f),()=>demo.Begin(),out label);label.text="ENTER   BEGIN JOURNEY";

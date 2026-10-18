@@ -7,6 +7,7 @@ public class RunProgress : MonoBehaviour
     public bool Completed { get; private set; }
     public Vector3 CheckpointPosition { get; private set; }
     public string CheckpointName { get; private set; } = "Trail entrance";
+    public bool useAbsoluteFallLimit;
     int checkpointDimension;
     PlayerHealth health;
     PlayerMovement movement;
@@ -20,7 +21,7 @@ public class RunProgress : MonoBehaviour
     void Update()
     {
         if(Completed) { if(Input.GetKeyDown(KeyCode.R))SceneManager.LoadScene(SceneManager.GetActiveScene().name); return; }
-        if(!health.IsDead && transform.position.y < CheckpointPosition.y-18f) Respawn();
+        if(!health.IsDead && transform.position.y < (useAbsoluteFallLimit ? -4f : CheckpointPosition.y-18f)) Respawn();
     }
     public void ShowMessage(string text) { message=text; messageUntil=Time.time+Mathf.Clamp(5f+text.Length/22f,8f,14f); }
     public void ResumeForPractice(){Completed=false;health.enabled=true;}
